@@ -89,11 +89,11 @@
             <div class="col-lg-6 mt-5 mt-lg-0 text-center">
                 <div class="home_section_glow_container">
                     <!-- CSS Glowing Rings -->
-                    <div class="home_section_glow_ring home_section_ring_1"></div>
+                    <!-- <div class="home_section_glow_ring home_section_ring_1"></div>
                     <div class="home_section_glow_ring home_section_ring_2"></div>
-                    <div class="home_section_glow_ring home_section_ring_3"></div>
+                    <div class="home_section_glow_ring home_section_ring_3"></div> -->
 
-                    <img src="https://dummyimage.com/600x500/0d6efd/ffffff.png&text=Put+Your+3D+Assets+PNG+Here" alt="Branding Assets" class="home_section_image_asset img-fluid">
+                    <img src="./assets/img/index_1.png" class="imf-fluid" alt="Branding Assets" class="home_section_image_asset img-fluid">
                 </div>
             </div>
 
@@ -107,8 +107,12 @@
         <div class="home_section_trusted_wrapper">
             <h6 class="home_section_trusted_title text-center text-uppercase fw-bold">Trusted by 250+ Businesses Worldwide</h6>
 
-            <div class="home_section_logos_grid">
-                <span>Google</span>
+            <div class="home_section_logos_grid ">
+
+                <marquee class="marquee_section">Google &nbsp; &nbsp; / &nbsp; &nbsp; Samsung &nbsp; &nbsp; / &nbsp; &nbsp; Amazon &nbsp; &nbsp; / &nbsp; &nbsp; Zomato &nbsp; &nbsp; / &nbsp; &nbsp; Swiggy &nbsp; &nbsp; / &nbsp; &nbsp; paytm &nbsp; &nbsp; / &nbsp; &nbsp; Tata &nbsp; &nbsp; / &nbsp; &nbsp; Uber &nbsp; &nbsp; / &nbsp; &nbsp; Philips &nbsp; &nbsp; / &nbsp; &nbsp; Deloitte</marquee>
+
+
+                <!-- <span>Google</span>
                 <span>SAMSUNG</span>
                 <span>amazon</span>
                 <span>zomato</span>
@@ -117,7 +121,7 @@
                 <span>TATA</span>
                 <span>Uber</span>
                 <span>PHILIPS</span>
-                <span>Deloitte.</span>
+                <span>Deloitte</span> -->
             </div>
         </div>
     </div>
@@ -141,7 +145,7 @@
                 </h2>
             </div>
             <div class="col-md-4 text-md-end mt-3 mt-md-0">
-                <a href="#" class="home_section_view_all text-decoration-none text-secondary fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem;">
+                <a href="#" class="home_section_view_all text-decoration-none  fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem;">
                     View All Services <i class="bi bi-arrow-up-right text-primary"></i>
                 </a>
             </div>
@@ -415,6 +419,9 @@
 
             </div>
 
+
+            
+
         </div>
     </div>
 </section>
@@ -432,7 +439,7 @@
                 </span>
             </div>
             <div class="col-6 text-end">
-                <a href="#" class="home_section_brand_view_all text-decoration-none text-secondary fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem; color: #a9a9b3 !important;">
+                <a href="#" class="home_section_brand_view_all text-decoration-none text-secondary fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem; color: #246BFF !important;">
                     View All Projects <i class="bi bi-arrow-up-right text-primary"></i>
                 </a>
             </div>
@@ -699,7 +706,7 @@
                 </span>
             </div>
             <div class="col-4 col-md-6 text-end">
-                <a href="#" class="home_section_review_link text-decoration-none text-secondary fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem;">
+                <a href="#" class="home_section_review_link text-decoration-none  fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem;">
                     <span class="d-none d-sm-inline">View All Testimonials</span>
                     <span class="d-sm-none">View All</span>
                     <i class="bi bi-arrow-up-right text-primary"></i>
@@ -815,177 +822,187 @@
 
 <!-- CTA BANNER SECTION START -->
 <section class="home_section_brand_cta_wrapper">
-  <div class="container-fluid px-4 px-lg-5">
-    <div class="home_section_brand_cta_banner position-relative overflow-hidden">
-      
-      <!-- Subtle Wave / Grid Overlay Effect -->
-      <div class="home_section_brand_cta_overlay"></div>
-      
-      <div class="row align-items-center g-4 position-relative z-1">
-        
-        <!-- Left Column: Title Text -->
-        <div class="col-12 col-xl-5">
-          <span class="home_section_brand_cta_subtitle">READY TO GROW YOUR BRAND?</span>
-          <h2 class="home_section_brand_cta_title">
-            Let's Build Something <br class="d-none d-sm-inline">
-            Amazing <span class="home_section_brand_text_light">Together.</span>
-          </h2>
-        </div>
-        
-        <!-- Middle Column: Features List -->
-        <div class="col-12 col-lg-8 col-xl-5">
-          <div class="home_section_brand_cta_features">
-            <!-- Feature 1 -->
-            <div class="home_section_brand_cta_feat_item">
-              <i class="bi bi-person-check"></i>
-              <span>Free Consultation</span>
-            </div>
-            <!-- Feature 2 -->
-            <div class="home_section_brand_cta_feat_item">
-              <i class="bi bi-pie-chart"></i>
-              <span>Tailored Strategy</span>
-            </div>
-            <!-- Feature 3 -->
-            <div class="home_section_brand_cta_feat_item">
-              <i class="bi bi-clock-history"></i>
-              <span>On-Time Delivery</span>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Right Column: CTA Button -->
-        <div class="col-12 col-lg-4 col-xl-2 text-lg-end">
-          <a href="#" class="btn home_section_brand_cta_btn">
-            Start Your Project <i class="bi bi-arrow-up-right-short"></i>
-          </a>
-        </div>
+    <div class="container-fluid px-4 px-lg-5">
+        <div class="home_section_brand_cta_banner position-relative overflow-hidden">
 
-      </div>
+            <!-- Subtle Wave / Grid Overlay Effect -->
+            <div class="home_section_brand_cta_overlay"></div>
+
+            <div class="row align-items-center g-4 position-relative z-1">
+
+                <!-- Left Column: Title Text -->
+                <div class="col-12 col-xl-5">
+                    <span class="home_section_brand_cta_subtitle">READY TO GROW YOUR BRAND?</span>
+                    <h2 class="home_section_brand_cta_title">
+                        Let's Build Something <br class="d-none d-sm-inline">
+                        Amazing <span class="home_section_brand_text_light">Together.</span>
+                    </h2>
+                </div>
+
+                <!-- Middle Column: Features List -->
+                <div class="col-12 col-lg-8 col-xl-5">
+                    <div class="home_section_brand_cta_features">
+                        <!-- Feature 1 -->
+                        <div class="home_section_brand_cta_feat_item">
+                            <i class="bi bi-person-check"></i>
+                            <span>Free Consultation</span>
+                        </div>
+                        <!-- Feature 2 -->
+                        <div class="home_section_brand_cta_feat_item">
+                            <i class="bi bi-pie-chart"></i>
+                            <span>Tailored Strategy</span>
+                        </div>
+                        <!-- Feature 3 -->
+                        <div class="home_section_brand_cta_feat_item">
+                            <i class="bi bi-clock-history"></i>
+                            <span>On-Time Delivery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: CTA Button -->
+                <div class="col-12 col-lg-4 col-xl-2 text-lg-end">
+                    <a href="#" class="btn home_section_brand_cta_btn">
+                        Start Your Project <i class="bi bi-arrow-up-right-short"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
     </div>
-  </div>
 
-  <!-- Custom Scoped CSS Stylesheet (No Inline Styles) -->
-  <style>
-    /* Main Layout Framework */
-    .home_section_brand_cta_wrapper {
-      background-color: #04050a;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
+    <!-- Custom Scoped CSS Stylesheet (No Inline Styles) -->
+    <style>
+        /* Main Layout Framework */
+        .home_section_brand_cta_wrapper {
+            background-color: #04050a;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-    /* Banner Card Styling */
-    .home_section_brand_cta_banner {
-      background: linear-gradient(135deg, #05267a 0%, #011242 50%, #000924 100%);
-      border-radius: 20px;
-      padding: 3rem;
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
-    }
+        /* Banner Card Styling */
+        .home_section_brand_cta_banner {
+            background: linear-gradient(135deg, #05267a 0%, #011242 50%, #000924 100%);
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+        }
 
-    /* Wave Pattern Overlay Simulation */
-    .home_section_brand_cta_overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: radial-gradient(rgba(13, 110, 253, 0.15) 1px, transparent 0);
-      background-size: 24px 24px;
-      opacity: 0.7;
-      z-index: 0;
-    }
+        /* Wave Pattern Overlay Simulation */
+        .home_section_brand_cta_overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(rgba(13, 110, 253, 0.15) 1px, transparent 0);
+            background-size: 24px 24px;
+            opacity: 0.7;
+            z-index: 0;
+        }
 
-    /* Typography Settings */
-    .home_section_brand_cta_subtitle {
-      color: rgba(255, 255, 255, 0.6);
-      font-size: 0.8rem;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      display: block;
-      margin-bottom: 0.5rem;
-    }
-    .home_section_brand_cta_title {
-      color: #fff;
-      font-weight: 700;
-      font-size: clamp(1.8rem, 3vw, 2.4rem);
-      line-height: 1.2;
-      margin: 0;
-    }
-    .home_section_brand_text_light {
-      color: #0d6efd;
-    }
+        /* Typography Settings */
+        .home_section_brand_cta_subtitle {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
 
-    /* Features Framework */
-    .home_section_brand_cta_features {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-    }
-    .home_section_brand_cta_feat_item {
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-      color: rgba(255, 255, 255, 0.85);
-      font-size: 0.95rem;
-    }
-    .home_section_brand_cta_feat_item i {
-      color: #0d6efd;
-      font-size: 1.25rem;
-      display: flex;
-      align-items: center;
-    }
+        .home_section_brand_cta_title {
+            color: #fff;
+            font-weight: 700;
+            font-size: clamp(1.8rem, 3vw, 2.4rem);
+            line-height: 1.2;
+            margin: 0;
+        }
 
-    /* White Premium Button Module */
-    .home_section_brand_cta_btn {
-      background-color: #ffffff;
-      color: #05267a;
-      font-weight: 600;
-      font-size: 0.95rem;
-      padding: 0.85rem 1.75rem;
-      border-radius: 10px;
-      border: none;
-      white-space: nowrap;
-      transition: all 0.3s ease;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
-    }
-    .home_section_brand_cta_btn i {
-      font-size: 1.1rem;
-      transition: transform 0.3s ease;
-    }
-    .home_section_brand_cta_btn:hover {
-      background-color: #f0f4ff;
-      color: #011242;
-      transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
-    }
-    .home_section_brand_cta_btn:hover i {
-      transform: translate(2px, -2px);
-    }
+        .home_section_brand_text_light {
+            color: #0d6efd;
+        }
 
-    /* Responsive Breakthrough Breaks */
-    @media (max-width: 991.98px) {
-      .home_section_brand_cta_banner {
-        padding: 2.5rem 2rem;
-      }
-      .home_section_brand_cta_features {
-        gap: 1.25rem;
-      }
-    }
-    @media (max-width: 575.98px) {
-      .home_section_brand_cta_features {
-        flex-direction: column;
-        gap: 0.75rem;
-      }
-      .home_section_brand_cta_btn {
-        width: 100%;
-        justify-content: center;
-      }
-    }
-  </style>
+        /* Features Framework */
+        .home_section_brand_cta_features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .home_section_brand_cta_feat_item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 0.95rem;
+        }
+
+        .home_section_brand_cta_feat_item i {
+            color: #0d6efd;
+            font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+        }
+
+        /* White Premium Button Module */
+        .home_section_brand_cta_btn {
+            background-color: #ffffff;
+            color: #05267a;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 0.85rem 1.75rem;
+            border-radius: 10px;
+            border: none;
+            white-space: nowrap;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+        }
+
+        .home_section_brand_cta_btn i {
+            font-size: 1.1rem;
+            transition: transform 0.3s ease;
+        }
+
+        .home_section_brand_cta_btn:hover {
+            background-color: #f0f4ff;
+            color: #011242;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+        }
+
+        .home_section_brand_cta_btn:hover i {
+            transform: translate(2px, -2px);
+        }
+
+        /* Responsive Breakthrough Breaks */
+        @media (max-width: 991.98px) {
+            .home_section_brand_cta_banner {
+                padding: 2.5rem 2rem;
+            }
+
+            .home_section_brand_cta_features {
+                gap: 1.25rem;
+            }
+        }
+
+        @media (max-width: 575.98px) {
+            .home_section_brand_cta_features {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+
+            .home_section_brand_cta_btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    </style>
 </section>
 <!-- CTA BANNER SECTION END -->
 
-<?php include  'footer.php' ; ?>
+<?php include  'footer.php'; ?>

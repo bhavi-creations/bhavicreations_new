@@ -24,13 +24,13 @@
             <div class="col-6 col-md-3 col-lg-2 footer_col_border">
                 <h6 class="footer_heading">Quick Links</h6>
                 <ul class="list-unstyled footer_links_list">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="ine">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Brand Stories</a></li>
                     <li><a href="#">Packages</a></li>
                     <li><a href="#">Achievements</a></li>
-                    <li><a href="#">Brochure</a></li>
+                    <!-- <li><a href="#">Brochure</a></li> -->
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>

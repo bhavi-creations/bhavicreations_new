@@ -133,21 +133,21 @@
 
                 <ul class="navbar-nav mx-auto">
 
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service.php">Services</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Brand Stories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="brand.php">Brand Stories</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Packages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="package.php">Packages</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="achievement.php">Achievements</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Brochure</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">Brochure</a></li> -->
 
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
 
                 </ul>
 
