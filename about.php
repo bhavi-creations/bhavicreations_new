@@ -1,0 +1,366 @@
+<?php include 'header.php'; ?>
+
+
+<!-- ABOUT PREMIUM SECTION START -->
+<section class="about_section_wrapper ">
+    <div class="container-fluid px-4 px-lg-5 ">
+
+        <!-- First Row: Main Text and Image Column -->
+        <div class="row align-items-center g-5 about_section mt-3">
+
+            <!-- Left Content Column -->
+            <div class="col-12 col-lg-6">
+                <span class="about_section_subtitle">ABOUT US</span>
+                <h2 class="about_section_title">
+                    We're More Than A <br>
+                    <span class="about_section_highlight">Branding Agency.</span><br>
+                    We're Your Growth Partner.
+                </h2>
+
+                <!-- Underline Vector Graphic Line -->
+                <div class="about_section_vector_line"></div>
+
+                <p class="about_section_desc">
+                    We help businesses become unforgettable. From building powerful brands to driving real-world results through creative strategies and smart marketing – we do it all, with passion and purpose.
+                </p>
+
+                <a href="#" class="btn about_section_cta_btn">
+                    Let's Build Together <i class="bi bi-arrow-up-right-short"></i>
+                </a>
+            </div>
+
+            <!-- Right Image/Office Graphic Column -->
+            <div class="col-12 col-lg-6">
+                <div class="about_section_img_container position-relative overflow-hidden rounded-4">
+                    <!-- Office Glow Banner Simulation -->
+                    <div class="about_section_glass_overlay d-flex flex-column align-items-center justify-content-center">
+                        <h1 class="about_section_inner_logo m-0">LOGO</h1>
+                        <p class="about_section_inner_tagline text-muted small mt-2">Creative. Strategic. Impactful.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Second Row: 4-Column Feature Metrics Grid -->
+        <div class="row g-4 about_second_section">
+
+            <!-- Feature 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="about_second_card d-flex align-items-start gap-3">
+                    <div class="about_second_icon_box">
+                        <i class="bi bi-lightbulb"></i>
+                    </div>
+                    <div>
+                        <h6 class="about_second_card_title">Strategic Thinking</h6>
+                        <p class="about_second_card_desc">We dive deep into your brand, audience and market to build strategies that create impact.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="about_second_card d-flex align-items-start gap-3">
+                    <div class="about_second_icon_box">
+                        <i class="bi bi-palette"></i>
+                    </div>
+                    <div>
+                        <h6 class="about_second_card_title">Creative Excellence</h6>
+                        <p class="about_second_card_desc">From design to storytelling, we craft visuals and messages that connect and convert.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="about_second_card d-flex align-items-start gap-3">
+                    <div class="about_second_icon_box">
+                        <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+                    <div>
+                        <h6 class="about_second_card_title">Result Driven</h6>
+                        <p class="about_second_card_desc">Our focus is on measurable growth, quality leads and long-term success.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+                <div class="about_second_card d-flex align-items-start gap-3">
+                    <div class="about_second_icon_box">
+                        <i class="bi bi-layers"></i>
+                    </div>
+                    <div>
+                        <h6 class="about_second_card_title">End-to-End Solutions</h6>
+                        <p class="about_second_card_desc">Everything you need under one roof – branding to marketing and beyond.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+<!-- ABOUT PREMIUM SECTION END -->
+
+
+<!-- third and four section   -->
+
+<!-- OUR STORY & COUNTERS SECTION START -->
+<section class="about_story_main_wrapper">
+    <div class="container-fluid px-4 px-lg-5">
+
+        <!-- First Row: Our Story Banner Card -->
+        <div class="about_section_our_story position-relative overflow-hidden">
+            <div class="row align-items-center g-0">
+
+                <!-- Left Content Column -->
+                <div class="col-12 col-lg-6 about_story_content_col">
+                    <h2 class="about_story_title">
+                        Our <span class="about_story_highlight">Story</span>
+                    </h2>
+
+                    <p class="about_story_text">
+                        We started with a simple belief – every brand has a story worth telling. What began as a small creative team has grown into a full-service branding and marketing agency trusted by 800+ businesses.
+                    </p>
+
+                    <p class="about_story_text mb-0">
+                        Our mission is to help brands stand out, connect deeply and grow fearlessly in a competitive world.
+                    </p>
+                </div>
+
+                <!-- Right Image Column (Team Meeting Showcase) -->
+                <div class="col-12 col-lg-6 about_story_img_col">
+                    <div class="about_story_image_holder">
+                        <!-- Simulated Team Dynamic Light Layer -->
+                        <div class="about_story_img_overlay"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Second Row: 4-Column Counter Metrics Grid -->
+        <div class="about_fourth_section">
+            <div class="row g-4 text-center justify-content-center">
+
+                <!-- Metric 1: Projects -->
+                <div class="col-6 col-md-3 about_fourth_stat_col">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <i class="bi bi-gear-fill"></i>
+                        </div>
+                        <h3 class="about_fourth_counter">800+</h3>
+                        <p class="about_fourth_label">Projects Completed</p>
+                    </div>
+                </div>
+
+                <!-- Metric 2: Happy Clients -->
+                <div class="col-6 col-md-3 about_fourth_stat_col">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h3 class="about_fourth_counter">250+</h3>
+                        <p class="about_fourth_label">Happy Clients</p>
+                    </div>
+                </div>
+
+                <!-- Metric 3: Experience -->
+                <div class="col-6 col-md-3 about_fourth_stat_col">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <i class="bi bi-calendar3"></i>
+                        </div>
+                        <h3 class="about_fourth_counter">6+</h3>
+                        <p class="about_fourth_label">Years of Experience</p>
+                    </div>
+                </div>
+
+                <!-- Metric 4: Satisfaction -->
+                <div class="col-6 col-md-3">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <i class="bi bi-target"></i>
+                        </div>
+                        <h3 class="about_fourth_counter">98%</h3>
+                        <p class="about_fourth_label">Client Satisfaction</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Custom Scoped CSS Stylesheet (No Inline Styles) -->
+   
+</section>
+<!-- OUR STORY & COUNTERS SECTION END -->
+
+
+<!-- s,6,7 th section   -->
+<!-- ABOUT CORE MODULES START -->
+<div class="about_multi_section_container">
+    <div class="container-fluid px-4 px-lg-5">
+
+        <!-- 1. ABOUT FIFTH SECTION: What Drives Us -->
+        <div class="about_fifth_section position-relative overflow-hidden mb-4">
+            <div class="row align-items-center g-4 position-relative z-1">
+
+                <!-- Left Hands Shaking / Team Visual Mock Area -->
+                <div class="col-12 col-md-6 position-relative">
+                    <div class="about_fifth_image_placeholder">
+                        <!-- Glassmorphism Floating Promise Box -->
+                        <div class="about_fifth_promise_box">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <i class="bi bi-shield-check text-primary fs-5"></i>
+                                <h6 class="m-0 fw-bold text-white small">Our Promise</h6>
+                            </div>
+                            <ul class="list-unstyled m-0 p-0 about_fifth_promise_list">
+                                <li>Honest communication.</li>
+                                <li>Creative solutions.</li>
+                                <li>On-time delivery.</li>
+                                <li>Long-term partnerships.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Core Points Column -->
+                <div class="col-12 col-md-6 ps-lg-5">
+                    <h2 class="about_multi_title mb-3">What Drives <span class="about_text_accent">Us</span></h2>
+                    <p class="about_multi_desc mb-4">
+                        We don't just deliver services. We build relationships, create trust and become a part of your journey.
+                    </p>
+                    <ul class="list-unstyled m-0 p-0 about_fifth_drive_list">
+                        <li><i class="bi bi-check-circle-fill"></i> We listen before we create</li>
+                        <li><i class="bi bi-check-circle-fill"></i> We understand before we execute</li>
+                        <li><i class="bi bi-check-circle-fill"></i> We deliver more than expected</li>
+                        <li><i class="bi bi-check-circle-fill"></i> We grow when you grow</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 2. ABOUT SIXTH SECTION: The Minds Behind The Magic -->
+        <div class="about_sixth_section mb-4">
+            <div class="row g-4 align-items-center">
+
+                <!-- Left Pitch Content -->
+                <div class="col-12 col-xl-4 pe-xl-4">
+                    <h2 class="about_multi_title mb-3">The Minds Behind <br>The <span class="about_text_accent">Magic</span></h2>
+                    <p class="about_multi_desc mb-4">
+                        We're a team of strategists, designers, marketers and creators who are passionate about building brands that leave a mark.
+                    </p>
+                    <a href="#" class="btn about_sixth_cta_btn">
+                        Join Our Journey <i class="bi bi-arrow-right-short ms-1"></i>
+                    </a>
+                </div>
+
+                <!-- Right 4-Card Team Roles Grid -->
+                <div class="col-12 col-xl-8">
+                    <div class="row g-3">
+
+                        <!-- Strategists -->
+                        <div class="col-6 col-md-3">
+                            <div class="about_sixth_card text-center">
+                                <div class="about_sixth_icon"><i class="bi bi-lightbulb"></i></div>
+                                <h6>Strategists</h6>
+                                <p>Plan with insight and market intelligence.</p>
+                            </div>
+                        </div>
+
+                        <!-- Designers -->
+                        <div class="col-6 col-md-3">
+                            <div class="about_sixth_card text-center">
+                                <div class="about_sixth_icon"><i class="bi bi-layers"></i></div>
+                                <h6>Designers</h6>
+                                <p>Design with creativity and precision.</p>
+                            </div>
+                        </div>
+
+                        <!-- Marketers -->
+                        <div class="col-6 col-md-3">
+                            <div class="about_sixth_card text-center">
+                                <div class="about_sixth_icon"><i class="bi bi-pie-chart"></i></div>
+                                <h6>Marketers</h6>
+                                <p>Market with data, trends and innovation.</p>
+                            </div>
+                        </div>
+
+                        <!-- Creators -->
+                        <div class="col-6 col-md-3">
+                            <div class="about_sixth_card text-center">
+                                <div class="about_sixth_icon"><i class="bi bi-vector-pen"></i></div>
+                                <h6>Creators</h6>
+                                <p>Create content that connects and converts.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- 3. ABOUT SEVENTH SECTION: Let's Create Banner -->
+        <div class="about_seventh_section position-relative overflow-hidden">
+            <!-- Decorative Abstract Light Shapes (Matches image neon look) -->
+            <div class="about_seventh_glow_circle_left"></div>
+            <div class="about_seventh_glow_plane_right"></div>
+
+            <div class="row align-items-center g-4 position-relative z-1">
+                <div class="col-12 col-md-8 text-center text-md-start">
+                    <h3 class="about_seventh_title mb-2">Let's Create Something <span class="about_text_accent">Amazing Together.</span></h3>
+                    <p class="about_seventh_desc m-0">Your brand deserves to be seen, remembered and loved. We're here to make that happen.</p>
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-end">
+                    <a href="#" class="btn about_seventh_btn">Let's Talk <i class="bi bi-arrow-up-right-short ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Unified Scoped Style Sheet -->
+   
+</div>
+<!-- ABOUT CORE MODULES END -->
+<!-- last section  -->
+
+<!-- BRANDS SECTION START -->
+<section class="about_last_section">
+    <div class="container-fluid px-4 px-lg-5">
+
+        <!-- Title Divider Area -->
+        <div class="about_last_section_divider_container">
+            <div class="about_last_section_line"></div>
+            <span class="about_last_section_subtitle">BRANDS WE'VE WORKED WITH</span>
+            <div class="about_last_section_line"></div>
+        </div>
+
+        <!-- Logos Flexbox Grid Grid -->
+        <div class="about_last_section_logos_grid">
+            <div class="about_last_logo_item"><span class="about_brand_text font_google">Google</span></div>
+            <div class="about_last_logo_item"><span class="about_brand_text font_samsung">SAMSUNG</span></div>
+            <div class="about_last_logo_item"><span class="about_brand_text font_amazon">amazon</span></div>
+            <div class="about_last_logo_item"><span class="about_brand_text font_zomato">zomato</span></div>
+            <div class="about_last_logo_item"><span class="about_brand_text font_swiggy"><i class="bi bi-geo-alt-fill small text-warning me-1"></i>SWIGGY</span></div>
+            <div class="about_last_logo_item"><span class="about_brand_text font_paytm">paytm</span></div>
+            <div class="about_last_logo_item"><span class="about_brand_text font_tata">TATA</span></div>
+            <div class="about_last_logo_item"><span class="about_brand_text font_uber">Uber</span></div>
+            <div class="about_last_logo_item"><span class="about_brand_text font_philips">PHILIPS</span></div>
+            <div class="about_last_logo_item"><span class="about_brand_text font_deloitte">Deloitte.</span></div>
+        </div>
+
+    </div>
+
+    <!-- Custom Scoped CSS Stylesheet (No Inline Styles) -->
+   
+</section>
+<!-- BRANDS SECTION END -->
+<?php include 'footer.php'; ?>
