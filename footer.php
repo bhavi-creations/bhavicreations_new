@@ -24,14 +24,14 @@
             <div class="col-6 col-md-3 col-lg-2 footer_col_border">
                 <h6 class="footer_heading">Quick Links</h6>
                 <ul class="list-unstyled footer_links_list">
-                    <li><a href="ine">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Brand Stories</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Achievements</a></li>
-                    <!-- <li><a href="#">Brochure</a></li> -->
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="service.php">Services</a></li>
+                    <li><a href="brands.php">Brand Stories</a></li>
+                    <li><a href="package.php">Packages</a></li>
+                    <li><a href="achievement.php">Achievements</a></li>
+                    <li><a href="#">Brochure</a></li>
+                    <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
 
@@ -64,11 +64,11 @@
                     </li>
                     <li>
                         <i class="bi bi-geo-alt"></i>
-                        <span>123, Creative Street,<br>Your City – 500001, India</span>
+                        <span>123, Creative Street,<br>Your City - 500001, India</span>
                     </li>
                     <li>
                         <i class="bi bi-clock"></i>
-                        <span>Mon – Sat: 10 AM – 7 PM</span>
+                        <span>Mon - Sat: 10 AM - 7 PM</span>
                     </li>
                 </ul>
             </div>
@@ -101,7 +101,7 @@
     </div>
 </footer>
 
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

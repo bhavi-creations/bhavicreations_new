@@ -1,12 +1,11 @@
 <?php include 'header.php'; ?>
 
-
 <!-- ABOUT PREMIUM SECTION START -->
-<section class="about_section_wrapper ">
-    <div class="container-fluid px-4 px-lg-5 ">
+<section class="about_section_wrapper">
+    <div class="container-fluid px-4 px-lg-5">
 
         <!-- First Row: Main Text and Image Column -->
-        <div class="row align-items-center g-5 about_section mt-3">
+        <div class="row align-items-center g-5 about_section">
 
             <!-- Left Content Column -->
             <div class="col-12 col-lg-6">
@@ -21,7 +20,7 @@
                 <div class="about_section_vector_line"></div>
 
                 <p class="about_section_desc">
-                    We help businesses become unforgettable. From building powerful brands to driving real-world results through creative strategies and smart marketing – we do it all, with passion and purpose.
+                    We help businesses become unforgettable. From building powerful brands to driving real-world results through creative strategies and smart marketing - we do it all, with passion and purpose.
                 </p>
 
                 <a href="#" class="btn about_section_cta_btn">
@@ -92,7 +91,7 @@
                     </div>
                     <div>
                         <h6 class="about_second_card_title">End-to-End Solutions</h6>
-                        <p class="about_second_card_desc">Everything you need under one roof – branding to marketing and beyond.</p>
+                        <p class="about_second_card_desc">Everything you need under one roof - branding to marketing and beyond.</p>
                     </div>
                 </div>
             </div>
@@ -100,21 +99,17 @@
         </div>
 
     </div>
-
-
 </section>
 <!-- ABOUT PREMIUM SECTION END -->
 
-
-<!-- third and four section   -->
-
+<!-- third and four section -->
 <!-- OUR STORY & COUNTERS SECTION START -->
 <section class="about_story_main_wrapper">
     <div class="container-fluid px-4 px-lg-5">
 
         <!-- First Row: Our Story Banner Card -->
         <div class="about_section_our_story position-relative overflow-hidden">
-            <div class="row align-items-center g-0">
+            <div class="row align-items-stretch g-0">
 
                 <!-- Left Content Column -->
                 <div class="col-12 col-lg-6 about_story_content_col">
@@ -123,7 +118,7 @@
                     </h2>
 
                     <p class="about_story_text">
-                        We started with a simple belief – every brand has a story worth telling. What began as a small creative team has grown into a full-service branding and marketing agency trusted by 800+ businesses.
+                        We started with a simple belief - every brand has a story worth telling. What began as a small creative team has grown into a full-service branding and marketing agency trusted by 800+ businesses.
                     </p>
 
                     <p class="about_story_text mb-0">
@@ -131,10 +126,9 @@
                     </p>
                 </div>
 
-                <!-- Right Image Column (Team Meeting Showcase) -->
+                <!-- Right Image Column -->
                 <div class="col-12 col-lg-6 about_story_img_col">
                     <div class="about_story_image_holder">
-                        <!-- Simulated Team Dynamic Light Layer -->
                         <div class="about_story_img_overlay"></div>
                     </div>
                 </div>
@@ -194,14 +188,9 @@
         </div>
 
     </div>
-
-    <!-- Custom Scoped CSS Stylesheet (No Inline Styles) -->
-   
 </section>
 <!-- OUR STORY & COUNTERS SECTION END -->
 
-
-<!-- s,6,7 th section   -->
 <!-- ABOUT CORE MODULES START -->
 <div class="about_multi_section_container">
     <div class="container-fluid px-4 px-lg-5">
@@ -309,7 +298,7 @@
 
         <!-- 3. ABOUT SEVENTH SECTION: Let's Create Banner -->
         <div class="about_seventh_section position-relative overflow-hidden">
-            <!-- Decorative Abstract Light Shapes (Matches image neon look) -->
+            <!-- Decorative Abstract Light Shapes -->
             <div class="about_seventh_glow_circle_left"></div>
             <div class="about_seventh_glow_plane_right"></div>
 
@@ -325,12 +314,8 @@
         </div>
 
     </div>
-
-    <!-- Unified Scoped Style Sheet -->
-   
 </div>
 <!-- ABOUT CORE MODULES END -->
-<!-- last section  -->
 
 <!-- BRANDS SECTION START -->
 <section class="about_last_section">
@@ -343,7 +328,7 @@
             <div class="about_last_section_line"></div>
         </div>
 
-        <!-- Logos Flexbox Grid Grid -->
+        <!-- Logos Flexbox Grid -->
         <div class="about_last_section_logos_grid">
             <div class="about_last_logo_item"><span class="about_brand_text font_google">Google</span></div>
             <div class="about_last_logo_item"><span class="about_brand_text font_samsung">SAMSUNG</span></div>
@@ -358,9 +343,7 @@
         </div>
 
     </div>
-
-    <!-- Custom Scoped CSS Stylesheet (No Inline Styles) -->
-   
 </section>
 <!-- BRANDS SECTION END -->
+
 <?php include 'footer.php'; ?>

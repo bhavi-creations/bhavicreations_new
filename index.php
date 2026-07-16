@@ -2,12 +2,12 @@
 
 
 <!-- SECTION 1: HERO -->
-<section class="home_hero_section pt-5 ">
-    <div class="container-fluid px-4 px-lg-5 pt-5 mt-5">
-        <div class="row align-items-center min-vh-75">
+<section class="home_hero_section">
+    <div class="container-fluid px-4 px-lg-5 home_hero_shell">
+        <div class="row align-items-center g-5 pt-5 mt-5">
 
             <!-- Left Content -->
-            <div class="col-lg-6 z-1">
+            <div class="col-lg-5 z-1">
                 <div class="home_section_premium_badge text-uppercase">
                     India's Premium Branding & Creative Agency
                 </div>
@@ -33,25 +33,25 @@
                 </div>
 
                 <!-- Stats Row -->
-                <div class="home_section_hero_stats row g-3">
+                <div class="home_section_hero_stats">
                     <!-- Stat 1: Ratings -->
-                    <div class="col-12 col-md-auto d-flex align-items-center gap-3 pe-lg-4 border-end-lg border-secondary">
+                    <div class="home_section_hero_stat home_section_hero_stat_rating">
                         <div class="home_section_avatar_group">
                             <img src="https://ui-avatars.com/api/?name=User&background=random" alt="User">
                             <img src="https://ui-avatars.com/api/?name=Client&background=random" alt="Client">
                             <img src="https://ui-avatars.com/api/?name=CEO&background=random" alt="CEO">
                         </div>
                         <div class="home_section_stat_text">
-                            <div class="text-warning small mb-1">
+                            <div class="text-warning small mb-1 home_section_stat_stars">
                                 <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                             </div>
                             <div class="home_section_stat_num fs-6">5.0 Rating</div>
-                            <div class="home_section_stat_label" style="font-size: 10px;">Based on 100+ reviews</div>
+                            <div class="home_section_stat_label">Based on 100+ reviews</div>
                         </div>
                     </div>
 
                     <!-- Stat 2: Projects -->
-                    <div class="col-6 col-md-auto pe-lg-4 border-end-lg border-secondary">
+                    <div class="home_section_hero_stat">
                         <div class="home_section_stat_item">
                             <i class="bi bi-briefcase home_section_stat_icon"></i>
                             <div class="home_section_stat_text">
@@ -62,7 +62,7 @@
                     </div>
 
                     <!-- Stat 3: Clients -->
-                    <div class="col-6 col-md-auto pe-lg-4 border-end-lg border-secondary">
+                    <div class="home_section_hero_stat">
                         <div class="home_section_stat_item">
                             <i class="bi bi-people home_section_stat_icon"></i>
                             <div class="home_section_stat_text">
@@ -73,7 +73,7 @@
                     </div>
 
                     <!-- Stat 4: Industries -->
-                    <div class="col-12 col-md-auto">
+                    <div class="home_section_hero_stat">
                         <div class="home_section_stat_item">
                             <i class="bi bi-building home_section_stat_icon"></i>
                             <div class="home_section_stat_text">
@@ -86,14 +86,12 @@
             </div>
 
             <!-- Right Content (Images & Glow) -->
-            <div class="col-lg-6 mt-5 mt-lg-0 text-center">
-                <div class="home_section_glow_container">
-                    <!-- CSS Glowing Rings -->
-                    <!-- <div class="home_section_glow_ring home_section_ring_1"></div>
-                    <div class="home_section_glow_ring home_section_ring_2"></div>
-                    <div class="home_section_glow_ring home_section_ring_3"></div> -->
+            <div class="col-lg-7 mt-4 mt-lg-0 text-center z-1">
+                <div class="home_section_glow_container home_hero_visual">
+                    <div class="home_hero_visual_glow home_hero_visual_glow_one"></div>
+                    <div class="home_hero_visual_glow home_hero_visual_glow_two"></div>
 
-                    <img src="./assets/img/index_1.png" class="imf-fluid" alt="Branding Assets" class="home_section_image_asset img-fluid">
+                    <img src="./assets/img/index_1.png" class="home_section_image_asset img-fluid" alt="Branding Assets" loading="eager">
                 </div>
             </div>
 
@@ -107,12 +105,8 @@
         <div class="home_section_trusted_wrapper">
             <h6 class="home_section_trusted_title text-center text-uppercase fw-bold">Trusted by 250+ Businesses Worldwide</h6>
 
-            <div class="home_section_logos_grid ">
-
-                <marquee class="marquee_section">Google &nbsp; &nbsp; / &nbsp; &nbsp; Samsung &nbsp; &nbsp; / &nbsp; &nbsp; Amazon &nbsp; &nbsp; / &nbsp; &nbsp; Zomato &nbsp; &nbsp; / &nbsp; &nbsp; Swiggy &nbsp; &nbsp; / &nbsp; &nbsp; paytm &nbsp; &nbsp; / &nbsp; &nbsp; Tata &nbsp; &nbsp; / &nbsp; &nbsp; Uber &nbsp; &nbsp; / &nbsp; &nbsp; Philips &nbsp; &nbsp; / &nbsp; &nbsp; Deloitte</marquee>
-
-
-                <!-- <span>Google</span>
+            <div class="home_section_logos_grid">
+                <span>Google</span>
                 <span>SAMSUNG</span>
                 <span>amazon</span>
                 <span>zomato</span>
@@ -121,7 +115,7 @@
                 <span>TATA</span>
                 <span>Uber</span>
                 <span>PHILIPS</span>
-                <span>Deloitte</span> -->
+                <span>Deloitte.</span>
             </div>
         </div>
     </div>
@@ -152,10 +146,10 @@
         </div>
 
         <!-- Services Grid Row -->
-        <div class="row g-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 g-4">
 
             <!-- Card 1: Branding -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-person-bounding-box" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -168,7 +162,7 @@
             </div>
 
             <!-- Card 2: Website & UI/UX -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-window-sidebar" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -181,7 +175,7 @@
             </div>
 
             <!-- Card 3: Social Media Management -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-chat-left-quote" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -194,7 +188,7 @@
             </div>
 
             <!-- Card 4: Paid Ads & Lead Generation -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-target" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -207,7 +201,7 @@
             </div>
 
             <!-- Card 5: Video Production -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-film" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -220,7 +214,7 @@
             </div>
 
             <!-- Card 6: Photo Shoots -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-camera" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -233,7 +227,7 @@
             </div>
 
             <!-- Card 7: Graphic Design -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-vector-pen" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -246,7 +240,7 @@
             </div>
 
             <!-- Card 8: Offline Marketing -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-megaphone" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -259,7 +253,7 @@
             </div>
 
             <!-- Card 9: Place Branding & Stickers -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-geo-alt" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -272,7 +266,7 @@
             </div>
 
             <!-- Card 10: Strategy & Consulting -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-2.4 col-xl-2.4" style="flex: 0 0 auto; width: 20%;" id="home_section_responsive_col">
+            <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <i class="bi bi-lightbulb" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
@@ -314,7 +308,7 @@
             <div class="col-lg-3 col-md-6 text-center my-auto">
                 <div class="image-container text-start">
                     <!-- Referenced file from image_7b7b2c.png -->
-                    <img src="Home page.png" alt="Results Conceptual Visual" class="img-fluid rounded-4 main-gfx-img">
+                    <img src="./assets/img/branging_side.png" alt="Branding showcase visual" class="img-fluid rounded-4 main-gfx-img">
 
                     <!-- 98% Client Retention Rate Floating Box -->
                     <div class="retention-card">
@@ -452,7 +446,7 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
                     <!-- Card Image Content -->
-                    <img src="https://dummyimage.com/400x500/081528/ffffff.png&text=Aurora+Skincare+Image" alt="Aurora Skincare" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                    <img src="./assets/img/1.png" alt="Aurora Skincare" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
                     <!-- Gradient Bottom Overlay -->
                     <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
@@ -476,7 +470,7 @@
             <!-- Card 2: Fintek Financial -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <img src="https://dummyimage.com/400x500/050d1a/ffffff.png&text=Fintek+Website+Image" alt="Fintek Financial" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                    <img src="./assets/img/index_1.png" alt="Fintek Financial" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
                     <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
                         <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Website</span>
@@ -497,7 +491,7 @@
             <!-- Card 3: Mountain Brew -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <img src="https://dummyimage.com/400x500/171512/ffffff.png&text=Mountain+Brew+Image" alt="Mountain Brew" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                    <img src="./assets/img/branging_side.png" alt="Mountain Brew" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
                     <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
                         <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Branding</span>
@@ -518,7 +512,7 @@
             <!-- Card 4: Elite Living -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <img src="https://dummyimage.com/400x500/121815/ffffff.png&text=Elite+Living+Hoarding" alt="Elite Living" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                    <img src="./assets/img/1.png" alt="Elite Living" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
                     <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
                         <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Hoarding</span>
@@ -541,19 +535,21 @@
 
     <!-- Section Hover Interactions -->
     <style>
-        .home_section_brand_card:hover {
-            transform: translateY(-5px);
-            border-color: rgba(13, 110, 253, 0.4) !important;
-            box-shadow: 0 12px 25px rgba(13, 110, 253, 0.15);
-        }
+        @media (hover: hover) and (pointer: fine) {
+            .home_section_brand_card:hover {
+                transform: translateY(-5px);
+                border-color: rgba(13, 110, 253, 0.4) !important;
+                box-shadow: 0 12px 25px rgba(13, 110, 253, 0.15);
+            }
 
-        .home_section_brand_card:hover .home_section_brand_icon_arrow {
-            background-color: #0d6efd !important;
-            border-color: #0d6efd !important;
-        }
+            .home_section_brand_card:hover .home_section_brand_icon_arrow {
+                background-color: #0d6efd !important;
+                border-color: #0d6efd !important;
+            }
 
-        .home_section_brand_view_all:hover {
-            color: #fff !important;
+            .home_section_brand_view_all:hover {
+                color: #fff !important;
+            }
         }
     </style>
 </section>
@@ -798,22 +794,24 @@
 
     <!-- Custom Styles for Hover Effects -->
     <style>
-        .home_section_review_link:hover {
-            color: #fff !important;
-        }
+        @media (hover: hover) and (pointer: fine) {
+            .home_section_review_link:hover {
+                color: #fff !important;
+            }
 
-        .home_section_review_card:hover {
-            background: rgba(13, 110, 253, 0.03) !important;
-            border-color: rgba(13, 110, 253, 0.3) !important;
-            transform: translateY(-5px);
-        }
+            .home_section_review_card:hover {
+                background: rgba(13, 110, 253, 0.03) !important;
+                border-color: rgba(13, 110, 253, 0.3) !important;
+                transform: translateY(-5px);
+            }
 
-        .home_section_industire_item {
-            transition: transform 0.3s ease;
-        }
+            .home_section_industire_item {
+                transition: transform 0.3s ease;
+            }
 
-        .home_section_industire_item:hover {
-            transform: translateY(-5px);
+            .home_section_industire_item:hover {
+                transform: translateY(-5px);
+            }
         }
     </style>
 </section>
@@ -968,15 +966,17 @@
             transition: transform 0.3s ease;
         }
 
-        .home_section_brand_cta_btn:hover {
-            background-color: #f0f4ff;
-            color: #011242;
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
-        }
+        @media (hover: hover) and (pointer: fine) {
+            .home_section_brand_cta_btn:hover {
+                background-color: #f0f4ff;
+                color: #011242;
+                transform: translateY(-2px);
+                box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+            }
 
-        .home_section_brand_cta_btn:hover i {
-            transform: translate(2px, -2px);
+            .home_section_brand_cta_btn:hover i {
+                transform: translate(2px, -2px);
+            }
         }
 
         /* Responsive Breakthrough Breaks */
@@ -1004,5 +1004,346 @@
     </style>
 </section>
 <!-- CTA BANNER SECTION END -->
+
+<style>
+    /* Home page responsive polish */
+    @media (max-width: 1199.98px) {
+        .home_hero_section {
+            padding: 100px 0 62px;
+        }
+
+        .home_section_glow_container,
+        .home_hero_visual {
+            min-height: 470px;
+        }
+
+        .home_section_image_asset {
+            width: min(100%, 620px);
+        }
+
+        .home_section_brand_card {
+            height: 330px !important;
+        }
+    }
+
+    @media (max-width: 991.98px) {
+        .home_hero_section {
+            padding: 92px 0 54px;
+        }
+
+        .home_section_hero_title {
+            font-size: clamp(2.8rem, 7vw, 4rem);
+        }
+
+        .home_section_hero_desc {
+            font-size: 0.99rem;
+        }
+
+        .home_section_btn_wrapper {
+            margin-bottom: 2rem !important;
+        }
+
+        .home_section_glow_container,
+        .home_hero_visual {
+            min-height: 380px;
+        }
+
+        .home_section_image_asset {
+            width: min(100%, 560px);
+        }
+
+        .home_section_trusted_wrapper {
+            padding: 20px 18px;
+        }
+
+        .home_section_services .home_section_card,
+        .home_section_review_card,
+        .home_section_industire_box,
+        .home_section_brand_card {
+            border-radius: 14px !important;
+        }
+
+        .home_index_why_choose .image-container {
+            max-width: 100%;
+        }
+
+        .home_index_why_choose .retention-card {
+            left: 0;
+            right: 0;
+            width: min(280px, 100%);
+            margin: 18px auto 0;
+        }
+
+        .home_index_why_choose .process-node {
+            width: 50%;
+        }
+
+        .home_index_why_choose .process-timeline::before {
+            display: none;
+        }
+
+        .home_section_brand_card {
+            height: 316px !important;
+        }
+
+        .home_section_industire_box {
+            padding: 1.35rem !important;
+        }
+
+        .home_section_review_card {
+            padding: 1.4rem !important;
+        }
+
+        .home_section_brand_cta_banner {
+            padding: 2rem 1.5rem;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        .home_hero_section {
+            padding: 86px 0 46px;
+        }
+
+        .home_section_premium_badge {
+            font-size: 0.7rem;
+            letter-spacing: 0.8px;
+            padding: 7px 13px;
+        }
+
+        .home_section_hero_title {
+            font-size: clamp(2.35rem, 10vw, 3.3rem);
+            max-width: 100%;
+        }
+
+        .home_section_hero_desc {
+            margin-bottom: 28px;
+        }
+
+        .home_section_btn_wrapper {
+            flex-direction: column;
+            gap: 0.85rem !important;
+        }
+
+        .home_section_btn_wrapper a {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .home_section_glow_container,
+        .home_hero_visual {
+            min-height: auto;
+        }
+
+        .home_hero_visual_glow,
+        .home_section_glow_ring {
+            display: none;
+        }
+
+        .home_section_image_asset {
+            width: 100%;
+            max-width: 560px;
+            animation: none;
+        }
+
+        .home_section_hero_stats {
+            margin-top: 28px;
+        }
+
+        .home_section_hero_stat {
+            flex: 1 1 100%;
+            padding: 16px 0 0;
+        }
+
+        .home_section_hero_stat_rating {
+            padding-top: 0;
+        }
+
+        .home_section_trusted {
+            padding-bottom: 54px;
+        }
+
+        .home_section_trusted_wrapper {
+            padding: 18px 14px;
+        }
+
+        .home_section_logos_grid {
+            justify-content: flex-start;
+            gap: 20px;
+        }
+
+        .home_section_services .row {
+            --bs-gutter-x: 1rem;
+            --bs-gutter-y: 1rem;
+        }
+
+        .home_section_services .home_section_card {
+            padding: 1.15rem !important;
+        }
+
+        .home_section_title {
+            font-size: clamp(1.9rem, 7.5vw, 2.5rem);
+        }
+
+        .home_index_why_choose {
+            padding: 44px 0;
+        }
+
+        .home_index_why_choose .process-node {
+            width: 100%;
+            display: flex;
+            text-align: left;
+            align-items: flex-start;
+            gap: 0.95rem;
+        }
+
+        .home_index_why_choose .node-circle {
+            margin: 0;
+            flex-shrink: 0;
+        }
+
+        .home_index_why_choose .node-text-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .home_index_why_choose .retention-card {
+            position: relative;
+            bottom: auto;
+            margin-top: 16px;
+            width: 100%;
+            max-width: 100%;
+            left: auto;
+            right: auto;
+        }
+
+        .home_section_brand_card {
+            height: 300px !important;
+        }
+
+        .home_section_industire_box {
+            padding: 1.15rem !important;
+        }
+
+        .home_section_industire .row-cols-3 > *,
+        .home_section_industire .row-cols-2 > * {
+            padding-left: 0.45rem;
+            padding-right: 0.45rem;
+        }
+
+        .home_section_review {
+            padding-top: 0.5rem !important;
+        }
+
+        .home_section_review_card {
+            padding: 1.2rem !important;
+        }
+
+        .home_section_brand_cta_wrapper {
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
+        }
+
+        .home_section_brand_cta_banner {
+            padding: 1.5rem 1.2rem;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .home_hero_section {
+            padding: 80px 0 42px;
+        }
+
+        .home_section_hero_title {
+            font-size: clamp(2.1rem, 11vw, 2.9rem);
+        }
+
+        .home_section_hero_desc {
+            font-size: 0.95rem;
+            line-height: 1.65;
+        }
+
+        .home_section_hero_stat {
+            padding: 14px 0 0;
+        }
+
+        .home_section_stat_num {
+            font-size: 1rem;
+        }
+
+        .home_section_stat_label {
+            font-size: 0.72rem;
+        }
+
+        .home_section_trusted_wrapper {
+            border-radius: 14px;
+            padding: 16px 12px;
+        }
+
+        .home_section_logos_grid span {
+            font-size: 0.84rem;
+        }
+
+        .home_section_services .home_section_card {
+            padding: 1rem !important;
+        }
+
+        .home_section_card_title,
+        .home_section_brand_card_title,
+        .home_section_review_name {
+            font-size: 1rem !important;
+        }
+
+        .home_section_brand_card {
+            height: 288px !important;
+        }
+
+        .home_section_brand_card .position-absolute {
+            height: 76% !important;
+            padding: 1rem !important;
+        }
+
+        .home_section_industire_box {
+            padding: 1rem !important;
+        }
+
+        .home_section_industire_num {
+            font-size: 1.9rem !important;
+        }
+
+        .home_section_review_card {
+            padding: 1.05rem !important;
+        }
+
+        .home_section_brand_cta_banner {
+            border-radius: 16px;
+            padding: 1.2rem 1rem;
+        }
+
+        .home_section_brand_cta_features {
+            gap: 0.8rem;
+        }
+
+        .home_section_brand_cta_feat_item {
+            font-size: 0.9rem;
+        }
+
+        .home_section_brand_cta_btn {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+
+    @media (hover: none) and (pointer: coarse) {
+        .home_section_btn_primary:hover,
+        .home_section_btn_outline:hover,
+        .home_section_card:hover,
+        .home_section_brand_card:hover,
+        .home_section_review_card:hover,
+        .home_section_brand_cta_btn:hover {
+            transform: none !important;
+            box-shadow: inherit !important;
+        }
+    }
+</style>
 
 <?php include  'footer.php'; ?>
