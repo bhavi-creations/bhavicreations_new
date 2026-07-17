@@ -7965,3 +7965,184 @@
         filter: none;
     }
 }
+
+
+/* ==========================================================
+   HOME HERO DESKTOP (1400px and Above)
+   ========================================================== */
+@media (min-width:1400px){
+
+    /* Hero Row */
+    .home_hero_section .row{
+        align-items:center;
+    }
+
+    /* Left Column */
+    .home_hero_section .col-lg-5{
+        padding-right:40px;
+    }
+
+    /* -------------------- */
+    /* Hero Stats */
+    /* -------------------- */
+
+    .home_section_hero_stats{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        flex-wrap:nowrap;
+        margin-top:42px;
+        padding-top:22px;
+        border-top:1px solid rgba(255,255,255,.08);
+        gap:0;
+    }
+
+    .home_section_hero_stat{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        flex:1;
+        min-width:0;
+        padding:0 22px;
+        border-right:1px solid rgba(255,255,255,.08);
+    }
+
+    .home_section_hero_stat:last-child{
+        border-right:none;
+        padding-right:0;
+    }
+
+    .home_section_hero_stat_rating{
+        justify-content:flex-start;
+        flex:1.6;
+        padding-left:0;
+    }
+
+     /* Rating Card */
+    .home_section_hero_stat_rating{
+        display:flex;
+        align-items:center;
+        gap:14px;
+        flex:0 0 205px;
+        min-width:205px;
+        padding-right:22px;
+        border-right:1px solid rgba(255,255,255,.08);
+    }
+
+    /* Avatar Group */
+    .home_section_avatar_group{
+        display:flex;
+        align-items:center;
+        flex-shrink:0;
+    }
+
+    .home_section_avatar_group img{
+        width:34px;
+        height:34px;
+        border:2px solid #0b0d17;
+        margin-left:-10px;
+    }
+
+    .home_section_avatar_group img:first-child{
+        margin-left:0;
+    }
+
+    /* Rating Text */
+    .home_section_stat_text{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        line-height:1.15;
+    }
+
+    /* Stars */
+    .home_section_stat_stars{
+        display:flex;
+        gap:2px;
+        margin-bottom:5px !important;
+        font-size:11px;
+        color:#ffc107;
+    }
+
+    /* 5.0 Rating */
+    .home_section_stat_num{
+        font-size:17px;
+        font-weight:700;
+        color:#fff;
+        line-height:1.1;
+        margin-bottom:3px;
+    }
+
+    /* Based on 100+ Reviews */
+    .home_section_stat_label{
+        font-size:11px;
+        color:rgba(255,255,255,.62);
+        line-height:1.25;
+    }
+
+
+    /* -------------------- */
+    /* Other Stats */
+    /* -------------------- */
+
+    .home_section_stat_item{
+        display:flex;
+        align-items:center;
+        gap:14px;
+        width:100%;
+    }
+
+    .home_section_stat_icon{
+        font-size:24px;
+        color:#0d6efd;
+        flex-shrink:0;
+    }
+
+    .home_section_stat_text{
+        display:flex;
+        flex-direction:column;
+    }
+
+    /* -------------------- */
+    /* Trusted Brands */
+    /* -------------------- */
+
+    .home_section_trusted_wrapper{
+        margin-top:34px;
+        padding:22px 34px;
+        border:1px solid rgba(255,255,255,.08);
+        border-radius:14px;
+        background:#0b1220;
+    }
+
+    .home_section_trusted_title{
+        font-size:11px;
+        letter-spacing:2px;
+        text-align:center;
+        margin-bottom:18px;
+        color:#0d6efd;
+        font-weight:700;
+    }
+
+    .home_section_logos_grid{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:20px;
+    }
+
+    .home_section_logos_grid span{
+        font-size:15px;
+        font-weight:600;
+        color:#bfc6d6;
+        opacity:.9;
+        transition:.3s;
+        white-space:nowrap;
+    }
+
+    .home_section_logos_grid span:hover{
+        color:#fff;
+        opacity:1;
+    }
+
+}

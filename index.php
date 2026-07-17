@@ -26,10 +26,10 @@
 
                 <!-- CTA Buttons -->
                 <div class="d-flex gap-3 mb-5 home_section_btn_wrapper">
-                    <a href="#" class="btn home_section_btn_primary d-flex align-items-center gap-2">
+                    <a href="#" class="btn home_section_btn_primary d-flex align-items-center gap-2" style="color:#ffffff;">
                         Start Your Project <i class="bi bi-arrow-up-right"></i>
                     </a>
-                    <a href="#" class="btn home_section_btn_outline">
+                    <a href="#" class="btn home_section_btn_outline" style="color:#ffffff; border:1px solid rgba(13, 110, 253, 0.6);">
                         <i class="bi bi-play-circle fs-5"></i> View Brand Stories
                     </a>
                 </div>
