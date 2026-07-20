@@ -219,6 +219,13 @@
             }
 
         }
+
+        @media (min-width:1200px) {
+            .index_navbar{
+                margin-top:50px !important;
+            }
+            
+        }
 </style>
   
 
@@ -227,7 +234,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg index_navbar ">
 
         <div class="container-fluid px-4 px-lg-5">
 
