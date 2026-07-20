@@ -1559,7 +1559,7 @@
 
   .about_section_title {
       font-weight: 700;
-      font-size: clamp(3rem, 5vw, 4.8rem);
+      font-size: clamp(3rem, 4vw, 4.8rem);
       line-height: 1.02;
       color: #ffffff;
       margin-bottom: 0.5rem;
@@ -5377,7 +5377,7 @@
     min-height: 100%;
     padding: 1rem 0.9rem;
     border-radius: 1rem;
-    border: 1px solid rgba(76, 114, 255, 0.16);
+    border: 1px solid #ffffff63;
     background: linear-gradient(180deg, rgba(10, 14, 24, 0.95), rgba(4, 7, 12, 0.98));
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -5445,6 +5445,7 @@
     z-index: 1;
     text-align: center;
     padding-top: 0.2rem;
+    border:1px solid #ffffff63; 
 }
 
 .package-process-icon {
@@ -8322,3 +8323,128 @@
     }
 }
 
+/* ============================================================
+   FIX ACHIEVEMENT KICKER SPACING (1200px - 1399.98px only)
+   ============================================================ */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .achievement-hero-section {
+        padding-top: 7.5rem !important;
+    }
+
+    .achievement-kicker {
+        margin-top: 0.5rem !important;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .achievement-hero-section {
+        padding-top: 7.5rem !important;
+    }
+
+    .achievement-kicker {
+        margin-top: 0.5rem !important;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.achievement-page .nav-link {
+    font-size: var(--bs-nav-link-font-size) !important;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+
+/* ============================================================
+   PACKAGE CARDS — MATCH REFERENCE EXACTLY
+   ============================================================ */
+
+/* 1) All cards get a visible thin blue border */
+.package-plan-card {
+    border: 1px solid rgba(45, 108, 255, 0.35) !important;
+}
+
+.package-plan-card.is-featured {
+    border: 1.5px solid #2d6cff !important;
+}
+
+/* 2) Checkmark icons — outlined circle instead of solid fill */
+.package-plan-list i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    border-radius: 50%;
+    border: 1.5px solid #2d6cff;
+    background: transparent;
+    color: #2d6cff;
+    font-size: 0.6rem;
+    margin-top: 0.05rem;
+}
+
+/* If using Bootstrap Icons (bi-check-circle-fill), hide the fill glyph
+   and draw our own check using a pseudo-element instead */
+.package-plan-list i.bi-check-circle-fill::before {
+    content: "";
+}
+
+.package-plan-list i.bi-check-circle-fill::after {
+    content: "\2713";
+    font-family: initial;
+    font-size: 0.62rem;
+    line-height: 1;
+    color: #2d6cff;
+}
+
+/* 3) Outline "Choose Plan" buttons — visible blue border + blue text */
+.package-plan-btn {
+    background-color: transparent !important;
+    border: 1.5px solid #2d6cff !important;
+    color: #2d6cff !important;
+    opacity: 1 !important;
+}
+
+.package-plan-btn:hover {
+    background-color: rgba(45, 108, 255, 0.1) !important;
+    color: #ffffff !important;
+}
+
+/* 4) Filled button (Growth) stays solid blue */
+.package-plan-btn.is-filled {
+    background-color: #2d6cff !important;
+    border: 1.5px solid #2d6cff !important;
+    color: #ffffff !important;
+}
+
+.package-plan-btn.is-filled:hover {
+    background-color: #1b57e8 !important;
+    color: #ffffff !important;
+}
+
+/* ============================================================
+   FINAL TWEAKS — white checkmark + white rupee symbol
+   ============================================================ */
+
+/* Checkmark inside circle → white */
+.package-plan-list i.bi-check-circle-fill::after {
+    color: #ffffff !important;
+}
+
+/* Rupee symbol (₹) inside price → white */
+.package-price strong {
+    color: #246bff;
+    font-weight: 400;
+    padding:10px;
+}
+
+.package-price span{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}

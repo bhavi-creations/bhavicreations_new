@@ -234,12 +234,12 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg index_navbar ">
+    <nav class="navbar navbar-expand-lg  ">
 
         <div class="container-fluid px-4 px-lg-5">
 
-            <a class="navbar-brand" href="#">LOGO</a>
-
+            <!-- <a class="navbar-brand" href="#">LOGO</a> -->
+<img src="./assets/img/logo.webp" alt="logo"  style="width: 150px; height: auto;">
           
             <div class="collapse navbar-collapse" id="menu">
 

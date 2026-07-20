@@ -103,7 +103,7 @@
                         <p class="package-plan-subtitle">For New Businesses</p>
 
                         <div class="package-price">
-                            <strong>&#8377;9,999</strong>
+                            <strong> <span >&#8377;</span>9,999</strong>
                             <span>/month</span>
                         </div>
 
@@ -131,7 +131,7 @@
                         <p class="package-plan-subtitle">For Growing Businesses</p>
 
                         <div class="package-price">
-                            <strong>&#8377;19,999</strong>
+                            <strong><span >&#8377;</span>19,999</strong>
                             <span>/month</span>
                         </div>
 
@@ -159,7 +159,7 @@
                         <p class="package-plan-subtitle">For Established Brands</p>
 
                         <div class="package-price">
-                            <strong>&#8377;34,999</strong>
+                            <strong><span >&#8377;</span>34,999</strong>
                             <span>/month</span>
                         </div>
 
@@ -188,7 +188,7 @@
                         <p class="package-plan-subtitle">For Enterprises</p>
 
                         <div class="package-price">
-                            <strong>&#8377;59,999</strong>
+                            <strong><span >&#8377;</span>59,999</strong>
                             <span>/month</span>
                         </div>
 

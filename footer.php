@@ -5,7 +5,8 @@
             <!-- Column 1: Logo & About -->
             <div class="col-12 col-md-6 col-lg-2 pe-lg-4 footer_col_border">
                 <div class="footer_logo">
-                    <h2>LOGO</h2>
+                    <!-- <h2>LOGO</h2> -->
+                     <img src="./assets/img/logo.webp" alt="logo"  style="width: 150px; height: auto;">
                 </div>
                 <p class="footer_about_text">
                     We are a premium branding & creative agency, helping businesses stand out, attract customers and grow.
@@ -51,24 +52,25 @@
             </div>
 
             <!-- Column 4: Contact Info -->
-            <div class="col-12 col-md-6 col-lg-3 footer_col_border footer_contact_responsive">
+        <div class="col-12 col-md-6 col-lg-3 footer_col_border footer_contact_responsive">
                 <h6 class="footer_heading">Contact Info</h6>
                 <ul class="list-unstyled footer_contact_list">
                     <li>
                         <i class="bi bi-telephone"></i>
-                        <span>+91 98765 43210</span>
+                        <span>+91 96423 43434</span>
                     </li>
                     <li>
                         <i class="bi bi-envelope"></i>
-                        <span class="footer_text_break">hello@yourdomain.com</span>
+                        <span class="footer_text_break">bhavicreations2022@gmail.com</span>
                     </li>
                     <li>
                         <i class="bi bi-geo-alt"></i>
-                        <span>123, Creative Street,<br>Your City - 500001, India</span>
+                        <span> Plot no 28, RTO Office Rd, behind lazza icecream shop, Ranga Rao Nagar, Kakinada, Vakalapudi, Andhra Pradesh 533003</span>
                     </li>
                     <li>
                         <i class="bi bi-clock"></i>
-                        <span>Mon - Sat: 10 AM - 7 PM</span>
+                        <span>Open 24 hours
+</span>
                     </li>
                 </ul>
             </div>

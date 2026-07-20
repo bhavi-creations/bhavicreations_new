@@ -67,7 +67,7 @@
                             <p>Fill out the form and we'll get back to you soon.</p>
                         </div>
 
-                        <form action="#" method="post" class="contact-form">
+                        <form action="send-mail.php" method="post" class="contact-form">
                             <div class="contact-form-grid">
                                 <label class="contact-field">
                                     <i class="bi bi-person"></i>

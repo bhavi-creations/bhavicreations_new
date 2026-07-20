@@ -4,7 +4,7 @@
 
 
 <!-- SECTION 1: HERO -->
-<section class="home_hero_section">
+<section class="home_hero_section index_navbar">
     <div class="container-fluid px-4 px-lg-5 home_hero_shell">
         <div class="row align-items-center g-5 index_hero_page">
 
