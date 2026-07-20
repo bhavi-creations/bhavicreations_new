@@ -8270,7 +8270,35 @@
 }
 
 
+/* 993px - 1199px only */
+@media (min-width: 993px) and (max-width: 1199px) {
 
+    .home_section_agency_badge{
+        top: 70px !important;   /* Increase this value if needed */
+        left: 0;
+    }
+
+}
+
+/* Mobile Navbar Toggle Fix */
+@media (max-width: 991.98px) {
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar-toggler {
+        position: absolute;
+        top: 18px;
+        right: 15px;
+        z-index: 1065;
+    }
+
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+
+}
 
 
 
