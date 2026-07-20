@@ -227,7 +227,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg mt-5">
+    <nav class="navbar navbar-expand-lg ">
 
         <div class="container-fluid px-4 px-lg-5">
 
@@ -250,7 +250,7 @@
 
                     <li class="nav-item"><a class="nav-link" href="achievement.php">Achievements</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Brochure</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#">Brochure</a></li> -->
 
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
 

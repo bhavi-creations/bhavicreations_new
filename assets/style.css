@@ -1550,7 +1550,7 @@
 
   .about_section_subtitle {
       color: #246BFF;
-      font-size: 0.78rem;
+      font-size: 1.78rem;
       font-weight: 700;
       letter-spacing: 1.7px;
       display: block;
@@ -8242,8 +8242,8 @@
     /* Prevent menu items from wrapping */
     .navbar-nav .nav-link{
         white-space: nowrap;
-        font-size: 16px;
-        padding: 8px 10px !important;
+        font-size: 13px;
+        padding: 8px 0px !important;
     }
 
     /* Reduce spacing between menu items */
@@ -8270,15 +8270,6 @@
 }
 
 
-/* 993px - 1199px only */
-@media (min-width: 993px) and (max-width: 1199px) {
-
-    .home_section_agency_badge{
-        top: 70px !important;   /* Increase this value if needed */
-        left: 0;
-    }
-
-}
 
 /* Mobile Navbar Toggle Fix */
 @media (max-width: 991.98px) {
@@ -8301,5 +8292,33 @@
 }
 
 
+/* ============================================================
+   FIX HERO Indias premium branding BADGE OVERLAP WITH NAVBAR (992px - 1199.98px only)
+   ============================================================ */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .home_hero_section {
+        padding-top: 150px !important;
+    }
 
+    .home_section_premium_badge {
+        margin-top: 20px !important;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+
+/* ============================================================
+   FIX SUBTITLE OVERLAP WITH NAVBAR LOGO (1400px and above)
+   ============================================================ */
+@media (min-width: 1400px) {
+    .about_section_wrapper {
+        padding-top: 9.5rem !important;
+    }
+
+    .about_section_subtitle {
+        margin-top: 1.2rem !important;
+        display: inline-block;
+    }
+}
 

@@ -9,7 +9,7 @@
         <div class="row align-items-center g-5 index_hero_page">
 
             <!-- Left Content -->
-            <div class="col-lg-5 z-1">
+            <div class="col-md-5 z-1">
                 <div class="home_section_premium_badge text-uppercase">
                     India's Premium Branding & Creative Agency
                 </div>
@@ -88,7 +88,7 @@
             </div>
 
             <!-- Right Content (Images & Glow) -->
-            <div class="col-lg-7 mt-4 mt-lg-0 text-center z-1">
+            <div class="col-md-7 mt-4 mt-lg-0 text-center z-1">
                 <div class="home_section_glow_container home_hero_visual">
                     <div class="home_hero_visual_glow home_hero_visual_glow_one"></div>
                     <div class="home_hero_visual_glow home_hero_visual_glow_two"></div>
