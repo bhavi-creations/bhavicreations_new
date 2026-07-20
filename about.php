@@ -108,7 +108,7 @@
     <div class="container-fluid px-4 px-lg-5">
 
         <!-- First Row: Our Story Banner Card -->
-        <div class="about_section_our_story position-relative overflow-hidden">
+        <div class="about_section_our_story position-relative overflow-hidden p-4">
             <div class="row align-items-stretch g-0">
 
                 <!-- Left Content Column -->
@@ -245,7 +245,7 @@
                     <p class="about_multi_desc mb-4">
                         We're a team of strategists, designers, marketers and creators who are passionate about building brands that leave a mark.
                     </p>
-                    <a href="#" class="btn about_sixth_cta_btn">
+                    <a href="#" class="btn about_sixth_cta_btn text-white " style="border:1px solid  rgb(17, 38, 107)">
                         Join Our Journey <i class="bi bi-arrow-right-short ms-1"></i>
                     </a>
                 </div>

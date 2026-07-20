@@ -1555,6 +1555,7 @@
       letter-spacing: 1.7px;
       display: block;
       margin-bottom: 1rem;
+      margin-top:20px !important;
   }
 
   .about_section_title {
@@ -1676,7 +1677,7 @@
   }
 
   .about_second_card {
-      background: rgba(255, 255, 255, 0.01);
+      background: linear-gradient(90deg, rgba(12, 25, 69, 0.95) 0%, rgba(11, 21, 48, 0.98) 60%, rgba(6, 10, 18, 0.98) 100%);
       border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 16px;
       padding: 1.2rem;
@@ -1724,7 +1725,7 @@
   }
 
   .about_section_our_story {
-      background: linear-gradient(145deg, rgba(6, 9, 19, 0.98) 0%, rgba(3, 5, 10, 0.94) 100%);
+      background: linear-gradient(90deg, rgba(12, 25, 69, 0.95) 0%, rgba(11, 21, 48, 0.98) 60%, rgba(6, 10, 18, 0.98) 100%);
       border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 20px;
       margin-bottom: 1.75rem;
@@ -1783,7 +1784,8 @@
   }
 
   .about_fourth_section {
-      background: linear-gradient(145deg, rgba(6, 9, 19, 0.98) 0%, rgba(3, 5, 10, 0.94) 100%);
+      /* background: linear-gradient(145deg, rgba(6, 9, 19, 0.98) 0%, rgba(3, 5, 10, 0.94) 100%); */
+      background: linear-gradient(90deg, rgba(12, 25, 69, 0.95) 0%, rgba(11, 21, 48, 0.98) 60%, rgba(6, 10, 18, 0.98) 100%);
       border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 20px;
       padding: 2.4rem 1.5rem;
@@ -1943,7 +1945,8 @@
   }
 
   .about_sixth_card {
-      background-color: rgba(4, 5, 10, 0.42);
+      /* background-color: rgba(4, 5, 10, 0.42); */
+      background: linear-gradient(90deg, rgba(12, 25, 69, 0.95) 0%, rgba(11, 21, 48, 0.98) 60%, rgba(6, 10, 18, 0.98) 100%);
       border: 1px solid rgba(255, 255, 255, 0.05);
       border-radius: 14px;
       padding: 1.5rem 1rem;
@@ -5445,7 +5448,8 @@
     z-index: 1;
     text-align: center;
     padding-top: 0.2rem;
-    border:1px solid #ffffff63; 
+    border:1px solid #ffffff63;
+    padding:20px; 
 }
 
 .package-process-icon {
@@ -8448,3 +8452,45 @@
     font-size: 30px;
     font-weight: 400;
 }
+
+@media (max-width:768px) {
+      .home_section_trusted_title {
+      /* color: #246BFF !important; */
+      font-size: 15px;
+    }
+    
+  }
+
+    @media (min-width:768px) {
+      .home_section_trusted_title {
+      
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+    
+  }
+
+.brands-filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.brands-filter-btn {
+    flex: 0 0 calc(33.333% - 7px);
+    max-width: calc(33.333% - 7px);
+    text-align: center;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+    .brands-filter-chips {
+        justify-content: flex-start;
+    }
+
+    .brands-filter-btn {
+        flex: 0 0 auto;
+        max-width: none;
+    }
+}
+

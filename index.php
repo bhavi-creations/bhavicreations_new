@@ -102,10 +102,10 @@
 </section>
 
 <!-- SECTION 2: TRUSTED BY -->
-<section class="home_section_trusted">
+<section class="home_section_trusted d-none d-md-block">
     <div class="container-fluid px-4 px-lg-5">
         <div class="home_section_trusted_wrapper">
-            <h6 class="home_section_trusted_title text-center text-uppercase fw-bold">Trusted by 250+ Businesses Worldwide</h6>
+            <h6 class="home_section_trusted_title text-center text-uppercase text-white fw-bold">Trusted by 250+ Businesses Worldwide</h6>
 
             <div class="home_section_logos_grid">
                 <span>Google</span>
@@ -118,6 +118,39 @@
                 <span>Uber</span>
                 <span>PHILIPS</span>
                 <span>Deloitte.</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="home_section_trusted d-block d-md-none">
+    <div class="container-fluid px-4 px-lg-5">
+        <div class="home_section_trusted_wrapper">
+            <h6 class="home_section_trusted_title text-center text-uppercase text-white fw-bold">Trusted by 250+ Businesses Worldwide</h6>
+
+            <div class="home_section_logos_grid">
+
+                <marquee behavior="" direction="">
+
+                    <span>Google</span> &nbsp; &nbsp; /
+               &nbsp; &nbsp;     <span>SAMSUNG</span>&nbsp; &nbsp; /
+               &nbsp; &nbsp;     <span>amazon</span>&nbsp; &nbsp; /
+                &nbsp; &nbsp;    <span>zomato</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>swiggy</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>paytm</span>&nbsp; &nbsp; /
+                   &nbsp; &nbsp; <span>TATA</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>Uber</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>PHILIPS</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>Deloitte.</span>&nbsp; &nbsp; 
+
+
+
+                </marquee>
+
+
+
+
             </div>
         </div>
     </div>
@@ -579,52 +612,52 @@
                         <!-- Industry 1 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-heart-pulse text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">Healthcare</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Healthcare</span>
                         </div>
                         <!-- Industry 2 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-cup-hot text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">Restaurants</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Restaurants</span>
                         </div>
                         <!-- Industry 3 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-buildings text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">Real Estate</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Real Estate</span>
                         </div>
                         <!-- Industry 4 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-mortarboard text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">Education</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Education</span>
                         </div>
                         <!-- Industry 5 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-handbag text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">Fashion</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Fashion</span>
                         </div>
                         <!-- Industry 6 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-gem text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">Jewellery</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Jewellery</span>
                         </div>
                         <!-- Industry 7 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-cone-striped text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">Construction</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Construction</span>
                         </div>
                         <!-- Industry 8 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-shop text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">Retail</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Retail</span>
                         </div>
                         <!-- Industry 9 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-rocket text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">Startups</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Startups</span>
                         </div>
                         <!-- Industry 10 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-three-dots text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small" style="font-size: 0.75rem;">And More</span>
+                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">And More</span>
                         </div>
 
                     </div>
@@ -645,41 +678,41 @@
                         <!-- Stat 1 -->
                         <div class="col home_section_industire_stat position-relative">
                             <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">800+</h2>
-                            <p class="text-secondary small m-0" style="font-size: 0.85rem;">Projects Completed</p>
+                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Projects Completed</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 2 -->
                         <div class="col home_section_industire_stat position-relative">
                             <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">250+</h2>
-                            <p class="text-secondary small m-0" style="font-size: 0.85rem;">Happy Clients</p>
+                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Happy Clients</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 3 -->
                         <div class="col home_section_industire_stat">
                             <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">40+</h2>
-                            <p class="text-secondary small m-0" style="font-size: 0.85rem;">Industries Served</p>
+                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Industries Served</p>
                         </div>
 
                         <!-- Stat 4 -->
                         <div class="col home_section_industire_stat position-relative mt-md-5">
                             <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">6+</h2>
-                            <p class="text-secondary small m-0" style="font-size: 0.85rem;">Years of Experience</p>
+                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Years of Experience</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 5 -->
                         <div class="col home_section_industire_stat position-relative mt-md-5">
                             <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">98%</h2>
-                            <p class="text-secondary small m-0" style="font-size: 0.85rem;">Client Satisfaction</p>
+                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Client Satisfaction</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 6 -->
                         <div class="col home_section_industire_stat mt-md-5">
                             <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">15+</h2>
-                            <p class="text-secondary small m-0" style="font-size: 0.85rem;">Awards Won</p>
+                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Awards Won</p>
                         </div>
 
                     </div>
