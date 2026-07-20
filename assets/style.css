@@ -13,6 +13,24 @@
       overflow: hidden;
   }
 
+
+
+  @media (max-width:768px) {
+    .index_hero_page{
+        margin-top: 3px !important;
+    }
+    
+  }
+
+
+
+    @media (min-width:1200px)  {
+    .index_hero_page{
+                padding-top: 120px !important;
+                
+    }
+    
+  }
   .home_hero_section::before,
   .home_hero_section::after {
       content: "";
@@ -24,8 +42,8 @@
   }
 
   .home_hero_section::before {
-      width: 420px;
-      height: 420px;
+      /* width: 420px;
+      height: 420px; */
       top: 80px;
       right: -130px;
       background: radial-gradient(circle, rgba(13, 110, 253, 0.25) 0%, rgba(13, 110, 253, 0) 72%);
@@ -8146,3 +8164,114 @@
     }
 
 }
+
+
+.home_section_avatar_group img{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    border:2px solid #050b18;
+
+    margin-left:-12px;
+
+}
+
+.home_section_avatar_group img:first-child{
+
+    margin-left:0;
+
+}
+
+.home_section_stat_text{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.home_section_stat_stars{
+
+    color:#FFC107;
+
+    font-size:12px;
+
+    margin-bottom:4px;
+
+}
+
+.home_section_stat_icon{
+
+    font-size:26px;
+
+    color:#246BFF;
+
+}
+
+.home_section_stat_num {
+    
+    font-size:22px;
+    
+    font-weight:700;
+    
+    color:#fff;
+    
+    line-height:1;
+    
+}
+
+.home_section_stat_label{
+
+    margin-top:4px;
+
+    font-size:13px;
+
+    color:#9fa6b2;
+
+}
+
+/* ==========================================================
+   Navbar Fix (992px - 1243px)
+   ========================================================== */
+@media (min-width: 992px) and (max-width: 1243px) {
+
+    /* Prevent menu items from wrapping */
+    .navbar-nav .nav-link{
+        white-space: nowrap;
+        font-size: 16px;
+        padding: 8px 10px !important;
+    }
+
+    /* Reduce spacing between menu items */
+    .navbar-nav{
+        gap: 8px !important;
+    }
+
+    /* Allow navbar to occupy available space */
+    .navbar-collapse{
+        justify-content: center;
+    }
+
+    /* Slightly reduce CTA button padding */
+    .navbar .btn,
+    .navbar .header_btn{
+        padding: 12px 22px !important;
+        font-size: 16px;
+    }
+
+    /* Optional: reduce logo width if required */
+    .navbar-brand img{
+        max-width: 150px;
+    }
+}
+
+
+
+
+
+
+

@@ -6,7 +6,7 @@
 <!-- SECTION 1: HERO -->
 <section class="home_hero_section">
     <div class="container-fluid px-4 px-lg-5 home_hero_shell">
-        <div class="row align-items-center g-5 pt-5 mt-5">
+        <div class="row align-items-center g-5 index_hero_page">
 
             <!-- Left Content -->
             <div class="col-lg-5 z-1">

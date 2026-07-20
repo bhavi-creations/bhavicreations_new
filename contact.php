@@ -25,8 +25,8 @@
                                 <div class="contact-info-icon"><i class="bi bi-telephone"></i></div>
                                 <div>
                                     <h3>Call Us</h3>
-                                    <p>+91 98765 43210</p>
-                                    <span>Mon - Sat: 10 AM - 7 PM</span>
+                                    <p>+91 96423 43434</p>
+                                    <span>Open 24 hours</span>
                                 </div>
                             </article>
 
@@ -34,8 +34,8 @@
                                 <div class="contact-info-icon"><i class="bi bi-envelope"></i></div>
                                 <div>
                                     <h3>Email Us</h3>
-                                    <p>hello@yourdomain.com</p>
-                                    <span>We reply within 24 hours</span>
+                                    <p>bhavicreations2022@gmail.com</p>
+                                    <span>We reply quickly</span>
                                 </div>
                             </article>
 
@@ -43,8 +43,8 @@
                                 <div class="contact-info-icon"><i class="bi bi-geo-alt"></i></div>
                                 <div>
                                     <h3>Our Location</h3>
-                                    <p>123, Creative Street,</p>
-                                    <span>Your City - 500001, India</span>
+                                    <p>Plot no 28, RTO Office Rd, behind lazza icecream shop, Ranga Rao Nagar, Kakinada, Vakalapudi, </p>
+                                    <span>kakinada - 533003,  Andhra Pradesh </span>
                                 </div>
                             </article>
 
@@ -52,7 +52,7 @@
                                 <div class="contact-info-icon"><i class="bi bi-whatsapp"></i></div>
                                 <div>
                                     <h3>Chat on WhatsApp</h3>
-                                    <p>+91 98765 43210</p>
+                                    <p>+91 96423 43434</p>
                                     <span>Quick support on WhatsApp</span>
                                 </div>
                             </article>
@@ -166,7 +166,9 @@
                     </div>
 
                     <div class="col-12 col-lg-5">
-                        <div class="contact-map-visual">
+
+                    
+                        <div class="contact-map-visual"  >
                             <div class="contact-map-grid"></div>
                             <div class="contact-map-road contact-map-road-a"></div>
                             <div class="contact-map-road contact-map-road-b"></div>
@@ -186,16 +188,17 @@
                     </div>
 
                     <div class="col-12 col-lg-4">
+                        <a href="https://share.google/1fZJ2kmlpL3rvUIrw"  target="_blank">
                         <div class="contact-office-card">
                             <h3>Our Office</h3>
                             <p>
-                                123, Creative Street,<br>
-                                Your City - 500001, India
+                               Plot no 28, RTO Office Rd, behind lazza icecream shop, Ranga Rao Nagar, Kakinada, Vakalapudi, Andhra Pradesh 533003
                             </p>
-                            <a href="#" class="btn contact-directions-btn">
+                            <!-- <a href="#" class="btn contact-directions-btn">
                                 Get Directions <i class="bi bi-arrow-up-right"></i>
-                            </a>
+                            </a> -->
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>
