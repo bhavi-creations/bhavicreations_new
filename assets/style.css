@@ -8548,3 +8548,36 @@
     }
 
 }
+
+
+
+/* Only targets screen widths between 992px and 1400px */
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  
+  /* Stats Container - Single Row Display */
+  .home_section_hero_stats {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 15px !important; /* Space between each stat item */
+  }
+
+  /* Each Stat Item Adjustment */
+  .home_section_hero_stat {
+    flex: 1 1 auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 !important;
+    padding: 0 10px !important;
+    white-space: nowrap !important; /* Prevents text from breaking into 2 lines */
+  }
+
+  /* Optional: Keep left border lines clean between items */
+  .home_section_hero_stat + .home_section_hero_stat {
+    border-left: 1px solid rgba(255, 255, 255, 0.08) !important;
+  }
+}
