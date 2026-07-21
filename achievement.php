@@ -63,7 +63,7 @@
     </section>
 
     <!-- STATS -->
-    <section class="achievement-stats-section">
+    <!-- <section class="achievement-stats-section">
         <div class="container-fluid px-4 px-lg-5">
             <div class="achievement-stats-banner">
                 <div class="achievement-stat-item">
@@ -107,7 +107,60 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+<section class="container">
+
+ <div class="about_fourth_section">
+            <div class="row g-4 text-center justify-content-center">
+
+                <!-- Metric 1: Projects -->
+                <div class="col-6 col-md-3 about_fourth_stat_col">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <img src=".\assets\img\project completed.png" style="width: 60px; height:60px;">
+                        </div>
+                        <h3 class="about_fourth_counter" >800+</h3>
+                        <p class="about_fourth_label">Projects Completed</p>
+                    </div>
+                </div>
+
+                <!-- Metric 2: Happy Clients -->
+                <div class="col-6 col-md-3 about_fourth_stat_col">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box" >
+                            <img src=".\assets\img\happy-clients-01.png" style="width: 60px; height:60px;">
+                        </div>
+                        <h3 class="about_fourth_counter">250+</h3>
+                        <p class="about_fourth_label">Happy Clients</p>
+                    </div>
+                </div>
+
+                <!-- Metric 3: Experience -->
+                <div class="col-6 col-md-3 about_fourth_stat_col">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <img src=".\assets\img\years_of_experience.png" style="width: 60px; height:60px;">
+                        </div>
+                        <h3 class="about_fourth_counter">6+</h3>
+                        <p class="about_fourth_label">Years of Experience</p>
+                    </div>
+                </div>
+
+                <!-- Metric 4: Satisfaction -->
+                <div class="col-6 col-md-3">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <img src=".\assets\img\client_satisfaction.png" style="width: 60px; height:60px;">
+                        </div>
+                        <h3 class="about_fourth_counter">98%</h3>
+                        <p class="about_fourth_label">Client Satisfaction</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+</section>
+     
 
     <!-- JOURNEY -->
     <section class="achievement-journey-section">
