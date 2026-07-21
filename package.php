@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="col-12 col-lg-7">
-                    <div class="package-hero-visual">
+                    <!-- <div class="package-hero-visual">
                         <div class="package-hero-ring package-hero-ring-a"></div>
                         <div class="package-hero-ring package-hero-ring-b"></div>
                         <div class="package-hero-ring package-hero-ring-c"></div>
@@ -81,7 +81,9 @@
                         <div class="package-hero-phone">
                             <span>Growth<br>Starts<br>With <em>Strategy.</em></span>
                         </div>
-                    </div>
+                    </div> -->
+
+                      <img src="./assets/img/package_img.png" alt="branding_img" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -103,7 +105,7 @@
                         <p class="package-plan-subtitle">For New Businesses</p>
 
                         <div class="package-price">
-                            <strong> <span >&#8377;</span>9,999</strong>
+                            <strong> <span>&#8377;</span>9,999</strong>
                             <span>/month</span>
                         </div>
 
@@ -131,7 +133,7 @@
                         <p class="package-plan-subtitle">For Growing Businesses</p>
 
                         <div class="package-price">
-                            <strong><span >&#8377;</span>19,999</strong>
+                            <strong><span>&#8377;</span>19,999</strong>
                             <span>/month</span>
                         </div>
 
@@ -159,7 +161,7 @@
                         <p class="package-plan-subtitle">For Established Brands</p>
 
                         <div class="package-price">
-                            <strong><span >&#8377;</span>34,999</strong>
+                            <strong><span>&#8377;</span>34,999</strong>
                             <span>/month</span>
                         </div>
 
@@ -188,7 +190,7 @@
                         <p class="package-plan-subtitle">For Enterprises</p>
 
                         <div class="package-price">
-                            <strong><span >&#8377;</span>59,999</strong>
+                            <strong><span>&#8377;</span>59,999</strong>
                             <span>/month</span>
                         </div>
 
@@ -333,8 +335,8 @@
                     </div>
                 </div>
 
-                 <a href="tel:+919642343434" class="talk_btn">
-                <i class="bi bi-telephone-fill"></i>    Let's Talk 
+                <a href="tel:+919642343434" class="talk_btn">
+                    <i class="bi bi-telephone-fill"></i> Let's Talk
                 </a>
             </div>
         </div>

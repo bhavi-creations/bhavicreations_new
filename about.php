@@ -30,13 +30,14 @@
 
             <!-- Right Image/Office Graphic Column -->
             <div class="col-12 col-lg-6">
-                <div class="about_section_img_container position-relative overflow-hidden rounded-4">
-                    <!-- Office Glow Banner Simulation -->
+                <!-- <div class="about_section_img_container position-relative overflow-hidden rounded-4">
+                   
                     <div class="about_section_glass_overlay d-flex flex-column align-items-center justify-content-center">
                         <h1 class="about_section_inner_logo m-0">LOGO</h1>
                         <p class="about_section_inner_tagline text-muted small mt-2">Creative. Strategic. Impactful.</p>
                     </div>
-                </div>
+                </div> -->
+                 <img src="./assets/img/about_img.png" alt="about_img" class="img-fluid" style="border-radius: 7px;">
             </div>
 
         </div>
@@ -128,9 +129,11 @@
 
                 <!-- Right Image Column -->
                 <div class="col-12 col-lg-6 about_story_img_col">
-                    <div class="about_story_image_holder">
-                        <div class="about_story_img_overlay"></div>
-                    </div>
+                    <!-- <div class="about_story_image_holder"> -->
+                        <!-- <div class="about_story_img_overlay"></div> -->
+                         <img src="./assets/img/2.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
+                         <img src="./assets/img/2.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;">
+                    <!-- </div> -->
                 </div>
 
             </div>

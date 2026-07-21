@@ -26,7 +26,7 @@
                 </div>
 
                 <div class="col-12 col-lg-7">
-                    <div class="brands-hero-visual">
+                    <!-- <div class="brands-hero-visual">
                         <div class="brands-hero-glow brands-hero-glow-left"></div>
                         <div class="brands-hero-glow brands-hero-glow-right"></div>
 
@@ -39,7 +39,9 @@
                                 decoding="async"
                             >
                         </div>
-                    </div>
+                    </div> -->
+
+                    <img src="./assets/img/branding _img.png" alt="branding_img" class="img-fluid">
                 </div>
             </div>
         </div>
