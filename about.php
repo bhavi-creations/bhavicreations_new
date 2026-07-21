@@ -48,7 +48,7 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="about_second_card d-flex align-items-start gap-3">
                     <div class="about_second_icon_box">
-                        <i class="bi bi-lightbulb"></i>
+                        <img src=".\assets\img\stratgr_co.png" style="width: 50px; height:50px;">
                     </div>
                     <div>
                         <h6 class="about_second_card_title">Strategic Thinking</h6>
@@ -61,7 +61,7 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="about_second_card d-flex align-items-start gap-3">
                     <div class="about_second_icon_box">
-                        <i class="bi bi-palette"></i>
+                        <img src=".\assets\img\Creative-excellence.png" style="width: 50px; height:50px;">
                     </div>
                     <div>
                         <h6 class="about_second_card_title">Creative Excellence</h6>
@@ -74,7 +74,7 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="about_second_card d-flex align-items-start gap-3">
                     <div class="about_second_icon_box">
-                        <i class="bi bi-graph-up-arrow"></i>
+                        <img src=".\assets\img\Result-Driven.png" style="width: 50px; height:50px;">
                     </div>
                     <div>
                         <h6 class="about_second_card_title">Result Driven</h6>
@@ -87,7 +87,7 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="about_second_card d-flex align-items-start gap-3">
                     <div class="about_second_icon_box">
-                        <i class="bi bi-layers"></i>
+                        <img src=".\assets\img\end_to_end_solutions.png" style="width: 50px; height:50px;">
                     </div>
                     <div>
                         <h6 class="about_second_card_title">End-to-End Solutions</h6>
@@ -144,7 +144,7 @@
                 <div class="col-6 col-md-3 about_fourth_stat_col">
                     <div class="about_fourth_stat_card">
                         <div class="about_fourth_icon_box">
-                            <i class="bi bi-gear-fill"></i>
+                            <img src=".\assets\img\project completed.png" style="width: 60px; height:60px;">
                         </div>
                         <h3 class="about_fourth_counter">800+</h3>
                         <p class="about_fourth_label">Projects Completed</p>
@@ -154,8 +154,8 @@
                 <!-- Metric 2: Happy Clients -->
                 <div class="col-6 col-md-3 about_fourth_stat_col">
                     <div class="about_fourth_stat_card">
-                        <div class="about_fourth_icon_box">
-                            <i class="bi bi-people-fill"></i>
+                        <div class="about_fourth_icon_box" >
+                            <i class="bi bi-people-fill" ></i>
                         </div>
                         <h3 class="about_fourth_counter">250+</h3>
                         <p class="about_fourth_label">Happy Clients</p>
@@ -177,7 +177,7 @@
                 <div class="col-6 col-md-3">
                     <div class="about_fourth_stat_card">
                         <div class="about_fourth_icon_box">
-                            <i class="bi bi-target"></i>
+                            <img src=".\assets\img\client_satisfaction.png" style="width: 60px; height:60px;">
                         </div>
                         <h3 class="about_fourth_counter">98%</h3>
                         <p class="about_fourth_label">Client Satisfaction</p>

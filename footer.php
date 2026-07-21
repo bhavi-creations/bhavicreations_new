@@ -105,6 +105,30 @@
     </div>
 </footer>
 
+
+<style>
+   .whatsapp-link {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 35px;
+  text-align: center;
+  z-index: 999;
+}
+    </style>
+
+    <a href="https://api.whatsapp.com/send?phone=91" style="color: #fff;" class="whatsapp-link"
+        target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

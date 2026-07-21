@@ -262,12 +262,15 @@
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
 
                 </ul>
+ 
 
-                <a href="#" class="talk_btn">
+                 
 
-                    Let's Talk <i class="bi bi-arrow-up-right"></i>
-
+                <a href="tel:+919642343434" class="talk_btn">
+                <i class="bi bi-telephone-fill"></i>    Let's Talk 
                 </a>
+
+                
 
             </div>
 

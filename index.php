@@ -55,7 +55,7 @@
                     <!-- Stat 2: Projects -->
                     <div class="home_section_hero_stat">
                         <div class="home_section_stat_item">
-                            <i class="bi bi-briefcase home_section_stat_icon"></i>
+                             <img src=".\assets\img\project completed.png" style="width: 40px; height:40px;">
                             <div class="home_section_stat_text">
                                 <span class="home_section_stat_num">800+</span>
                                 <span class="home_section_stat_label">Projects Completed</span>
@@ -187,7 +187,8 @@
             <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-person-bounding-box" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        <!-- <i class="bi bi-person-bounding-box" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                         <img src=".\assets\img\branding.png" style="width: 50px; height:50px;">
                     </div>
                     <h4 class="home_section_card_title fw-bold fs-5 mb-2">Branding</h4>
                     <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
@@ -213,7 +214,8 @@
             <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-chat-left-quote" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        <!-- <i class="bi bi-chat-left-quote" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                         <img src=".\assets\img\social-media.png" style="width: 50px; height:50px;">
                     </div>
                     <h4 class="home_section_card_title fw-bold fs-5 mb-2">Social Media</h4>
                     <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
@@ -226,7 +228,8 @@
             <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-target" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        <!-- <i class="bi bi-target" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                         <img src=".\assets\img\Paid Ads & Leads.png" style="width: 50px; height:50px;">
                     </div>
                     <h4 class="home_section_card_title fw-bold fs-5 mb-2">Paid Ads & Leads</h4>
                     <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
@@ -239,7 +242,8 @@
             <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-film" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        <!-- <i class="bi bi-film" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                         <img src=".\assets\img\Video Production.png" style="width: 50px; height:50px;">
                     </div>
                     <h4 class="home_section_card_title fw-bold fs-5 mb-2">Video Production</h4>
                     <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
@@ -265,7 +269,8 @@
             <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-vector-pen" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        <!-- <i class="bi bi-vector-pen" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                         <img src=".\assets\img\Graphic Design.png" style="width: 50px; height:50px;">
                     </div>
                     <h4 class="home_section_card_title fw-bold fs-5 mb-2">Graphic Design</h4>
                     <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
@@ -291,7 +296,8 @@
             <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-geo-alt" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        <!-- <i class="bi bi-geo-alt" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                         <img src=".\assets\img\Place Branding.png" style="width: 50px; height:50px;">
                     </div>
                     <h4 class="home_section_card_title fw-bold fs-5 mb-2">Place Branding</h4>
                     <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
@@ -304,7 +310,8 @@
             <div class="col">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-lightbulb" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        <!-- <i class="bi bi-lightbulb" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                         <img src=".\assets\img\stratgr_co.png" style="width: 50px; height:50px;">
                     </div>
                     <h4 class="home_section_card_title fw-bold fs-5 mb-2">Strategy & Co.</h4>
                     <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
@@ -388,7 +395,7 @@
                     <!-- 02 Strategy -->
                     <div class="process-node">
                         <div class="node-circle">
-                            <i class="bi bi-bezier2"></i>
+                            <img src=".\assets\img\stratgr_co.png" style="width: 40px; height:40px;">
                         </div>
                         <div class="node-text-wrapper">
                             <div class="node-step">02</div>
@@ -400,7 +407,7 @@
                     <!-- 03 Design -->
                     <div class="process-node">
                         <div class="node-circle">
-                            <i class="bi bi-palette"></i>
+                            <img src=".\assets\img\Graphic Design.png" style="width: 40px; height:40px;">
                         </div>
                         <div class="node-text-wrapper">
                             <div class="node-step">03</div>
@@ -412,7 +419,7 @@
                     <!-- 04 Review -->
                     <div class="process-node">
                         <div class="node-circle">
-                            <i class="bi bi-sliders"></i>
+                           <img src=".\assets\img\reviews.png" style="width: 40px; height:40px;"> 
                         </div>
                         <div class="node-text-wrapper">
                             <div class="node-step">04</div>
@@ -612,52 +619,55 @@
                         <!-- Industry 1 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-heart-pulse text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Healthcare</span>
+                            <span class="text-secondary small text-white" style="font-size: 15px;">Healthcare</span>
                         </div>
                         <!-- Industry 2 -->
                         <div class="col home_section_industire_item">
-                            <i class="bi bi-cup-hot text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Restaurants</span>
+                            <!-- <i class="bi bi-cup-hot text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
+                             <img src=".\assets\img\resturant.png" style="width: 42px; height:42px;">
+                            <span class="text-secondary small text-white" style="font-size: 15px;"><br>Restaurants</span>
                         </div>
                         <!-- Industry 3 -->
                         <div class="col home_section_industire_item">
-                            <i class="bi bi-buildings text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Real Estate</span>
+                            <!-- <i class="bi bi-buildings text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
+                             <img src=".\assets\img\realstat.png" style="width: 42px; height:42px;">
+                            <span class="text-secondary small text-white" style="font-size: 15px;"><br>Real Estate</span>
                         </div>
                         <!-- Industry 4 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-mortarboard text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Education</span>
+                            <span class="text-secondary small text-white" style="font-size: 15px;">Education</span>
                         </div>
                         <!-- Industry 5 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-handbag text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Fashion</span>
+                            <span class="text-secondary small text-white" style="font-size: 15px;">Fashion</span>
                         </div>
                         <!-- Industry 6 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-gem text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Jewellery</span>
+                            <span class="text-secondary small text-white" style="font-size: 15px;">Jewellery</span>
                         </div>
                         <!-- Industry 7 -->
                         <div class="col home_section_industire_item">
-                            <i class="bi bi-cone-striped text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Construction</span>
+                            <!-- <i class="bi bi-cone-striped text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
+                             <img src=".\assets\img\construction.png" style="width: 50px; height:50px;">
+                            <span class="text-secondary small text-white" style="font-size: 15px;">Construction</span>
                         </div>
                         <!-- Industry 8 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-shop text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Retail</span>
+                            <span class="text-secondary small text-white" style="font-size: 15px;">Retail</span>
                         </div>
                         <!-- Industry 9 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-rocket text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">Startups</span>
+                            <span class="text-secondary small text-white" style="font-size: 15px;">Startups</span>
                         </div>
                         <!-- Industry 10 -->
                         <div class="col home_section_industire_item">
                             <i class="bi bi-three-dots text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
-                            <span class="text-secondary small text-white" style="font-size: 0.75rem;">And More</span>
+                            <span class="text-secondary small text-white" style="font-size: 15px;">And More</span>
                         </div>
 
                     </div>
