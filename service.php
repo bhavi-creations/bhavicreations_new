@@ -221,8 +221,13 @@
                     </div>
                 </div>
 
-                <a href="#" class="btn services-cta-btn">
+                <!-- <a href="#" class="btn services-cta-btn">
                     Let's Talk <i class="bi bi-arrow-up-right"></i>
+                </a> -->
+
+
+                 <a href="tel:+919642343434" class="talk_btn">
+                <i class="bi bi-telephone-fill"></i>    Let's Talk 
                 </a>
             </div>
         </div>

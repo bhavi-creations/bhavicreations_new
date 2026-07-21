@@ -19,9 +19,9 @@
                         Every project, every partnership and every success has shaped who we are today. Here&rsquo;s a look at the numbers, recognition and trust we&rsquo;ve earned along the way.
                     </p>
 
-                    <a href="#" class="btn achievement-primary-btn">
+                    <!-- <a href="#" class="btn achievement-primary-btn">
                         See Our Work <i class="bi bi-arrow-up-right"></i>
-                    </a>
+                    </a> -->
                 </div>
 
                 <div class="col-12 col-lg-7">
@@ -404,8 +404,8 @@
                     </div>
                 </div>
 
-                <a href="#" class="btn achievement-cta-btn">
-                    Let&rsquo;s Talk <i class="bi bi-arrow-up-right"></i>
+                <a href="tel:+919642343434" class="talk_btn">
+                <i class="bi bi-telephone-fill"></i>    Let's Talk 
                 </a>
             </div>
         </div>

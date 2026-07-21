@@ -23,7 +23,7 @@
                     We help businesses become unforgettable. From building powerful brands to driving real-world results through creative strategies and smart marketing - we do it all, with passion and purpose.
                 </p>
 
-                <a href="#" class="btn about_section_cta_btn">
+                <a href="#" class="btn about_section_cta_btn text-white">
                     Let's Build Together <i class="bi bi-arrow-up-right-short"></i>
                 </a>
             </div>
@@ -146,7 +146,7 @@
                         <div class="about_fourth_icon_box">
                             <img src=".\assets\img\project completed.png" style="width: 60px; height:60px;">
                         </div>
-                        <h3 class="about_fourth_counter" >800+</h3>
+                        <h3 class="about_fourth_counter">800+</h3>
                         <p class="about_fourth_label">Projects Completed</p>
                     </div>
                 </div>
@@ -154,7 +154,7 @@
                 <!-- Metric 2: Happy Clients -->
                 <div class="col-6 col-md-3 about_fourth_stat_col">
                     <div class="about_fourth_stat_card">
-                        <div class="about_fourth_icon_box" >
+                        <div class="about_fourth_icon_box">
                             <img src=".\assets\img\happy-clients-01.png" style="width: 60px; height:60px;">
                         </div>
                         <h3 class="about_fourth_counter">250+</h3>
@@ -308,7 +308,11 @@
                     <p class="about_seventh_desc m-0">Your brand deserves to be seen, remembered and loved. We're here to make that happen.</p>
                 </div>
                 <div class="col-12 col-md-4 text-center text-md-end">
-                    <a href="#" class="btn about_seventh_btn">Let's Talk <i class="bi bi-arrow-up-right-short ms-1"></i></a>
+
+                    <a href="tel:+919642343434" class="talk_btn">
+                        <i class="bi bi-telephone-fill"></i> Let's Talk
+                    </a>
+                    <!-- <a href="#" class="btn about_seventh_btn text-white">Let's Talk <i class="bi bi-arrow-up-right-short ms-1"></i></a> -->
                 </div>
             </div>
         </div>

@@ -220,8 +220,8 @@
                     </div>
                 </div>
 
-                <a href="#" class="btn contact-cta-btn">
-                    Let's Talk <i class="bi bi-arrow-up-right"></i>
+                 <a href="tel:+919642343434" class="talk_btn">
+                <i class="bi bi-telephone-fill"></i>    Let's Talk 
                 </a>
 
                 <div class="contact-cta-plane" aria-hidden="true"></div>

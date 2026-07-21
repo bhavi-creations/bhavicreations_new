@@ -19,7 +19,7 @@
                         Choose the perfect package for your business goals and let us create impact that drives growth, engagement and real results.
                     </p>
 
-                    <a href="#" class="btn package-primary-btn">
+                    <a href="contact.php" class="btn package-primary-btn text-white">
                         Discuss Your Needs <i class="bi bi-arrow-up-right"></i>
                     </a>
 
@@ -333,8 +333,8 @@
                     </div>
                 </div>
 
-                <a href="#" class="btn package-cta-btn">
-                    Let's Talk <i class="bi bi-arrow-up-right"></i>
+                 <a href="tel:+919642343434" class="talk_btn">
+                <i class="bi bi-telephone-fill"></i>    Let's Talk 
                 </a>
             </div>
         </div>
