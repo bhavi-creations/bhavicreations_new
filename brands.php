@@ -46,43 +46,58 @@
     </section>
 
     <!-- STATS -->
-    <section class="brands-stats-section">
-        <div class="container-fluid px-4 px-lg-5">
-            <div class="brands-stats-bar">
-                <div class="brands-stat-item">
-                    <div class="brands-stat-icon"><i class="bi bi-rocket-takeoff"></i></div>
-                    <div>
-                        <h3 class="brands-stat-number">800+</h3>
-                        <p class="brands-stat-label">Projects Completed</p>
+    <section class="container">
+
+ <div class="about_fourth_section">
+            <div class="row g-4 text-center justify-content-center">
+
+                <!-- Metric 1: Projects -->
+                <div class="col-6 col-md-3 about_fourth_stat_col">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <img src=".\assets\img\project completed.png" style="width: 60px; height:60px;">
+                        </div>
+                        <h3 class="about_fourth_counter" >800+</h3>
+                        <p class="about_fourth_label">Projects Completed</p>
                     </div>
                 </div>
 
-                <div class="brands-stat-item">
-                    <div class="brands-stat-icon"><i class="bi bi-emoji-smile"></i></div>
-                    <div>
-                        <h3 class="brands-stat-number">250+</h3>
-                        <p class="brands-stat-label">Happy Clients</p>
+                <!-- Metric 2: Happy Clients -->
+                <div class="col-6 col-md-3 about_fourth_stat_col">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box" >
+                            <img src=".\assets\img\happy-clients-01.png" style="width: 60px; height:60px;">
+                        </div>
+                        <h3 class="about_fourth_counter">250+</h3>
+                        <p class="about_fourth_label">Happy Clients</p>
                     </div>
                 </div>
 
-                <div class="brands-stat-item">
-                    <div class="brands-stat-icon"><i class="bi bi-award"></i></div>
-                    <div>
-                        <h3 class="brands-stat-number">6+</h3>
-                        <p class="brands-stat-label">Years of Experience</p>
+                <!-- Metric 3: Experience -->
+                <div class="col-6 col-md-3 about_fourth_stat_col">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <img src=".\assets\img\years_of_experience.png" style="width: 60px; height:60px;">
+                        </div>
+                        <h3 class="about_fourth_counter">6+</h3>
+                        <p class="about_fourth_label">Years of Experience</p>
                     </div>
                 </div>
 
-                <div class="brands-stat-item">
-                    <div class="brands-stat-icon"><i class="bi bi-hand-thumbs-up"></i></div>
-                    <div>
-                        <h3 class="brands-stat-number">98%</h3>
-                        <p class="brands-stat-label">Client Satisfaction</p>
+                <!-- Metric 4: Satisfaction -->
+                <div class="col-6 col-md-3">
+                    <div class="about_fourth_stat_card">
+                        <div class="about_fourth_icon_box">
+                            <img src=".\assets\img\client_satisfaction.png" style="width: 60px; height:60px;">
+                        </div>
+                        <h3 class="about_fourth_counter">98%</h3>
+                        <p class="about_fourth_label">Client Satisfaction</p>
                     </div>
                 </div>
+
             </div>
         </div>
-    </section>
+</section>
 
     
     <!-- FILTER + PROJECTS -->
