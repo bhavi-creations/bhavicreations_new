@@ -8513,3 +8513,37 @@
           margin-top: 60px !important;
       }
   }
+
+
+
+  /* packages page hero icons alignment 2 per row in mobile response */
+  @media (max-width:768px){
+
+    .package-hero-features{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:18px 14px;
+    }
+
+    .package-hero-feature{
+        display:flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    .package-hero-feature img,
+    .package-hero-feature i{
+        width:42px !important;
+        height:42px !important;
+        min-width:42px;
+        font-size:42px;
+        flex-shrink:0;
+    }
+
+    .package-hero-feature span{
+        font-size:15px;
+        line-height:1.35;
+        margin:0;
+    }
+
+}
