@@ -624,13 +624,13 @@
                         <!-- Industry 2 -->
                         <div class="col home_section_industire_item">
                             <!-- <i class="bi bi-cup-hot text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
-                             <img src=".\assets\img\resturant.png" style="width: 42px; height:42px;">
+                             <img src=".\assets\img\resturant.png" style="width: 50px; height:50px;">
                             <span class="text-secondary small text-white" style="font-size: 15px;"><br>Restaurants</span>
                         </div>
                         <!-- Industry 3 -->
                         <div class="col home_section_industire_item">
                             <!-- <i class="bi bi-buildings text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
-                             <img src=".\assets\img\realstat.png" style="width: 42px; height:42px;">
+                             <img src=".\assets\img\realstat.png" style="width: 50px; height:50px;">
                             <span class="text-secondary small text-white" style="font-size: 15px;"><br>Real Estate</span>
                         </div>
                         <!-- Industry 4 -->
@@ -640,7 +640,8 @@
                         </div>
                         <!-- Industry 5 -->
                         <div class="col home_section_industire_item">
-                            <i class="bi bi-handbag text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i>
+                            <!-- <i class="bi bi-handbag text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
+                             <img src=".\assets\img\fashion.png" style="width: 50px; height:50px;">
                             <span class="text-secondary small text-white" style="font-size: 15px;">Fashion</span>
                         </div>
                         <!-- Industry 6 -->
