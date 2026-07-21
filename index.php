@@ -755,7 +755,8 @@
             </div>
         </div>
 
-        <!-- Testimonials Grid -->
+        
+      <!-- Testimonials Grid -->
         <div class="row g-4">
 
             <!-- Review 1 -->
@@ -769,15 +770,19 @@
 
                     <!-- Quote Text -->
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
-                        "They understood our vision perfectly and delivered a brand identity that truly represents our business."
+                        "I have tried quite a few marketing agencies in last 12 years. Bhavi Creations stands out in their commitment, they are open for suggestions and also give results. First time, I feel, I can trust them and in safe hands."
                     </p>
 
                     <!-- User Info -->
                     <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
-                        <img src="https://ui-avatars.com/api/?name=Rohan+Mehta&background=random" alt="Rohan" class="rounded-circle border border-secondary" style="width: 45px; height: 45px; object-fit: cover;">
+                        <!-- <img src="https://ui-avatars.com/api/?name=Rohan+Mehta&background=random" alt="Rohan" class="rounded-circle border border-secondary" style="width: 45px; height: 45px; object-fit: cover;"> -->
+                        <h2 class="rounded-circle border border-secondary   p-2">SS </h2>
+
+
+
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">Rohan Mehta</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">CEO, Fintek</span>
+                            <h6 class="home_section_review_name fw-bold mb-0">Dr Sunil Sathyanarayana</h6>
+                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist</span>
                         </div>
                     </div>
 
@@ -795,14 +800,14 @@
                     </div>
 
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
-                        "Excellent team, creative ideas and outstanding support throughout the project."
+                        "We had a great experience working with Bhavi Creations Pvt. Ltd., the best branding agency in Kakinada. From logo design to digital ad campaigns, their creativity and dedication are unmatched. They also designed a beautiful and responsive website for us!"
                     </p>
 
                     <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
-                        <img src="https://ui-avatars.com/api/?name=Ananya+Singh&background=random" alt="Ananya" class="rounded-circle border border-secondary" style="width: 45px; height: 45px; object-fit: cover;">
+                        <h2 class="rounded-circle border border-secondary   p-2">NV </h2>
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">Ananya Singh</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Founder, Nourish Organic</span>
+                            <h6 class="home_section_review_name fw-bold mb-0">Nsri Vinaya</h6>
+                            <!-- <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Founder, Nourish Organic</span> -->
                         </div>
                     </div>
 
@@ -819,14 +824,14 @@
                     </div>
 
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
-                        "Our sales increased 3X after their digital marketing strategy. Highly recommended!"
+                        "Highly professional team at Bhavi Creations! They handled our SEO and content marketing with great expertise. If you’re searching for the top digital marketing services in Kakinada, Bhavi Creations is the one to trust. Their designs and campaign planning are top-notch."
                     </p>
 
                     <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
-                        <img src="https://ui-avatars.com/api/?name=Vikram+Raj&background=random" alt="Vikram" class="rounded-circle border border-secondary" style="width: 45px; height: 45px; object-fit: cover;">
+                        <h2 class="rounded-circle border border-secondary   p-2">sk </h2>
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">Vikram Raj</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Marketing Head, Urban Space</span>
+                            <h6 class="home_section_review_name fw-bold mb-0">Satish Kumar</h6>
+                            <!-- <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Marketing Head, Urban Space</span> -->
                         </div>
                     </div>
 
@@ -1239,6 +1244,8 @@
             text-align: left;
             align-items: flex-start;
             gap: 0.95rem;
+            padding:20px;
+            border:2px solid #0d6efd;
         }
 
         .home_index_why_choose .node-circle {
@@ -1291,6 +1298,12 @@
         .home_section_brand_cta_banner {
             padding: 1.5rem 1.2rem;
         }
+
+
+ 
+        .home_index_why_choose .node-step {
+            font-size:25px;
+}
     }
 
     @media (max-width: 575.98px) {

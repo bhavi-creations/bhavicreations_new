@@ -84,6 +84,7 @@
         </div>
     </section>
 
+    
     <!-- FILTER + PROJECTS -->
     <section class="brands-filter-section" id="projects">
         <div class="container-fluid px-4 px-lg-5">
@@ -109,11 +110,11 @@
                         <img src="assets/img/branging_side.png" alt="Aurora Skincare" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
-                        <h3>Aurora Skincare</h3>
-                        <p class="brands-project-meta">Beauty &amp; Skincare</p>
-                        <p class="brands-project-desc">Crafted a premium brand identity that reflects elegance and builds trust.</p>
+                        <h3>Branding</h3>
+                        <p class="brands-project-meta">Build a Brand That Lasts</p>
+                        <p class="brands-project-desc">Craft a memorable brand identity that builds trust, reflects your vision, and creates a lasting impression.</p>
 
-                        <div class="brands-project-stats">
+                       <div class="brands-project-stats">
                             <div class="brands-project-stat">
                                 <strong>200%</strong>
                                 <span>Brand Awareness</span>
@@ -122,7 +123,7 @@
                                 <strong>150%</strong>
                                 <span>Growth in Sales</span>
                             </div>
-                        </div>
+                        </div> 
 
                         <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a>
                     </div>
@@ -134,9 +135,9 @@
                         <img src="assets/img/index_1.png" alt="Fintek Financial" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
-                        <h3>Fintek Financial</h3>
-                        <p class="brands-project-meta">Fintech</p>
-                        <p class="brands-project-desc">Designed a modern, user-friendly website that simplifies finance for everyone.</p>
+                        <h3>Website Design</h3>
+                        <p class="brands-project-meta">Design Websites That Inspire</p>
+                        <p class="brands-project-desc">Create modern, responsive websites that deliver seamless user experiences and leave a lasting impression.</p>
 
                         <div class="brands-project-stats">
                             <div class="brands-project-stat">
@@ -155,13 +156,13 @@
 
                 <article class="brands-project-card" data-category="branding">
                     <div class="brands-project-media brands-project-media-c">
-                        <span class="brands-project-badge">Branding</span>
+                        <span class="brands-project-badge">SEO</span>
                         <img src="assets/img/1.png" alt="Mountain Brew" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
-                        <h3>Mountain Brew</h3>
-                        <p class="brands-project-meta">Food &amp; Beverages</p>
-                        <p class="brands-project-desc">Developed a warm and inviting brand identity that brews connection.</p>
+                        <h3>Seo</h3>
+                        <p class="brands-project-meta">Rank Higher on Search</p>
+                        <p class="brands-project-desc">Boost your online visibility and attract more organic traffic with effective SEO strategies that improve search rankings.</p>
 
                         <div class="brands-project-stats">
                             <div class="brands-project-stat">
@@ -180,13 +181,13 @@
 
                 <article class="brands-project-card" data-category="digital-marketing">
                     <div class="brands-project-media brands-project-media-d">
-                        <span class="brands-project-badge">Hoarding</span>
+                        <span class="brands-project-badge">Digital Marketing</span>
                         <img src="assets/img/index_1.png" alt="Elite Living" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
-                        <h3>Elite Living</h3>
-                        <p class="brands-project-meta">Real Estate</p>
-                        <p class="brands-project-desc">Premium outdoor campaigns that positioned the brand as a true market leader.</p>
+                        <h3>Digital Marketing</h3>
+                        <p class="brands-project-meta">Grow Your Brand Digitally</p>
+                        <p class="brands-project-desc">Reach the right audience, increase engagement, and drive business growth with result-focused digital marketing strategies.</p>
 
                         <div class="brands-project-stats">
                             <div class="brands-project-stat">
@@ -209,9 +210,9 @@
                         <img src="assets/img/branging_side.png" alt="Urban Bites" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
-                        <h3>Urban Bites</h3>
-                        <p class="brands-project-meta">Restaurant</p>
-                        <p class="brands-project-desc">Creative social media strategy that turned followers into loyal customers.</p>
+                        <h3>Social Media</h3>
+                        <p class="brands-project-meta">Connect. Engage. Grow.</p>
+                        <p class="brands-project-desc">Build a strong social media presence with creative content that engages your audience and grows your brand.</p>
 
                         <div class="brands-project-stats">
                             <div class="brands-project-stat">
@@ -234,9 +235,9 @@
                         <img src="assets/img/1.png" alt="NextGen Solutions" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
-                        <h3>NextGen Solutions</h3>
-                        <p class="brands-project-meta">Technology</p>
-                        <p class="brands-project-desc">High-impact corporate videos that communicate innovation and drive conversions.</p>
+                        <h3>Video Production</h3>
+                        <p class="brands-project-meta">Bring Stories to Life</p>
+                        <p class="brands-project-desc">Create impactful videos that capture attention, communicate your message, and strengthen your brand.</p>
 
                         <div class="brands-project-stats">
                             <div class="brands-project-stat">

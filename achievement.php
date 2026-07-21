@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="col-12 col-lg-7">
-                    <div class="achievement-hero-visual">
+                    <!-- <div class="achievement-hero-visual">
                         <div class="achievement-hero-ring achievement-hero-ring-a"></div>
                         <div class="achievement-hero-ring achievement-hero-ring-b"></div>
                         <div class="achievement-hero-towers"></div>
@@ -52,7 +52,11 @@
 
                             <div class="achievement-floor-ring"></div>
                         </div>
-                    </div>
+                    </div> -->
+               
+               <img src="./assets/img/2.png" alt="User" class="img-fluid">
+               
+               
                 </div>
             </div>
         </div>
@@ -170,57 +174,64 @@
 
             <div class="achievement-awards-grid">
                 <article class="achievement-award-card">
-                    <div class="achievement-award-ring">
-                        <i class="bi bi-award"></i>
+                    <div class="">
+
+                    <img src="./assets/img/tba-2023.png" alt="2023" class="img-fluid mb-3">
+                        <!-- <i class="bi bi-award"></i> -->
                         <strong>TOP BRANDING AGENCY</strong>
                         <span>2023</span>
                     </div>
-                    <p>Top Branding Agency 2023</p>
+                    <!-- <p>Top Branding Agency 2023</p> -->
                 </article>
 
                 <article class="achievement-award-card">
-                    <div class="achievement-award-ring">
-                        <i class="bi bi-award"></i>
+                    <div class="">
+                        <!-- <i class="bi bi-award"></i> -->
+                          <img src="./assets/img/bdc-2022.png" alt="2022" class="img-fluid mb-3">
                         <strong>BEST DIGITAL CAMPAIGN</strong>
                         <span>2022</span>
                     </div>
-                    <p>Best Digital Campaign 2022</p>
+                    <!-- <p>Best Digital Campaign 2022</p> -->
                 </article>
 
                 <article class="achievement-award-card">
-                    <div class="achievement-award-ring">
-                        <i class="bi bi-award"></i>
+                    <div class="">
+                        <!-- <i class="bi bi-award"></i> -->
+                          <img src="./assets/img/eicd-2021.png" alt="2021" class="img-fluid mb-3">
                         <strong>EXCELLENCE IN CREATIVE DESIGN</strong>
                         <span>2021</span>
                     </div>
-                    <p>Excellence In Creative Design 2021</p>
+                    <!-- <p>Excellence In Creative Design 2021</p> -->
                 </article>
 
                 <article class="achievement-award-card">
-                    <div class="achievement-award-ring">
-                        <i class="bi bi-award"></i>
+                    <div class="">
+                        <!-- <i class="bi bi-award"></i> -->
+                          <img src="./assets/img/mig-2021.png" alt="2021" class="img-fluid mb-3">
                         <strong>MOST INNOVATIVE AGENCY</strong>
                         <span>2021</span>
                     </div>
-                    <p>Most Innovative Agency 2021</p>
+                    <!-- <p>Most Innovative Agency 2021</p> -->
                 </article>
 
                 <article class="achievement-award-card">
-                    <div class="achievement-award-ring">
-                        <i class="bi bi-award"></i>
+                    <div class="">
+                        <!-- <i class="bi bi-award"></i> -->
+                          <img src="./assets/img/cca-2020.png" alt="2020" class="img-fluid mb-3">
                         <strong>CLIENT CHOICE AWARD</strong>
                         <span>2020</span>
                     </div>
-                    <p>Client Choice Award 2020</p>
+                    <!-- <p>Client Choice Award 2020</p> -->
                 </article>
 
                 <article class="achievement-award-card">
-                    <div class="achievement-award-ring">
-                        <i class="bi bi-award"></i>
+                    <div class="">
+                        <!-- <i class="bi bi-award"></i> -->
+                          <img src="./assets/img/eaoy-2019.png" alt="2019" class="img-fluid mb-3">
                         <strong>EMERGING AGENCY OF THE YEAR</strong>
                         <span>2019</span>
                     </div>
-                    <p>Emerging Agency Of The Year 2019</p>
+                    <!-- <p>Emerging Agency Of The Year 2019</p> -->
                 </article>
             </div>
         </div>
@@ -244,13 +255,25 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                     </div>
-                    <p>&ldquo;Their creativity, strategy and dedication helped our brand reach new heights. Highly recommended!&rdquo;</p>
+                    <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
+                        "I have tried quite a few marketing agencies in last 12 years. Bhavi Creations stands out in their commitment, they are open for suggestions and also give results. First time, I feel, I can trust them and in safe hands."
+                    </p>
                     <div class="achievement-client-row">
-                        <span class="achievement-avatar achievement-avatar-a">RM</span>
+                       <!-- User Info -->
+                    <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
+                        <!-- <img src="https://ui-avatars.com/api/?name=Rohan+Mehta&background=random" alt="Rohan" class="rounded-circle border border-secondary" style="width: 45px; height: 45px; object-fit: cover;"> -->
+                        <h2 class="rounded-circle border border-secondary   p-2">SS </h2>
+
+
+
                         <div>
-                            <strong>Rohan Mehta</strong>
-                            <span>CEO, Fintek</span>
+                            <h6 class="home_section_review_name fw-bold mb-0">Dr Sunil Sathyanarayana</h6>
+                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist</span>
                         </div>
+                    </div>
+
+                    <!-- Big Quote Watermark -->
+                    <i class="bi bi-quote position-absolute text-white" style="opacity: 0.03; font-size: 8rem; bottom: -20px; right: 10px; line-height: 1;"></i>
                     </div>
                 </article>
 
@@ -263,13 +286,19 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                     </div>
-                    <p>&ldquo;A reliable team that truly understands our goals and delivers beyond expectations.&rdquo;</p>
+                    <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
+                        "We had a great experience working with Bhavi Creations Pvt. Ltd., the best branding agency in Kakinada. From logo design to digital ad campaigns, their creativity and dedication are unmatched. They also designed a beautiful and responsive website for us!"
+                    </p>
                     <div class="achievement-client-row">
-                        <span class="achievement-avatar achievement-avatar-b">AS</span>
+                        <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
+                        <h2 class="rounded-circle border border-secondary   p-2">NV </h2>
                         <div>
-                            <strong>Ananya Singh</strong>
-                            <span>Founder, Nourish Organic</span>
+                            <h6 class="home_section_review_name fw-bold mb-0">Nsri Vinaya</h6>
+                            <!-- <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Founder, Nourish Organic</span> -->
                         </div>
+                    </div>
+
+                    <i class="bi bi-quote position-absolute text-white" style="opacity: 0.03; font-size: 8rem; bottom: -20px; right: 10px; line-height: 1;"></i>
                     </div>
                 </article>
 
@@ -282,13 +311,19 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                     </div>
-                    <p>&ldquo;Professional, responsive and result-driven. They are the perfect growth partner for our brand.&rdquo;</p>
+                    <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
+                        "Highly professional team at Bhavi Creations! They handled our SEO and content marketing with great expertise. If you’re searching for the top digital marketing services in Kakinada, Bhavi Creations is the one to trust. Their designs and campaign planning are top-notch."
+                    </p>
                     <div class="achievement-client-row">
-                        <span class="achievement-avatar achievement-avatar-c">VR</span>
+                        <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
+                        <h2 class="rounded-circle border border-secondary   p-2">sk </h2>
                         <div>
-                            <strong>Vikram Raj</strong>
-                            <span>Marketing Head, Urban Space</span>
+                            <h6 class="home_section_review_name fw-bold mb-0">Satish Kumar</h6>
+                            <!-- <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Marketing Head, Urban Space</span> -->
                         </div>
+                    </div>
+
+                    <i class="bi bi-quote position-absolute text-white" style="opacity: 0.03; font-size: 8rem; bottom: -20px; right: 10px; line-height: 1;"></i>
                     </div>
                 </article>
             </div>

@@ -56,31 +56,31 @@
 
             <div class="services-cards-grid">
                 <article class="services-card">
-                    <div class="services-card-icon"><i class="bi bi-bezier2"></i></div>
+                    <div class="services-card-icon"><img src=".\assets\img\branding.png" style="width: 50px; height:50px;"></div>
                     <h3>Branding</h3>
                     <p>We create strong brand identities that connect, inspire and leave a lasting impression.</p>
                 </article>
 
                 <article class="services-card">
-                    <div class="services-card-icon"><i class="bi bi-laptop"></i></div>
+                    <div class="services-card-icon"><img src=".\assets\img\development.png" style="width: 50px; height:50px;"></div>
                     <h3>Website Design &amp;<br>Development</h3>
                     <p>Modern, responsive and user-friendly websites that convert visitors into customers.</p>
                 </article>
 
                 <article class="services-card">
-                    <div class="services-card-icon"><i class="bi bi-chat-heart"></i></div>
+                    <div class="services-card-icon"><img src=".\assets\img\social-media.png" style="width: 50px; height:50px;"></div>
                     <h3>Social Media<br>Management</h3>
                     <p>Strategic content, consistent engagement and growth-focused social media handling.</p>
                 </article>
 
                 <article class="services-card">
-                    <div class="services-card-icon"><i class="bi bi-bullseye"></i></div>
+                    <div class="services-card-icon"><img src=".\assets\img\Paid Ads & Leads.png" style="width: 50px; height:50px;"></div>
                     <h3>Paid Ads &amp;<br>Lead Generation</h3>
                     <p>Meta &amp; Google Ads strategies that bring high-quality leads and maximum ROI.</p>
                 </article>
 
                 <article class="services-card">
-                    <div class="services-card-icon"><i class="bi bi-camera-video"></i></div>
+                    <div class="services-card-icon"><img src=".\assets\img\Video Production.png" style="width: 50px; height:50px;"></div>
                     <h3>Video Production</h3>
                     <p>Reels, commercials, corporate videos and brand films that tell your story powerfully.</p>
                 </article>
@@ -92,7 +92,7 @@
                 </article>
 
                 <article class="services-card">
-                    <div class="services-card-icon"><i class="bi bi-vector-pen"></i></div>
+                    <div class="services-card-icon"><img src=".\assets\img\Graphic Design.png" style="width: 50px; height:50px;"></div>
                     <h3>Graphic Design</h3>
                     <p>Creative designs for posters, flyers, brochures, visiting cards and marketing collaterals.</p>
                 </article>
@@ -110,7 +110,7 @@
                 </article>
 
                 <article class="services-card">
-                    <div class="services-card-icon"><i class="bi bi-geo-alt"></i></div>
+                    <div class="services-card-icon"><img src=".\assets\img\Place Branding.png" style="width: 50px; height:50px;"></div>
                     <h3>Place Branding &amp;<br>Stickers</h3>
                     <p>Shop branding, wall stickers, vehicle stickers and place branding solutions.</p>
                 </article>
@@ -123,7 +123,7 @@
         <div class="container-fluid px-4 px-lg-5">
             <div class="services-stats-banner">
                 <div class="services-stat-item">
-                    <div class="services-stat-icon"><i class="bi bi-people"></i></div>
+                    <div class="services-stat-icon"><img src=".\assets\img\project completed.png" style="width: 50px; height:50px;"></div>
                     <div>
                         <h3 class="services-stat-number">800+</h3>
                         <p class="services-stat-label">Projects Completed</p>
@@ -131,7 +131,7 @@
                 </div>
 
                 <div class="services-stat-item">
-                    <div class="services-stat-icon"><i class="bi bi-emoji-smile"></i></div>
+                    <div class="services-stat-icon"><img src=".\assets\img\happy-clients-01.png" style="width: 50px; height:50px;"></div>
                     <div>
                         <h3 class="services-stat-number">250+</h3>
                         <p class="services-stat-label">Happy Clients</p>
@@ -139,7 +139,7 @@
                 </div>
 
                 <div class="services-stat-item">
-                    <div class="services-stat-icon"><i class="bi bi-patch-check"></i></div>
+                    <div class="services-stat-icon"><img src=".\assets\img\years_of_experience.png" style="width: 50px; height:50px;"></div>
                     <div>
                         <h3 class="services-stat-number">6+</h3>
                         <p class="services-stat-label">Years of Experience</p>
@@ -147,7 +147,7 @@
                 </div>
 
                 <div class="services-stat-item">
-                    <div class="services-stat-icon"><i class="bi bi-hand-thumbs-up"></i></div>
+                    <div class="services-stat-icon"><img src=".\assets\img\client_satisfaction.png" style="width: 50px; height:50px;"></div>
                     <div>
                         <h3 class="services-stat-number">98%</h3>
                         <p class="services-stat-label">Client Satisfaction</p>

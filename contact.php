@@ -107,7 +107,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-lg-3  d-none d-lg-block">
                     <div class="contact-office-panel" aria-hidden="true">
                         <div class="contact-office-skyline"></div>
                         <div class="contact-office-lights"></div>

@@ -1813,8 +1813,8 @@
   }
 
   .about_fourth_label {
-      color: #8a8b94;
-      font-size: 0.85rem;
+      color:white;
+      font-size: 22px;
       margin: 0;
       font-weight: 500;
   }
@@ -2147,7 +2147,7 @@
       }
 
       .about_fourth_counter {
-          font-size: 1.75rem;
+          font-size: 20px;
       }
 
       .about_fifth_image_placeholder {
@@ -3741,12 +3741,13 @@
     font-size: clamp(1.9rem, 2.7vw, 2.8rem);
     line-height: 1;
     font-weight: 800;
+    font-size:30px;
 }
 
 .services-stat-label {
     margin: 0.2rem 0 0;
-    color: rgba(226, 232, 240, 0.74);
-    font-size: 0.95rem;
+    color:white;
+    font-size: 20px;
 }
 
 .services-why-section {
@@ -8498,3 +8499,17 @@
     width: 100px;
     height: 100px;
 }
+
+@media (min-width: 1400px) {
+    .about_fourth_counter {
+        font-size: 30px;
+    }
+}
+
+
+@media(max-width:768px) {
+      .our_achivement_section {
+
+          margin-top: 60px !important;
+      }
+  }

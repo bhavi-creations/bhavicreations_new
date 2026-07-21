@@ -146,7 +146,7 @@
                         <div class="about_fourth_icon_box">
                             <img src=".\assets\img\project completed.png" style="width: 60px; height:60px;">
                         </div>
-                        <h3 class="about_fourth_counter" style>800+</h3>
+                        <h3 class="about_fourth_counter" >800+</h3>
                         <p class="about_fourth_label">Projects Completed</p>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                 <div class="col-6 col-md-3 about_fourth_stat_col">
                     <div class="about_fourth_stat_card">
                         <div class="about_fourth_icon_box" >
-                            <i class="bi bi-people-fill" ></i>
+                            <img src=".\assets\img\happy-clients-01.png" style="width: 60px; height:60px;">
                         </div>
                         <h3 class="about_fourth_counter">250+</h3>
                         <p class="about_fourth_label">Happy Clients</p>
@@ -166,7 +166,7 @@
                 <div class="col-6 col-md-3 about_fourth_stat_col">
                     <div class="about_fourth_stat_card">
                         <div class="about_fourth_icon_box">
-                            <i class="bi bi-calendar3"></i>
+                            <img src=".\assets\img\years_of_experience.png" style="width: 60px; height:60px;">
                         </div>
                         <h3 class="about_fourth_counter">6+</h3>
                         <p class="about_fourth_label">Years of Experience</p>
@@ -257,7 +257,7 @@
                         <!-- Strategists -->
                         <div class="col-6 col-md-3">
                             <div class="about_sixth_card text-center">
-                                <div class="about_sixth_icon"><i class="bi bi-lightbulb"></i></div>
+                                <div class="about_sixth_icon"><img src=".\assets\img\stratgr_co.png" style="width: 50px; height:50px;"></div>
                                 <h6>Strategists</h6>
                                 <p>Plan with insight and market intelligence.</p>
                             </div>
@@ -266,7 +266,7 @@
                         <!-- Designers -->
                         <div class="col-6 col-md-3">
                             <div class="about_sixth_card text-center">
-                                <div class="about_sixth_icon"><i class="bi bi-layers"></i></div>
+                                <div class="about_sixth_icon"><img src=".\assets\img\Designer.png" style="width: 60px; height:50px;"></div>
                                 <h6>Designers</h6>
                                 <p>Design with creativity and precision.</p>
                             </div>

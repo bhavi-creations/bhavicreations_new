@@ -25,7 +25,7 @@
 
                     <div class="package-hero-features">
                         <div class="package-hero-feature">
-                            <i class="bi bi-shield-check"></i>
+                            <img src=".\assets\img\end_to_end_solutions.png" style="width: 50px; height:50px;">
                             <span>Customized<br>Solutions</span>
                         </div>
                         <div class="package-hero-feature">
@@ -33,11 +33,11 @@
                             <span>Dedicated<br>Support</span>
                         </div>
                         <div class="package-hero-feature">
-                            <i class="bi bi-graph-up-arrow"></i>
+                            <img src=".\assets\img\Result-Driven.png" style="width: 50px; height:50px;">
                             <span>Data-Driven<br>Approach</span>
                         </div>
                         <div class="package-hero-feature">
-                            <i class="bi bi-credit-card"></i>
+                            <img src=".\assets\img\Transparent-pricing.png" style="width: 50px; height:50px;">
                             <span>Transparent<br>Pricing</span>
                         </div>
                     </div>
@@ -235,13 +235,13 @@
                             </article>
 
                             <article class="package-addon-card">
-                                <div class="package-addon-icon"><i class="bi bi-palette"></i></div>
+                                <div class="package-addon-icon"><img src=".\assets\img\Graphic Design.png" style="width: 50px; height:50px;"></div>
                                 <h3>Graphic Design</h3>
                                 <p>Starting at &#8377;4,999</p>
                             </article>
 
                             <article class="package-addon-card">
-                                <div class="package-addon-icon"><i class="bi bi-code-slash"></i></div>
+                                <div class="package-addon-icon"><img src=".\assets\img\development.png" style="width: 50px; height:50px;"></div>
                                 <h3>Website Development</h3>
                                 <p>Starting at &#8377;14,999</p>
                             </article>
