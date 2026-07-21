@@ -146,7 +146,7 @@
                         <div class="about_fourth_icon_box">
                             <img src=".\assets\img\project completed.png" style="width: 60px; height:60px;">
                         </div>
-                        <h3 class="about_fourth_counter">800+</h3>
+                        <h3 class="about_fourth_counter" style>800+</h3>
                         <p class="about_fourth_label">Projects Completed</p>
                     </div>
                 </div>
