@@ -56,7 +56,7 @@
 
             <div class="services-cards-grid">
                 <article class="services-card">
-                    <div class="services-card-icon"><img src=".\assets\img\branding.png" style="width: 50px; height:50px;"></div>
+                    <div class="services-card-icon"><img src=".\assets\img\brand.png" style="width: 50px; height:50px;"></div>
                     <h3>Branding</h3>
                     <p>We create strong brand identities that connect, inspire and leave a lasting impression.</p>
                 </article>

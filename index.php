@@ -174,7 +174,7 @@
                 </h2>
             </div>
             <div class="col-md-4 text-md-end mt-3 mt-md-0">
-                <a href="#" class="home_section_view_all text-decoration-none  fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem;">
+                <a href="service.php" class="home_section_view_all text-decoration-none  fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem;">
                     View All Services <i class="bi bi-arrow-up-right text-primary"></i>
                 </a>
             </div>
@@ -188,7 +188,7 @@
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <!-- <i class="bi bi-person-bounding-box" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
-                         <img src=".\assets\img\branding.png" style="width: 50px; height:50px;">
+                         <img src=".\assets\img\brand.png" style="width: 50px; height:50px;">
                     </div>
                     <h4 class="home_section_card_title fw-bold fs-5 mb-2">Branding</h4>
                     <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
@@ -475,7 +475,7 @@
                 </span>
             </div>
             <div class="col-6 text-end">
-                <a href="#" class="home_section_brand_view_all text-decoration-none text-secondary fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem; color: #246BFF !important;">
+                <a href="brands.php" class="home_section_brand_view_all text-decoration-none text-secondary fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem; color: #246BFF !important;">
                     View All Projects <i class="bi bi-arrow-up-right text-primary"></i>
                 </a>
             </div>
@@ -488,7 +488,7 @@
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
                     <!-- Card Image Content -->
-                    <img src="./assets/img/1.png" alt="Aurora Skincare" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                    <img src="./assets/img/branding.png" alt="Aurora Skincare" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
                     <!-- Gradient Bottom Overlay -->
                     <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
@@ -497,8 +497,8 @@
 
                         <div class="d-flex justify-content-between align-items-end">
                             <div>
-                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Aurora Skincare</h4>
-                                <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Beauty & Skincare</p>
+                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Branding</h4>
+                                <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Beauty & Skincare</p> -->
                             </div>
                             <!-- Action Button Icon -->
                             <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
@@ -512,15 +512,15 @@
             <!-- Card 2: Fintek Financial -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <img src="./assets/img/index_1.png" alt="Fintek Financial" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                    <img src="./assets/img/website.png" alt="Fintek Financial" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
                     <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
                         <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Website</span>
 
                         <div class="d-flex justify-content-between align-items-end">
                             <div>
-                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Fintek Financial</h4>
-                                <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Finance</p>
+                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Website</h4>
+                                <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Finance</p> -->
                             </div>
                             <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
                                 <i class="bi bi-arrow-up-right text-white fs-5"></i>
@@ -533,15 +533,15 @@
             <!-- Card 3: Mountain Brew -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <img src="./assets/img/branging_side.png" alt="Mountain Brew" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                    <img src="./assets/img/seo.png" alt="Mountain Brew" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
                     <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
-                        <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Branding</span>
+                        <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">SEO</span>
 
                         <div class="d-flex justify-content-between align-items-end">
                             <div>
-                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Mountain Brew</h4>
-                                <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Food & Beverages</p>
+                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">seo</h4>
+                                <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Food & Beverages</p> -->
                             </div>
                             <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
                                 <i class="bi bi-arrow-up-right text-white fs-5"></i>
@@ -554,15 +554,15 @@
             <!-- Card 4: Elite Living -->
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <img src="./assets/img/1.png" alt="Elite Living" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                    <img src="./assets/img/social media.png" alt="Elite Living" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
                     <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
-                        <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Hoarding</span>
+                        <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Social Media</span>
 
                         <div class="d-flex justify-content-between align-items-end">
                             <div>
-                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Elite Living</h4>
-                                <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Real Estate</p>
+                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Social Media</h4>
+                                <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Real Estate</p> -->
                             </div>
                             <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
                                 <i class="bi bi-arrow-up-right text-white fs-5"></i>

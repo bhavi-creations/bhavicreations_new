@@ -17,7 +17,12 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-<style>
+
+
+    <link href="assets/img/favicon.png" rel="icon">
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <style>
         * {
             margin: 0;
             padding: 0;
@@ -221,13 +226,13 @@
         }
 
         @media (min-width:1200px) {
-            .index_navbar{
-                margin-top:50px !important;
+            .index_navbar {
+                margin-top: 50px !important;
             }
-            
+
         }
-</style>
-  
+    </style>
+
 
 
 </head>
@@ -239,8 +244,8 @@
         <div class="container-fluid px-4 px-lg-5">
 
             <!-- <a class="navbar-brand" href="#">LOGO</a> -->
-<img src="./assets/img/logo.webp" alt="logo"  style="width: 150px; height: auto;">
-          
+            <img src="./assets/img/logo.webp" alt="logo" style="width: 150px; height: auto;">
+
             <div class="collapse navbar-collapse" id="menu">
 
                 <ul class="navbar-nav mx-auto">
@@ -262,20 +267,20 @@
                     <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
 
                 </ul>
- 
 
-                 
+
+
 
                 <a href="tel:+919642343434" class="talk_btn">
-                <i class="bi bi-telephone-fill"></i>    Let's Talk 
+                    <i class="bi bi-telephone-fill"></i> Let's Talk
                 </a>
 
-                
+
 
             </div>
 
 
-  <button class="navbar-toggler bg-white d-inline-flex align-items-center justify-content-center d-block d-lg-none"
+            <button class="navbar-toggler bg-white d-inline-flex align-items-center justify-content-center d-block d-lg-none"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#menu"
@@ -292,11 +297,5 @@
 
 
 
-        
+
     </nav>
-
-
-
-
-
-   

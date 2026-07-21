@@ -7,7 +7,7 @@
         <div class="brands-hero-orb brands-hero-orb-right"></div>
 
         <div class="container-fluid px-4 px-lg-5  mt-5 pt-5">
-            <div class="row align-items-center g-5  " >
+            <div class="row align-items-center g-5  ">
                 <div class="col-12 col-lg-5">
                     <span class="brands-kicker">OUR BRAND STORIES</span>
                     <h1 class="brands-hero-title">
@@ -48,9 +48,9 @@
     </section>
 
     <!-- STATS -->
-    <section class="container">
+    <section class="container ">
 
- <div class="about_fourth_section">
+        <div class="about_fourth_section">
             <div class="row g-4 text-center justify-content-center">
 
                 <!-- Metric 1: Projects -->
@@ -59,7 +59,7 @@
                         <div class="about_fourth_icon_box">
                             <img src=".\assets\img\project completed.png" style="width: 60px; height:60px;">
                         </div>
-                        <h3 class="about_fourth_counter" >800+</h3>
+                        <h3 class="about_fourth_counter">800+</h3>
                         <p class="about_fourth_label">Projects Completed</p>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                 <!-- Metric 2: Happy Clients -->
                 <div class="col-6 col-md-3 about_fourth_stat_col">
                     <div class="about_fourth_stat_card">
-                        <div class="about_fourth_icon_box" >
+                        <div class="about_fourth_icon_box">
                             <img src=".\assets\img\happy-clients-01.png" style="width: 60px; height:60px;">
                         </div>
                         <h3 class="about_fourth_counter">250+</h3>
@@ -99,13 +99,13 @@
 
             </div>
         </div>
-</section>
+    </section>
 
-    
+
     <!-- FILTER + PROJECTS -->
     <section class="brands-filter-section" id="projects">
         <div class="container-fluid px-4 px-lg-5">
-            <div class="brands-filter-row">
+            <div class="brands-filter-row my-5">
                 <div class="brands-filter-chips" role="tablist" aria-label="Project filters">
                     <button type="button" class="btn brands-filter-btn is-active " data-filter="all">All Projects</button>
                     <button type="button" class="btn brands-filter-btn text-white" data-filter="branding">Branding</button>
@@ -124,14 +124,14 @@
                 <article class="brands-project-card" data-category="branding">
                     <div class="brands-project-media brands-project-media-a">
                         <span class="brands-project-badge">Branding</span>
-                        <img src="assets/img/branging_side.png" alt="Aurora Skincare" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        <img src="assets/img/branding.png" alt="Aurora Skincare" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
                         <h3>Branding</h3>
                         <p class="brands-project-meta">Build a Brand That Lasts</p>
                         <p class="brands-project-desc">Craft a memorable brand identity that builds trust, reflects your vision, and creates a lasting impression.</p>
 
-                       <div class="brands-project-stats">
+                        <div class="brands-project-stats">
                             <div class="brands-project-stat">
                                 <strong>200%</strong>
                                 <span>Brand Awareness</span>
@@ -140,7 +140,7 @@
                                 <strong>150%</strong>
                                 <span>Growth in Sales</span>
                             </div>
-                        </div> 
+                        </div>
 
                         <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a>
                     </div>
@@ -149,7 +149,7 @@
                 <article class="brands-project-card" data-category="web-design">
                     <div class="brands-project-media brands-project-media-b">
                         <span class="brands-project-badge">Website Design</span>
-                        <img src="assets/img/index_1.png" alt="Fintek Financial" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        <img src="assets/img/website.png" alt="Fintek Financial" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
                         <h3>Website Design</h3>
@@ -174,7 +174,7 @@
                 <article class="brands-project-card" data-category="branding">
                     <div class="brands-project-media brands-project-media-c">
                         <span class="brands-project-badge">SEO</span>
-                        <img src="assets/img/1.png" alt="Mountain Brew" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        <img src="assets/img/seo.png" alt="Mountain Brew" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
                         <h3>Seo</h3>
@@ -199,7 +199,7 @@
                 <article class="brands-project-card" data-category="digital-marketing">
                     <div class="brands-project-media brands-project-media-d">
                         <span class="brands-project-badge">Digital Marketing</span>
-                        <img src="assets/img/index_1.png" alt="Elite Living" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        <img src="assets/img/digital_marketing.png" alt="Elite Living" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
                         <h3>Digital Marketing</h3>
@@ -224,7 +224,7 @@
                 <article class="brands-project-card" data-category="social-media">
                     <div class="brands-project-media brands-project-media-e">
                         <span class="brands-project-badge">Social Media</span>
-                        <img src="assets/img/branging_side.png" alt="Urban Bites" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        <img src="assets/img/social media.png" alt="Urban Bites" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
                         <h3>Social Media</h3>
@@ -249,7 +249,7 @@
                 <article class="brands-project-card" data-category="video-production">
                     <div class="brands-project-media brands-project-media-f">
                         <span class="brands-project-badge">Video Production</span>
-                        <img src="assets/img/1.png" alt="NextGen Solutions" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        <img src="assets/img/video_editing.png" alt="NextGen Solutions" class="brands-project-image img-fluid" loading="lazy" decoding="async">
                     </div>
                     <div class="brands-project-content">
                         <h3>Video Production</h3>
@@ -294,8 +294,8 @@
                 </a> -->
 
 
-                 <a href="tel:+919642343434" class="talk_btn">
-                <i class="bi bi-telephone-fill"></i>    Let's Talk 
+                <a href="tel:+919642343434" class="talk_btn">
+                    <i class="bi bi-telephone-fill"></i> Let's Talk
                 </a>
             </div>
         </div>
@@ -327,13 +327,13 @@
 </main>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         const filterButtons = document.querySelectorAll(".brands-filter-btn");
         const projectCards = document.querySelectorAll(".brands-project-card");
 
-        filterButtons.forEach(function (button) {
-            button.addEventListener("click", function () {
-                filterButtons.forEach(function (btn) {
+        filterButtons.forEach(function(button) {
+            button.addEventListener("click", function() {
+                filterButtons.forEach(function(btn) {
                     btn.classList.remove("is-active");
                     btn.setAttribute("aria-pressed", "false");
                 });
@@ -343,7 +343,7 @@
 
                 const selectedFilter = this.getAttribute("data-filter");
 
-                projectCards.forEach(function (card) {
+                projectCards.forEach(function(card) {
                     const category = card.getAttribute("data-category");
 
                     if (selectedFilter === "all" || selectedFilter === category) {

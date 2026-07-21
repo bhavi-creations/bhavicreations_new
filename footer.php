@@ -124,7 +124,7 @@
 }
     </style>
 
-    <a href="https://api.whatsapp.com/send?phone=91" style="color: #fff;" class="whatsapp-link"
+    <a href="https://api.whatsapp.com/send?phone=919642343434" style="color: #fff;" class="whatsapp-link"
         target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
