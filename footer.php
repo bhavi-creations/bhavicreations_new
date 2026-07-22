@@ -14,12 +14,12 @@
 
                 <!-- Social Icons -->
                 <div class="footer_social_links">
-                    <a href="#" class="footer_social_icon"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="footer_social_icon"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="footer_social_icon"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" class="footer_social_icon"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.facebook.com/BhavicreationsPvtLtd/" target="_blank" class="footer_social_icon"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/bhavicreations_pvtl" target="_blank" class="footer_social_icon"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/bhavi-creations-pvt-ltd-926651235" target="_blank" class="footer_social_icon"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@bhavicreationspvtltd" target="_blank" class="footer_social_icon"><i class="bi bi-youtube"></i></a>
                     <a href="https://in.pinterest.com/bhavicreations/" target="_blank" class="footer_social_icon"><i class="bi bi-pinterest"></i></a>
-                    <a href="https://x.com/bhavi_creations" target="_blank" class="footer_social_icon"><i class="bi bi-twitter"></i></a>
+                    <!-- <a href="https://x.com/bhavi_creations" target="_blank" class="footer_social_icon"><i class="bi bi-twitter"></i></a> -->
                 </div>
             </div>
 
