@@ -42,14 +42,14 @@
             <div class="col-6 col-md-3 col-lg-2 footer_col_border">
                 <h6 class="footer_heading">Services</h6>
                 <ul class="list-unstyled footer_links_list">
-                    <li><a href="#">Branding</a></li>
-                    <li><a href="#">Website Design</a></li>
-                    <li><a href="#">Social Media Management</a></li>
-                    <li><a href="#">Paid Ads & Leads</a></li>
-                    <li><a href="#">Video Production</a></li>
-                    <li><a href="#">Graphic Design</a></li>
-                    <li><a href="#">Offline Marketing</a></li>
-                    <li><a href="#">Place Branding</a></li>
+                    <li><a href="branding.php">Branding</a></li>
+                    <li><a href="website.php">Website Design</a></li>
+                    <li><a href="social_media.php">Social Media Management</a></li>
+                    <li><a href="paid-ads-leads.php">Paid Ads & Leads</a></li>
+                    <li><a href="video-production.php">Video Production</a></li>
+                    <li><a href="graphic-design.php">Graphic Design</a></li>
+                    <li><a href="offline-marketing.php">Offline Marketing</a></li>
+                    <li><a href="place-branding.php">Place Branding</a></li>
                 </ul>
             </div>
 
