@@ -44,7 +44,7 @@
                                 <div>
                                     <h3>Our Location</h3>
                                     <p>Plot no 28, RTO Office Rd, behind lazza icecream shop, Ranga Rao Nagar, Kakinada, Vakalapudi, </p>
-                                    <span>kakinada - 533003,  Andhra Pradesh </span>
+                                    <span>kakinada - 533003, Andhra Pradesh </span>
                                 </div>
                             </article>
 
@@ -167,37 +167,38 @@
 
                     <div class="col-12 col-lg-5">
 
-                    
-                        <div class="contact-map-visual"  >
-                            <div class="contact-map-grid"></div>
+
+                        <div class="contact-map-visual">
+                            <!-- <div class="contact-map-grid"></div>
                             <div class="contact-map-road contact-map-road-a"></div>
                             <div class="contact-map-road contact-map-road-b"></div>
-                            <div class="contact-map-road contact-map-road-c"></div>
+                            <div class="contact-map-road contact-map-road-c"></div> -->
 
                             <!-- <div class="contact-map-label contact-map-label-a">Creative Park</div>
                             <div class="contact-map-label contact-map-label-b">Design Hub</div> -->
-                            <div class="contact-map-label contact-map-label-c">Bhavi Creations Pvt Ltd</div>
+                            <!-- <div class="contact-map-label contact-map-label-c">Bhavi Creations Pvt Ltd</div> -->
                             <!-- <div class="contact-map-label contact-map-label-d">Tech Park</div> -->
                             <!-- <div class="contact-map-label contact-map-label-d">Tech Park</div> -->
 
-                            <div class="contact-map-pin">
+                            <!-- <div class="contact-map-pin">
                                 <i class="bi bi-geo-alt-fill"></i>
                                 <span></span>
-                            </div>
+                            </div> -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.820023428833!2d82.2506152!3d16.983400900000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3829915d3063a9%3A0x357d06d49d4e389a!2sBhavi%20Creations%20Pvt%20Ltd%20-%20Digital%20Marketing%20company%20in%20kakinada!5e0!3m2!1sen!2sin!4v1784724783537!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                         </div>
                     </div>
 
                     <div class="col-12 col-lg-4">
-                        <a href="https://share.google/1fZJ2kmlpL3rvUIrw"  target="_blank">
-                        <div class="contact-office-card">
-                            <h3>Our Office</h3>
-                            <p>
-                               Plot no 28, RTO Office Rd, behind lazza icecream shop, Ranga Rao Nagar, Kakinada, Vakalapudi, Andhra Pradesh 533003
-                            </p>
-                            <!-- <a href="#" class="btn contact-directions-btn">
+                        <a href="https://share.google/1fZJ2kmlpL3rvUIrw" target="_blank">
+                            <div class="contact-office-card">
+                                <h3>Our Office</h3>
+                                <p>
+                                    Plot no 28, RTO Office Rd, behind lazza icecream shop, Ranga Rao Nagar, Kakinada, Vakalapudi, Andhra Pradesh 533003
+                                </p>
+                                <!-- <a href="#" class="btn contact-directions-btn">
                                 Get Directions <i class="bi bi-arrow-up-right"></i>
                             </a> -->
-                        </div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -220,8 +221,8 @@
                     </div>
                 </div>
 
-                 <a href="tel:+919642343434" class="talk_btn">
-                <i class="bi bi-telephone-fill"></i>    Let's Talk 
+                <a href="tel:+919642343434" class="talk_btn">
+                    <i class="bi bi-telephone-fill"></i> Let's Talk
                 </a>
 
                 <div class="contact-cta-plane" aria-hidden="true"></div>
