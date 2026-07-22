@@ -238,6 +238,13 @@
 </head>
 
 <body>
+<?php
+    $currentPage = basename($_SERVER['PHP_SELF']);
+    function nav_active($pages, $currentPage)
+    {
+        return in_array($currentPage, (array) $pages, true) ? 'active' : '';
+    }
+    ?>
 
     <nav class="navbar navbar-expand-lg  ">
 
@@ -250,21 +257,21 @@
 
                 <ul class="navbar-nav mx-auto">
 
-                    <li class="nav-item"><a class="nav-link active" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo nav_active(['index.php'], $currentPage); ?>" href="index.php">Home</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo nav_active(['about.php'], $currentPage); ?>" href="about.php">About Us</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="service.php">Services</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo nav_active(['service.php'], $currentPage); ?>" href="service.php">Services</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="brands.php">Brand Stories</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo nav_active(['brands.php'], $currentPage); ?>" href="brands.php">Brand Stories</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="package.php">Packages</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo nav_active(['package.php'], $currentPage); ?>" href="package.php">Packages</a></li>
 
-                    <li class="nav-item"><a class="nav-link" href="achievement.php">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo nav_active(['achievement.php'], $currentPage); ?>" href="achievement.php">Achievements</a></li>
 
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Brochure</a></li> -->
 
-                    <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link <?php echo nav_active(['contact.php'], $currentPage); ?>" href="contact.php">Contact Us</a></li>
 
                 </ul>
 

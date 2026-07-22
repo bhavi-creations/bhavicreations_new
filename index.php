@@ -57,8 +57,8 @@
                         <div class="home_section_stat_item">
                              <img src=".\assets\img\project completed.png" style="width: 40px; height:40px;">
                             <div class="home_section_stat_text">
-                                <span class="home_section_stat_num">800+</span>
-                                <span class="home_section_stat_label">Projects Completed</span>
+                                <span class="home_section_stat_num">100+</span>
+                                <span class="home_section_stat_label">Projects</span>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                         <div class="home_section_stat_item">
                             <i class="bi bi-people home_section_stat_icon"></i>
                             <div class="home_section_stat_text">
-                                <span class="home_section_stat_num">250+</span>
+                                <span class="home_section_stat_num">70+</span>
                                 <span class="home_section_stat_label">Happy Clients</span>
                             </div>
                         </div>
@@ -79,8 +79,8 @@
                         <div class="home_section_stat_item">
                             <i class="bi bi-building home_section_stat_icon"></i>
                             <div class="home_section_stat_text">
-                                <span class="home_section_stat_num">40+</span>
-                                <span class="home_section_stat_label">Industries Served</span>
+                                <span class="home_section_stat_num">500+</span>
+                                <span class="home_section_stat_label">Visitors</span>
                             </div>
                         </div>
                     </div>
@@ -108,16 +108,16 @@
             <h6 class="home_section_trusted_title text-center text-uppercase text-white fw-bold">Trusted by 250+ Businesses Worldwide</h6>
 
             <div class="home_section_logos_grid">
-                <span>Google</span>
-                <span>SAMSUNG</span>
-                <span>amazon</span>
-                <span>zomato</span>
-                <span>swiggy</span>
-                <span>paytm</span>
-                <span>TATA</span>
-                <span>Uber</span>
-                <span>PHILIPS</span>
-                <span>Deloitte.</span>
+                <span>Srinivasa dental</span>
+                <span>IVY dental</span>
+                <span>Krishna dental</span>
+                <span>Care n concern</span>
+                <span>Apple dental</span>
+                <span>Dr.Subhash</span>
+                <span>V&V Saloon</span>
+                <span>Vision dental</span>
+                <span>Ask oncology</span>
+                <!-- <span>Deloitte.</span> -->
             </div>
         </div>
     </div>
@@ -133,16 +133,16 @@
 
                 <marquee behavior="" direction="">
 
-                    <span>Google</span> &nbsp; &nbsp; /
-               &nbsp; &nbsp;     <span>SAMSUNG</span>&nbsp; &nbsp; /
-               &nbsp; &nbsp;     <span>amazon</span>&nbsp; &nbsp; /
-                &nbsp; &nbsp;    <span>zomato</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>swiggy</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>paytm</span>&nbsp; &nbsp; /
-                   &nbsp; &nbsp; <span>TATA</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>Uber</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>PHILIPS</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>Deloitte.</span>&nbsp; &nbsp; 
+                    <!-- <span>Google</span> &nbsp; &nbsp; / -->
+               &nbsp; &nbsp;     <span>Srinivasa dental</span>&nbsp; &nbsp; /
+               &nbsp; &nbsp;     <span>IVY dental</span>&nbsp; &nbsp; /
+                &nbsp; &nbsp;    <span>Krishna dental</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>Care n concern</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>Apple dental</span>&nbsp; &nbsp; /
+                   &nbsp; &nbsp; <span>Dr.Subhash</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>V&V Saloon</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>Vision dental</span>&nbsp; &nbsp; /
+                 &nbsp; &nbsp;   <span>Ask oncology</span>&nbsp; &nbsp;
 
 
 

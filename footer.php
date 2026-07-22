@@ -98,7 +98,7 @@
         <div class="row footer_bottom_row">
             <div class="col-12 text-center">
                 <p class="footer_copyright_text">
-                    &copy; 2026 Bhavi Creations Pvt Ltd. All Rights Reserved.
+                    &copy; 2022 Bhavi Creations Pvt Ltd. All Rights Reserved.
                 </p>
             </div>
         </div>
@@ -128,6 +128,37 @@
         target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
+
+
+
+
+
+
+    <style>
+    .whatsapp-link1 {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 150px;
+        right: 20px;
+        /* background-color: #25d366; */
+        color: #fff;
+
+        border-radius: 50%;
+        text-decoration: none;
+        font-size: 35px;
+        text-align: center;
+        z-index: 999;
+    }
+</style>
+
+<a href="./assets/img/Bhavi Brochure.pdf"
+    download
+    style="color: #fff;"
+    class="whatsapp-link1">
+
+    <img src="./assets/img/download.png" alt="Download Brochure" style="width: 50px;">
+</a>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
