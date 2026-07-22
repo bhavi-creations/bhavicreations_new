@@ -8584,3 +8584,51 @@
 
 
 
+
+
+/* Media query targeting desktop displays (1400px and above) */
+@media (min-width: 1400px) {
+
+  /* Flex container allowing 3 cards per row */
+  .home_index_why_choose .process-timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px; /* Vertical space between rows */
+    column-gap: 20px; /* Horizontal space between cards */
+    width: 100%;
+  }
+
+  /* Individual process card (3 per row layout) */
+  .home_index_why_choose .process-node {
+    /* 3 cards per row taking column gaps into account */
+    width: calc(33.333% - 14px) !important; 
+
+    /* Remove borders, background boxes, and shadows */
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+
+    /* Content alignment and internal spacing */
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Reset any hover effects from lower breakpoints */
+  .home_index_why_choose .process-node:hover {
+    border: none !important;
+    background: transparent !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.home_index_why_choose .process-timeline::before {
+  display: none !important;
+}

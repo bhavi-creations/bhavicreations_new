@@ -55,7 +55,7 @@
                     <!-- Stat 2: Projects -->
                     <div class="home_section_hero_stat">
                         <div class="home_section_stat_item">
-                             <img src=".\assets\img\project completed.png" style="width: 40px; height:40px;">
+                            <img src=".\assets\img\project completed.png" style="width: 40px; height:40px;">
                             <div class="home_section_stat_text">
                                 <span class="home_section_stat_num">100+</span>
                                 <span class="home_section_stat_label">Projects</span>
@@ -134,15 +134,15 @@
                 <marquee behavior="" direction="">
 
                     <!-- <span>Google</span> &nbsp; &nbsp; / -->
-               &nbsp; &nbsp;     <span>Srinivasa dental</span>&nbsp; &nbsp; /
-               &nbsp; &nbsp;     <span>IVY dental</span>&nbsp; &nbsp; /
-                &nbsp; &nbsp;    <span>Krishna dental</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>Care n concern</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>Apple dental</span>&nbsp; &nbsp; /
-                   &nbsp; &nbsp; <span>Dr.Subhash</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>V&V Saloon</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>Vision dental</span>&nbsp; &nbsp; /
-                 &nbsp; &nbsp;   <span>Ask oncology</span>&nbsp; &nbsp;
+                    &nbsp; &nbsp; <span>Srinivasa dental</span>&nbsp; &nbsp; /
+                    &nbsp; &nbsp; <span>IVY dental</span>&nbsp; &nbsp; /
+                    &nbsp; &nbsp; <span>Krishna dental</span>&nbsp; &nbsp; /
+                    &nbsp; &nbsp; <span>Care n concern</span>&nbsp; &nbsp; /
+                    &nbsp; &nbsp; <span>Apple dental</span>&nbsp; &nbsp; /
+                    &nbsp; &nbsp; <span>Dr.Subhash</span>&nbsp; &nbsp; /
+                    &nbsp; &nbsp; <span>V&V Saloon</span>&nbsp; &nbsp; /
+                    &nbsp; &nbsp; <span>Vision dental</span>&nbsp; &nbsp; /
+                    &nbsp; &nbsp; <span>Ask oncology</span>&nbsp; &nbsp;
 
 
 
@@ -185,139 +185,159 @@
 
             <!-- Card 1: Branding -->
             <div class="col">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <!-- <i class="bi bi-person-bounding-box" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
-                         <img src=".\assets\img\brand.png" style="width: 50px; height:50px;">
+                <a href="branding.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <!-- <i class="bi bi-person-bounding-box" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                            <img src=".\assets\img\brand.png" style="width: 50px; height:50px;">
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Branding</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Logo, Identity, Guidelines and Brand Strategy.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Branding</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Logo, Identity, Guidelines and Brand Strategy.
-                    </p>
-                </div>
+                </a>
             </div>
 
             <!-- Card 2: Website & UI/UX -->
             <div class="col">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-window-sidebar" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+
+                <a href="website.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <i class="bi bi-window-sidebar" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Website & UI/UX</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Modern, responsive websites that convert and impress.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Website & UI/UX</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Modern, responsive websites that convert and impress.
-                    </p>
-                </div>
+                </a>
             </div>
 
             <!-- Card 3: Social Media Management -->
             <div class="col">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <!-- <i class="bi bi-chat-left-quote" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
-                         <img src=".\assets\img\social-media.png" style="width: 50px; height:50px;">
+                <a href="social_media.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <!-- <i class="bi bi-chat-left-quote" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                            <img src=".\assets\img\social-media.png" style="width: 50px; height:50px;">
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Social Media</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Content, strategy and growth that drives results.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Social Media</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Content, strategy and growth that drives results.
-                    </p>
-                </div>
+                </a>
             </div>
 
             <!-- Card 4: Paid Ads & Lead Generation -->
             <div class="col">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <!-- <i class="bi bi-target" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
-                         <img src=".\assets\img\Paid Ads & Leads.png" style="width: 50px; height:50px;">
+                <a href="paid-ads-leads.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <!-- <i class="bi bi-target" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                            <img src=".\assets\img\Paid Ads & Leads.png" style="width: 50px; height:50px;">
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Paid Ads & Leads</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Meta & Google Ads that generate quality leads.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Paid Ads & Leads</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Meta & Google Ads that generate quality leads.
-                    </p>
-                </div>
+                </a>
             </div>
 
             <!-- Card 5: Video Production -->
             <div class="col">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <!-- <i class="bi bi-film" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
-                         <img src=".\assets\img\Video Production.png" style="width: 50px; height:50px;">
+                <a href="video-production.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <!-- <i class="bi bi-film" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                            <img src=".\assets\img\Video Production.png" style="width: 50px; height:50px;">
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Video Production</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Reels, Commercials, Corporate & more.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Video Production</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Reels, Commercials, Corporate & more.
-                    </p>
-                </div>
+                </a>
             </div>
 
             <!-- Card 6: Photo Shoots -->
             <div class="col">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-camera" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                <a href="photo-shot.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <i class="bi bi-camera" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Photo Shoots</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Product, Fashion, Corporate & Food Photography.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Photo Shoots</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Product, Fashion, Corporate & Food Photography.
-                    </p>
-                </div>
+                </a>
             </div>
 
             <!-- Card 7: Graphic Design -->
             <div class="col">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <!-- <i class="bi bi-vector-pen" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
-                         <img src=".\assets\img\Graphic Design.png" style="width: 50px; height:50px;">
+                <a href="graphic-design.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <!-- <i class="bi bi-vector-pen" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                            <img src=".\assets\img\Graphic Design.png" style="width: 50px; height:50px;">
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Graphic Design</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Posters, Flyers, Brochures, Visiting Cards & more.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Graphic Design</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Posters, Flyers, Brochures, Visiting Cards & more.
-                    </p>
-                </div>
+                </a>
             </div>
 
             <!-- Card 8: Offline Marketing -->
             <div class="col">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <i class="bi bi-megaphone" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                <a href="offline-marketing.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <i class="bi bi-megaphone" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i>
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Offline Marketing</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Hoardings, Theatre Ads, Stickers & Place Branding.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Offline Marketing</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Hoardings, Theatre Ads, Stickers & Place Branding.
-                    </p>
-                </div>
+                </a>
             </div>
 
             <!-- Card 9: Place Branding & Stickers -->
             <div class="col">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <!-- <i class="bi bi-geo-alt" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
-                         <img src=".\assets\img\Place Branding.png" style="width: 50px; height:50px;">
+                <a href="place-branding.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <!-- <i class="bi bi-geo-alt" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                            <img src=".\assets\img\Place Branding.png" style="width: 50px; height:50px;">
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Place Branding</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Transform any space into a physical brand experience.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Place Branding</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Transform any space into a physical brand experience.
-                    </p>
-                </div>
+                </a>
             </div>
 
             <!-- Card 10: Strategy & Consulting -->
             <div class="col">
+                <a href="strategy-co.php">
                 <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_icon_box mb-4 text-primary fs-2">
                         <!-- <i class="bi bi-lightbulb" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
-                         <img src=".\assets\img\stratgr_co.png" style="width: 50px; height:50px;">
+                        <img src=".\assets\img\stratgr_co.png" style="width: 50px; height:50px;">
                     </div>
                     <h4 class="home_section_card_title fw-bold fs-5 mb-2">Strategy & Co.</h4>
                     <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
                         Business strategy that builds strong corporate brands.
                     </p>
-                </div>
+                </div></a>
             </div>
 
         </div>
@@ -330,7 +350,7 @@
         <div class="row g-4 g-lg-5 align-items-stretch">
 
             <!-- LEFT COLUMN: WHY CHOOSE US -->
-            <div class="col-lg-4 col-md-10 mx-auto">
+            <div class="col-lg-4 col-md-6 mx-auto">
                 <span class="section-subtitle text-blue">WHY CHOOSE US</span>
                 <h2 class="fw-bold display-6 mb-4 lh-sm">
                     We Don't Just Design,<br class="d-none d-sm-inline">We <span class="text-blue">Deliver Results.</span>
@@ -419,7 +439,7 @@
                     <!-- 04 Review -->
                     <div class="process-node">
                         <div class="node-circle">
-                           <img src=".\assets\img\reviews.png" style="width: 40px; height:40px;"> 
+                            <img src=".\assets\img\reviews.png" style="width: 40px; height:40px;">
                         </div>
                         <div class="node-text-wrapper">
                             <div class="node-step">04</div>
@@ -456,7 +476,7 @@
             </div>
 
 
-            
+
 
         </div>
     </div>
@@ -486,90 +506,100 @@
 
             <!-- Card 1: Aurora Skincare -->
             <div class="col-12 col-sm-6 col-lg-3">
-                <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <!-- Card Image Content -->
-                    <img src="./assets/img/branding.png" alt="Aurora Skincare" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                <a href="branding.php">
+                    <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
+                        <!-- Card Image Content -->
+                        <img src="./assets/img/braning_index.png" alt="Aurora Skincare" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
-                    <!-- Gradient Bottom Overlay -->
-                    <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
-                        <!-- Tag Badge -->
-                        <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Branding</span>
+                        <!-- Gradient Bottom Overlay -->
+                        <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
+                            <!-- Tag Badge -->
+                            <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Branding</span>
 
-                        <div class="d-flex justify-content-between align-items-end">
-                            <div>
-                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Branding</h4>
-                                <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Beauty & Skincare</p> -->
-                            </div>
-                            <!-- Action Button Icon -->
-                            <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
-                                <i class="bi bi-arrow-up-right text-white fs-5"></i>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <div>
+                                    <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Branding</h4>
+                                    <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Beauty & Skincare</p> -->
+                                </div>
+                                <!-- Action Button Icon -->
+                                <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
+                                    <i class="bi bi-arrow-up-right text-white fs-5"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <!-- Card 2: Fintek Financial -->
             <div class="col-12 col-sm-6 col-lg-3">
-                <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <img src="./assets/img/website.png" alt="Fintek Financial" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                <a href="website.php">
+                    <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
+                        <img src="./assets/img/website.png" alt="Fintek Financial" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
-                    <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
-                        <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Website</span>
+                        <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
+                            <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Website</span>
 
-                        <div class="d-flex justify-content-between align-items-end">
-                            <div>
-                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Website</h4>
-                                <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Finance</p> -->
-                            </div>
-                            <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
-                                <i class="bi bi-arrow-up-right text-white fs-5"></i>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <div>
+                                    <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Website</h4>
+                                    <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Finance</p> -->
+                                </div>
+                                <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
+                                    <i class="bi bi-arrow-up-right text-white fs-5"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <!-- Card 3: Mountain Brew -->
             <div class="col-12 col-sm-6 col-lg-3">
-                <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <img src="./assets/img/seo.png" alt="Mountain Brew" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+                <a href="seo.php">
+                    <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
+                        <img src="./assets/img/seo_index.png" alt="Mountain Brew" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
-                    <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
-                        <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">SEO</span>
+                        <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
+                            <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">SEO</span>
 
-                        <div class="d-flex justify-content-between align-items-end">
-                            <div>
-                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">seo</h4>
-                                <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Food & Beverages</p> -->
-                            </div>
-                            <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
-                                <i class="bi bi-arrow-up-right text-white fs-5"></i>
+                            <div class="d-flex justify-content-between align-items-end">
+                                <div>
+                                    <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">seo</h4>
+                                    <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Food & Beverages</p> -->
+                                </div>
+                                <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
+                                    <i class="bi bi-arrow-up-right text-white fs-5"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <!-- Card 4: Elite Living -->
             <div class="col-12 col-sm-6 col-lg-3">
-                <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
-                    <img src="./assets/img/social media.png" alt="Elite Living" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
 
-                    <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
-                        <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Social Media</span>
+                <a href="social_media.php">
 
-                        <div class="d-flex justify-content-between align-items-end">
-                            <div>
-                                <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Social Media</h4>
-                                <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Real Estate</p> -->
-                            </div>
-                            <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
-                                <i class="bi bi-arrow-up-right text-white fs-5"></i>
+                    <div class="home_section_brand_card position-relative overflow-hidden" style="border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; height: 350px; background: #0c0d14; transition: all 0.3s ease;">
+                        <img src="./assets/img/social media.png" alt="Elite Living" class="w-100 h-100 object-fit-cover" style="object-fit: cover;">
+
+                        <div class="position-absolute bottom-0 start-0 w-100 p-4 d-flex flex-column justify-content-end" style="background: linear-gradient(to top, rgba(4,5,10,0.95) 0%, rgba(4,5,10,0.4) 70%, transparent 100%); height: 70%;">
+                            <span class="home_section_brand_badge badge bg-dark border border-secondary text-white-50 fw-normal mb-3 px-3 py-2 align-self-start" style="border-radius: 6px; font-size: 0.75rem; background-color: rgba(0,0,0,0.6) !important;">Social Media</span>
+
+                            <div class="d-flex justify-content-between align-items-end">
+                                <div>
+                                    <h4 class="home_section_brand_card_title fw-bold text-white fs-5 mb-1">Social Media</h4>
+                                    <!-- <p class="home_section_brand_card_desc text-secondary small m-0" style="color: #a9a9b3 !important;">Real Estate</p> -->
+                                </div>
+                                <div class="home_section_brand_icon_arrow d-flex align-items-center justify-content-center border border-secondary rounded-circle" style="width: 40px; height: 40px; min-width: 40px; transition: all 0.3s;">
+                                    <i class="bi bi-arrow-up-right text-white fs-5"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
         </div>
@@ -624,13 +654,13 @@
                         <!-- Industry 2 -->
                         <div class="col home_section_industire_item">
                             <!-- <i class="bi bi-cup-hot text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
-                             <img src=".\assets\img\resturant.png" style="width: 50px; height:50px;">
+                            <img src=".\assets\img\resturant.png" style="width: 50px; height:50px;">
                             <span class="text-secondary small text-white" style="font-size: 15px;"><br>Restaurants</span>
                         </div>
                         <!-- Industry 3 -->
                         <div class="col home_section_industire_item">
                             <!-- <i class="bi bi-buildings text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
-                             <img src=".\assets\img\realstat.png" style="width: 50px; height:50px;">
+                            <img src=".\assets\img\realstat.png" style="width: 50px; height:50px;">
                             <span class="text-secondary small text-white" style="font-size: 15px;"><br>Real Estate</span>
                         </div>
                         <!-- Industry 4 -->
@@ -641,7 +671,7 @@
                         <!-- Industry 5 -->
                         <div class="col home_section_industire_item">
                             <!-- <i class="bi bi-handbag text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
-                             <img src=".\assets\img\fashion.png" style="width: 50px; height:50px;">
+                            <img src=".\assets\img\fashion.png" style="width: 50px; height:50px;">
                             <span class="text-secondary small text-white" style="font-size: 15px;">Fashion</span>
                         </div>
                         <!-- Industry 6 -->
@@ -652,7 +682,7 @@
                         <!-- Industry 7 -->
                         <div class="col home_section_industire_item">
                             <!-- <i class="bi bi-cone-striped text-primary fs-3 d-block mb-2" style="text-shadow: 0 0 10px rgba(13,110,253,0.5);"></i> -->
-                             <img src=".\assets\img\construction.png" style="width: 50px; height:50px;">
+                            <img src=".\assets\img\construction.png" style="width: 50px; height:50px;">
                             <span class="text-secondary small text-white" style="font-size: 15px;">Construction</span>
                         </div>
                         <!-- Industry 8 -->
@@ -688,27 +718,27 @@
 
                         <!-- Stat 1 -->
                         <div class="col home_section_industire_stat position-relative">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">800+</h2>
-                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Projects Completed</p>
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">500+</h2>
+                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Visitors</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 2 -->
                         <div class="col home_section_industire_stat position-relative">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">250+</h2>
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">100+</h2>
                             <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Happy Clients</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 3 -->
                         <div class="col home_section_industire_stat">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">40+</h2>
-                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Industries Served</p>
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">140+</h2>
+                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Project Completed</p>
                         </div>
 
                         <!-- Stat 4 -->
                         <div class="col home_section_industire_stat position-relative mt-md-5">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">6+</h2>
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">10+</h2>
                             <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Years of Experience</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
@@ -756,8 +786,8 @@
             </div>
         </div>
 
-        
-      <!-- Testimonials Grid -->
+
+        <!-- Testimonials Grid -->
         <div class="row g-4">
 
             <!-- Review 1 -->
@@ -783,7 +813,7 @@
 
                         <div>
                             <h6 class="home_section_review_name fw-bold mb-0">Dr Sunil Sathyanarayana</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist</span>
+                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist In Benguluru</span>
                         </div>
                     </div>
 
@@ -801,14 +831,14 @@
                     </div>
 
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
-                        "We had a great experience working with Bhavi Creations Pvt. Ltd., the best branding agency in Kakinada. From logo design to digital ad campaigns, their creativity and dedication are unmatched. They also designed a beautiful and responsive website for us!"
+                        "I am using their service for marketing from last 3 years and Iam very happy with their work and sincerity in delivering good results on time."
                     </p>
 
                     <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
-                        <h2 class="rounded-circle border border-secondary   p-2">NV </h2>
+                        <h2 class="rounded-circle border border-secondary   p-2">KR </h2>
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">Nsri Vinaya</h6>
-                            <!-- <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Founder, Nourish Organic</span> -->
+                            <h6 class="home_section_review_name fw-bold mb-0">kiran raju</h6>
+                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist in Kakinada</span>
                         </div>
                     </div>
 
@@ -825,14 +855,14 @@
                     </div>
 
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
-                        "Highly professional team at Bhavi Creations! They handled our SEO and content marketing with great expertise. If you’re searching for the top digital marketing services in Kakinada, Bhavi Creations is the one to trust. Their designs and campaign planning are top-notch."
+                        "Designs are good and response is quick and overall Experience with them is 🙂"
                     </p>
 
                     <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
                         <h2 class="rounded-circle border border-secondary   p-2">sk </h2>
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">Satish Kumar</h6>
-                            <!-- <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Marketing Head, Urban Space</span> -->
+                            <h6 class="home_section_review_name fw-bold mb-0">sowmya manasa</h6>
+                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dermatologist</span>
                         </div>
                     </div>
 
@@ -1245,8 +1275,8 @@
             text-align: left;
             align-items: flex-start;
             gap: 0.95rem;
-            padding:20px;
-            border:2px solid #0d6efd;
+            padding: 20px;
+            border: 2px solid #0d6efd;
         }
 
         .home_index_why_choose .node-circle {
@@ -1277,8 +1307,8 @@
             padding: 1.15rem !important;
         }
 
-        .home_section_industire .row-cols-3 > *,
-        .home_section_industire .row-cols-2 > * {
+        .home_section_industire .row-cols-3>*,
+        .home_section_industire .row-cols-2>* {
             padding-left: 0.45rem;
             padding-right: 0.45rem;
         }
@@ -1301,10 +1331,10 @@
         }
 
 
- 
+
         .home_index_why_choose .node-step {
-            font-size:25px;
-}
+            font-size: 25px;
+        }
     }
 
     @media (max-width: 575.98px) {
@@ -1393,6 +1423,7 @@
     }
 
     @media (hover: none) and (pointer: coarse) {
+
         .home_section_btn_primary:hover,
         .home_section_btn_outline:hover,
         .home_section_card:hover,
