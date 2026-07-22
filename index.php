@@ -57,7 +57,7 @@
                         <div class="home_section_stat_item">
                             <img src=".\assets\img\project completed.png" style="width: 40px; height:40px;">
                             <div class="home_section_stat_text">
-                                <span class="home_section_stat_num">100+</span>
+                                <span class="home_section_stat_num">140+</span>
                                 <span class="home_section_stat_label">Projects</span>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                         <div class="home_section_stat_item">
                             <i class="bi bi-people home_section_stat_icon"></i>
                             <div class="home_section_stat_text">
-                                <span class="home_section_stat_num">70+</span>
+                                <span class="home_section_stat_num">100+</span>
                                 <span class="home_section_stat_label">Happy Clients</span>
                             </div>
                         </div>

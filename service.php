@@ -135,7 +135,7 @@
                 <div class="services-stat-item">
                     <div class="services-stat-icon"><img src=".\assets\img\project completed.png" style="width: 50px; height:50px;"></div>
                     <div>
-                        <h3 class="services-stat-number">800+</h3>
+                        <h3 class="services-stat-number">140+</h3>
                         <p class="services-stat-label">Projects Completed</p>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                 <div class="services-stat-item">
                     <div class="services-stat-icon"><img src=".\assets\img\happy-clients-01.png" style="width: 50px; height:50px;"></div>
                     <div>
-                        <h3 class="services-stat-number">250+</h3>
+                        <h3 class="services-stat-number">100+</h3>
                         <p class="services-stat-label">Happy Clients</p>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                 <div class="services-stat-item">
                     <div class="services-stat-icon"><img src=".\assets\img\years_of_experience.png" style="width: 50px; height:50px;"></div>
                     <div>
-                        <h3 class="services-stat-number">6+</h3>
+                        <h3 class="services-stat-number">10+</h3>
                         <p class="services-stat-label">Years of Experience</p>
                     </div>
                 </div>
