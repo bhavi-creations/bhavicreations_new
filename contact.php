@@ -26,7 +26,7 @@
                                 <div>
                                     <h3>Call Us</h3>
                                     <p>+91 96423 43434</p>
-                                    <span>Open 24 hours</span>
+                                    <span>Open 6Am to 9pm</span>
                                 </div>
                             </article>
 
@@ -34,7 +34,7 @@
                                 <div class="contact-info-icon"><i class="bi bi-envelope"></i></div>
                                 <div>
                                     <h3>Email Us</h3>
-                                    <p>bhavicreations2022@gmail.com</p>
+                                    <p>admin@bhavicreations.com</p>
                                     <span>We reply quickly</span>
                                 </div>
                             </article>
@@ -230,7 +230,7 @@
     </section>
 
     <!-- BRANDS -->
-    <section class="about_last_section">
+    <!-- <section class="about_last_section">
         <div class="container-fluid px-4 px-lg-5">
             <div class="about_last_section_divider_container">
                 <div class="about_last_section_line"></div>
@@ -251,7 +251,7 @@
                 <div class="about_last_logo_item"><span class="about_brand_text font_deloitte">Deloitte.</span></div>
             </div>
         </div>
-    </section>
+    </section> -->
 </main>
 
 <?php include 'footer.php'; ?>

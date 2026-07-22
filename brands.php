@@ -302,7 +302,7 @@
     </section>
 
     <!-- BRANDS STRIP -->
-    <section class="about_last_section">
+    <!-- <section class="about_last_section">
         <div class="container-fluid px-4 px-lg-5">
             <div class="about_last_section_divider_container">
                 <div class="about_last_section_line"></div>
@@ -323,7 +323,7 @@
                 <div class="about_last_logo_item"><span class="about_brand_text font_deloitte">Deloitte.</span></div>
             </div>
         </div>
-    </section>
+    </section> -->
 </main>
 
 <script>

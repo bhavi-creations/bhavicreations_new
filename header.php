@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/style.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet"> -->
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
 
@@ -17,7 +18,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 
     <link href="assets/img/favicon.png" rel="icon">
     <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
@@ -47,6 +48,8 @@
 
         :root {
 
+        
+           
             --blue: #246BFF;
             --dark: #050816;
             --card: #0B1023;
@@ -61,6 +64,22 @@
             --border-color: rgba(255, 255, 255, 0.1);
             --card-bg: rgba(255, 255, 255, 0.03);
 
+            --bg: #04050a;
+            --bg-soft: #080b18;
+            --card: rgba(255, 255, 255, 0.03);
+            --card-solid: #0B1023;
+            --border: rgba(255, 255, 255, 0.1);
+            --blue: #0d6efd;
+            --blue-light: #6fa2ff;
+            --glow: rgba(13, 110, 253, 0.5);
+            --text: #ffffff;
+            --text-gray: #a2a7bd;
+
+        }
+
+        . {
+            background: var(--bg);
+            color: var(--text);
         }
 
 
@@ -238,7 +257,7 @@
 </head>
 
 <body>
-<?php
+    <?php
     $currentPage = basename($_SERVER['PHP_SELF']);
     function nav_active($pages, $currentPage)
     {

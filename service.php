@@ -56,63 +56,73 @@
 
             <div class="services-cards-grid">
                 <article class="services-card">
+                    <a href="branding.php">
                     <div class="services-card-icon"><img src=".\assets\img\brand.png" style="width: 50px; height:50px;"></div>
                     <h3>Branding</h3>
-                    <p>We create strong brand identities that connect, inspire and leave a lasting impression.</p>
+                    <p>We create strong brand identities that connect, inspire and leave a lasting impression.</p></a>
                 </article>
 
                 <article class="services-card">
+                     <a href="website.php">
                     <div class="services-card-icon"><img src=".\assets\img\development.png" style="width: 50px; height:50px;"></div>
                     <h3>Website Design &amp;<br>Development</h3>
-                    <p>Modern, responsive and user-friendly websites that convert visitors into customers.</p>
+                    <p>Modern, responsive and user-friendly websites that convert visitors into customers.</p></a>
                 </article>
 
                 <article class="services-card">
+                     <a href="social_media.php">
                     <div class="services-card-icon"><img src=".\assets\img\social-media.png" style="width: 50px; height:50px;"></div>
                     <h3>Social Media<br>Management</h3>
-                    <p>Strategic content, consistent engagement and growth-focused social media handling.</p>
+                    <p>Strategic content, consistent engagement and growth-focused social media handling.</p></a>
                 </article>
 
                 <article class="services-card">
+                     <a href="paid-ads-leads.php">
                     <div class="services-card-icon"><img src=".\assets\img\Paid Ads & Leads.png" style="width: 50px; height:50px;"></div>
                     <h3>Paid Ads &amp;<br>Lead Generation</h3>
-                    <p>Meta &amp; Google Ads strategies that bring high-quality leads and maximum ROI.</p>
+                    <p>Meta &amp; Google Ads strategies that bring high-quality leads and maximum ROI.</p></a>
                 </article>
 
                 <article class="services-card">
+                     <a href="video-production.php">
                     <div class="services-card-icon"><img src=".\assets\img\Video Production.png" style="width: 50px; height:50px;"></div>
                     <h3>Video Production</h3>
-                    <p>Reels, commercials, corporate videos and brand films that tell your story powerfully.</p>
+                    <p>Reels, commercials, corporate videos and brand films that tell your story powerfully.</p></a>
                 </article>
 
                 <article class="services-card">
+                     <a href="photo-shot.php">
                     <div class="services-card-icon"><i class="bi bi-camera"></i></div>
                     <h3>Photo Shoots</h3>
-                    <p>Product, fashion, corporate &amp; food photography that captures perfection.</p>
+                    <p>Product, fashion, corporate &amp; food photography that captures perfection.</p></a>
                 </article>
 
                 <article class="services-card">
+                     <a href="graphic-design.php">
                     <div class="services-card-icon"><img src=".\assets\img\Graphic Design.png" style="width: 50px; height:50px;"></div>
                     <h3>Graphic Design</h3>
-                    <p>Creative designs for posters, flyers, brochures, visiting cards and marketing collaterals.</p>
+                    <p>Creative designs for posters, flyers, brochures, visiting cards and marketing collaterals.</p></a>
                 </article>
 
                 <article class="services-card">
+                     <a href="offline-marketing.php">
                     <div class="services-card-icon"><i class="bi bi-megaphone"></i></div>
                     <h3>Offline Marketing</h3>
-                    <p>Theatre ads, hoardings, pamphlets and other traditional marketing solutions.</p>
+                    <p>Theatre ads, hoardings, pamphlets and other traditional marketing solutions.</p></a>
                 </article>
 
                 <article class="services-card">
+                     <a href="hoarding.php">
                     <div class="services-card-icon"><i class="bi bi-display"></i></div>
                     <h3>Hoarding &amp;<br>Outdoor Ads</h3>
-                    <p>High-impact hoarding designs that grab attention and build strong visibility.</p>
+                    <p>High-impact hoarding designs that grab attention and build strong visibility.</p></a>
                 </article>
 
                 <article class="services-card">
+                     <a href="place-branding.php">
                     <div class="services-card-icon"><img src=".\assets\img\Place Branding.png" style="width: 50px; height:50px;"></div>
                     <h3>Place Branding &amp;<br>Stickers</h3>
-                    <p>Shop branding, wall stickers, vehicle stickers and place branding solutions.</p>
+                    <p>Shop branding, wall stickers, vehicle stickers and place branding solutions.</p></a>
                 </article>
             </div>
         </div>
@@ -234,7 +244,7 @@
     </section>
 
     <!-- BRANDS -->
-    <section class="about_last_section">
+    <!-- <section class="about_last_section">
         <div class="container-fluid px-4 px-lg-5">
             <div class="about_last_section_divider_container">
                 <div class="about_last_section_line"></div>
@@ -255,7 +265,7 @@
                 <div class="about_last_logo_item"><span class="about_brand_text font_deloitte">Deloitte.</span></div>
             </div>
         </div>
-    </section>
+    </section> -->
 </main>
 
 <?php include 'footer.php'; ?>

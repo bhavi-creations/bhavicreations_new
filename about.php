@@ -38,6 +38,7 @@
                     </div>
                 </div> -->
                  <img src="./assets/img/about_img.png" alt="about_img" class="img-fluid" style="border-radius: 7px;">
+                  <!-- <img src="" alt="about_img" class="img-fluid" style="border-radius: 7px;"> -->
             </div>
 
         </div>
@@ -131,8 +132,11 @@
                 <div class="col-12 col-lg-6 about_story_img_col">
                     <!-- <div class="about_story_image_holder"> -->
                         <!-- <div class="about_story_img_overlay"></div> -->
-                         <img src="./assets/img/2.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
-                         <img src="./assets/img/2.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;">
+                         <!-- <img src="./assets/img/2.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
+                         <img src="./assets/img/2.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;"> -->
+
+                         <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
+                         <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;">
                     <!-- </div> -->
                 </div>
 
@@ -203,9 +207,9 @@
             <div class="row align-items-center g-4 position-relative z-1">
 
                 <!-- Left Hands Shaking / Team Visual Mock Area -->
-                <div class="col-12 col-md-6 position-relative">
+                <!-- <div class="col-12 col-md-6 position-relative">
                     <div class="about_fifth_image_placeholder">
-                        <!-- Glassmorphism Floating Promise Box -->
+                        
                         <div class="about_fifth_promise_box">
                             <div class="d-flex align-items-center gap-2 mb-2">
                                 <i class="bi bi-shield-check text-primary fs-5"></i>
@@ -219,7 +223,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Right Core Points Column -->
                 <div class="col-12 col-md-6 ps-lg-5">
@@ -329,13 +333,13 @@
     <div class="container-fluid px-4 px-lg-5">
 
         <!-- Title Divider Area -->
-        <div class="about_last_section_divider_container">
+        <!-- <div class="about_last_section_divider_container">
             <div class="about_last_section_line"></div>
             <span class="about_last_section_subtitle">BRANDS WE'VE WORKED WITH</span>
             <div class="about_last_section_line"></div>
         </div>
 
-        <!-- Logos Flexbox Grid -->
+       
         <div class="about_last_section_logos_grid">
             <div class="about_last_logo_item"><span class="about_brand_text font_google">Google</span></div>
             <div class="about_last_logo_item"><span class="about_brand_text font_samsung">SAMSUNG</span></div>
@@ -347,7 +351,7 @@
             <div class="about_last_logo_item"><span class="about_brand_text font_uber">Uber</span></div>
             <div class="about_last_logo_item"><span class="about_brand_text font_philips">PHILIPS</span></div>
             <div class="about_last_logo_item"><span class="about_brand_text font_deloitte">Deloitte.</span></div>
-        </div>
+        </div> -->
 
     </div>
 </section>

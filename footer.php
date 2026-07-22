@@ -33,7 +33,7 @@
                     <li><a href="brands.php">Brand Stories</a></li>
                     <li><a href="package.php">Packages</a></li>
                     <li><a href="achievement.php">Achievements</a></li>
-                    <li><a href="#">Brochure</a></li>
+                    <!-- <li><a href="#">Brochure</a></li> -->
                     <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
@@ -63,7 +63,7 @@
                     </li>
                     <li>
                         <i class="bi bi-envelope"></i>
-                        <span class="footer_text_break">bhavicreations2022@gmail.com</span>
+                        <span class="footer_text_break">admin@bhavicreations.com</span>
                     </li>
                     <li>
                         <i class="bi bi-geo-alt"></i>
@@ -71,8 +71,7 @@
                     </li>
                     <li>
                         <i class="bi bi-clock"></i>
-                        <span>Open 24 hours
-</span>
+                       <span>Open 6Am to 9pm</span>
                     </li>
                 </ul>
             </div>
