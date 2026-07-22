@@ -20,8 +20,8 @@
                         Explore how we turn ideas into impactful brands and measurable results.
                     </p>
 
-                    <a href="#projects" class="btn brands-primary-btn text-white">
-                        View All Projects <i class="bi bi-arrow-up-right"></i>
+                    <a href="service.php" class="btn brands-primary-btn text-white">
+                        View All Services <i class="bi bi-arrow-up-right"></i>
                     </a>
                 </div>
 
