@@ -2136,7 +2136,8 @@
       }
 
       .about_section_title {
-          font-size: clamp(2.4rem, 10vw, 3rem);
+          font-size: 37px;
+          /* font-size: clamp(2.4rem, 10vw, 3rem); */
       }
 
       .about_section_vector_line {
