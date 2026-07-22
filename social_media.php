@@ -55,7 +55,7 @@
         <div class="social_media-card">
           <div class="social_media-icon youtube"><i class="fab fa-youtube"></i></div>
           <div class="social_media-name">YouTube</div>
-          <div class="social_media-followers">2.5B+ active users</div>
+          <!-- <div class="social_media-followers">2.5B+ active users</div> -->
         </div>
       </div>
       <!-- Instagram -->
@@ -63,7 +63,7 @@
         <div class="social_media-card">
           <div class="social_media-icon instagram"><i class="fab fa-instagram"></i></div>
           <div class="social_media-name">Instagram</div>
-          <div class="social_media-followers">2B+ active users</div>
+          <!-- <div class="social_media-followers">2B+ active users</div> -->
         </div>
       </div>
       <!-- Facebook -->
@@ -71,7 +71,7 @@
         <div class="social_media-card">
           <div class="social_media-icon facebook"><i class="fab fa-facebook-f"></i></div>
           <div class="social_media-name">Facebook</div>
-          <div class="social_media-followers">3B+ active users</div>
+          <!-- <div class="social_media-followers">3B+ active users</div> -->
         </div>
       </div>
       <!-- Twitter (X) -->
@@ -79,7 +79,7 @@
         <div class="social_media-card">
           <div class="social_media-icon twitter"><i class="fab fa-x-twitter"></i></div>
           <div class="social_media-name">Twitter / X</div>
-          <div class="social_media-followers">550M+ active users</div>
+          <!-- <div class="social_media-followers">550M+ active users</div> -->
         </div>
       </div>
       <!-- LinkedIn -->
@@ -87,7 +87,7 @@
         <div class="social_media-card">
           <div class="social_media-icon linkedin"><i class="fab fa-linkedin-in"></i></div>
           <div class="social_media-name">LinkedIn</div>
-          <div class="social_media-followers">900M+ active users</div>
+          <!-- <div class="social_media-followers">900M+ active users</div> -->
         </div>
       </div>
       <!-- Pinterest -->
@@ -95,7 +95,7 @@
         <div class="social_media-card">
           <div class="social_media-icon pinterest"><i class="fab fa-pinterest-p"></i></div>
           <div class="social_media-name">Pinterest</div>
-          <div class="social_media-followers">450M+ active users</div>
+          <!-- <div class="social_media-followers">450M+ active users</div> -->
         </div>
       </div>
       <!-- TikTok (extra) 

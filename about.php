@@ -37,8 +37,8 @@
                         <p class="about_section_inner_tagline text-muted small mt-2">Creative. Strategic. Impactful.</p>
                     </div>
                 </div> -->
-                 <img src="./assets/img/about_img.png" alt="about_img" class="img-fluid" style="border-radius: 7px;">
-                  <!-- <img src="" alt="about_img" class="img-fluid" style="border-radius: 7px;"> -->
+                 <!-- <img src="./assets/img/about_img.png" alt="about_img" class="img-fluid" style="border-radius: 7px;"> -->
+                  <img src="./assets/img/Bhavi-staff.png" alt="about_img" class="img-fluid" style="border-radius: 7px;">
             </div>
 
         </div>
@@ -202,15 +202,16 @@
 <div class="about_multi_section_container">
     <div class="container-fluid px-4 px-lg-5">
 
+        
         <!-- 1. ABOUT FIFTH SECTION: What Drives Us -->
         <div class="about_fifth_section position-relative overflow-hidden mb-4">
             <div class="row align-items-center g-4 position-relative z-1">
 
                 <!-- Left Hands Shaking / Team Visual Mock Area -->
-                <!-- <div class="col-12 col-md-6 position-relative">
+                <div class="col-12 col-md-6 position-relative">
                     <div class="about_fifth_image_placeholder">
-                        
-                        <div class="about_fifth_promise_box">
+                        <!-- Glassmorphism Floating Promise Box -->
+                        <!-- <div class="about_fifth_promise_box">
                             <div class="d-flex align-items-center gap-2 mb-2">
                                 <i class="bi bi-shield-check text-primary fs-5"></i>
                                 <h6 class="m-0 fw-bold text-white small">Our Promise</h6>
@@ -221,9 +222,9 @@
                                 <li>On-time delivery.</li>
                                 <li>Long-term partnerships.</li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
-                </div> -->
+                </div>
 
                 <!-- Right Core Points Column -->
                 <div class="col-12 col-md-6 ps-lg-5">
