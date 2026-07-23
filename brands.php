@@ -90,7 +90,7 @@
     <section class="brands-filter-section" id="projects">
         <div class="container-fluid px-4 px-lg-5">
             <div class="brands-filter-row my-5">
-                <div class="brands-filter-chips" role="tablist" aria-label="Project filters">
+                <!-- <div class="brands-filter-chips" role="tablist" aria-label="Project filters">
                     <button type="button" class="btn brands-filter-btn is-active " data-filter="all">All Projects</button>
                     <button type="button" class="btn brands-filter-btn text-white" data-filter="branding">Branding</button>
                     <button type="button" class="btn brands-filter-btn text-white" data-filter="digital-marketing">Digital Marketing</button>
@@ -101,7 +101,7 @@
 
                 <button type="button" class="btn brands-filter-action">
                     Filter <i class="bi bi-funnel"></i>
-                </button>
+                </button> -->
             </div>
 
             <div class="brands-project-grid">
