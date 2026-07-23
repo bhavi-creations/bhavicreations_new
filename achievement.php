@@ -173,28 +173,28 @@
 
                 <article class="achievement-journey-card">
                     <div class="achievement-journey-icon"><i class="bi bi-rocket-takeoff"></i></div>
-                    <span class="achievement-journey-year">2020</span>
+                    <span class="achievement-journey-year">2021</span>
                     <h3>Going Digital</h3>
                     <p>Strengthened our digital services and delivered impactful campaigns.</p>
                 </article>
 
                 <article class="achievement-journey-card">
                     <div class="achievement-journey-icon"><i class="bi bi-star"></i></div>
-                    <span class="achievement-journey-year">2021</span>
+                    <span class="achievement-journey-year">2023</span>
                     <h3>Rising Higher</h3>
                     <p>Achieved 500+ successful projects and multiple industry recognitions.</p>
                 </article>
 
                 <article class="achievement-journey-card">
                     <div class="achievement-journey-icon"><i class="bi bi-globe"></i></div>
-                    <span class="achievement-journey-year">2022</span>
+                    <span class="achievement-journey-year">2025</span>
                     <h3>Wider Impact</h3>
                     <p>Partnered with global brands and served clients across multiple industries.</p>
                 </article>
 
                 <article class="achievement-journey-card">
                     <div class="achievement-journey-icon"><i class="bi bi-target"></i></div>
-                    <span class="achievement-journey-year">2024+</span>
+                    <span class="achievement-journey-year">2026</span>
                     <h3>Future Ready</h3>
                     <p>Continuing to innovate, create and deliver results that make a difference.</p>
                 </article>

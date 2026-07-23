@@ -3,7 +3,7 @@
         <div class="row g-4">
 
             <!-- Column 1: Logo & About -->
-            <div class="col-12 col-md-6 col-lg-2 pe-lg-4 footer_col_border">
+            <div class="col-12 col-md-6 col-lg-3 pe-lg-4 footer_col_border">
                 <div class="footer_logo">
                     <!-- <h2>LOGO</h2> -->
                      <img src="./assets/img/logo.webp" alt="logo"  style="width: 150px; height: auto;">
@@ -24,7 +24,7 @@
             </div>
 
             <!-- Column 2: Quick Links -->
-            <div class="col-6 col-md-3 col-lg-2 footer_col_border">
+            <div class="col-6 col-md-3 col-lg-3 footer_col_border">
                 <h6 class="footer_heading">Quick Links</h6>
                 <ul class="list-unstyled footer_links_list">
                     <li><a href="index.php">Home</a></li>
@@ -39,7 +39,7 @@
             </div>
 
             <!-- Column 3: Services -->
-            <div class="col-6 col-md-3 col-lg-2 footer_col_border">
+            <div class="col-6 col-md-3 col-lg-3 footer_col_border">
                 <h6 class="footer_heading">Services</h6>
                 <ul class="list-unstyled footer_links_list">
                     <li><a href="branding.php">Branding</a></li>
@@ -77,19 +77,19 @@
             </div>
 
             <!-- Column 5: Newsletter -->
-            <div class="col-12 col-md-6 col-lg-3 footer_newsletter_responsive">
+            <!-- <div class="col-12 col-md-6 col-lg-3 footer_newsletter_responsive">
                 <h6 class="footer_heading">Newsletter</h6>
                 <p class="footer_newsletter_desc">
                     Stay updated with our latest news and offers.
                 </p>
-                <!-- Newsletter Input Box -->
+               
                 <div class="footer_input_wrapper">
                     <input type="email" class="form-control" placeholder="Enter your email">
                     <button class="btn" type="button">
                         <i class="bi bi-arrow-right-short"></i>
                     </button>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 

@@ -730,7 +730,8 @@
   /* Column Headings Layout */
   .footer_heading {
       font-weight: 700;
-      color: #fff;
+      color: #5ec9ff;
+      /* color: #fff; */
       margin-bottom: 1rem;
       font-size: 0.95rem;
   }
@@ -3763,6 +3764,7 @@
       gap: 1rem;
       padding: 1.35rem 1.2rem;
       min-height: 100%;
+    
   }
 
   .services-stat-item+.services-stat-item {
@@ -4052,7 +4054,9 @@
 
   @media (max-width: 767.98px) {
       .services-hero-title {
-          font-size: clamp(2.35rem, 11vw, 3.4rem);
+          /* font-size: clamp(2.35rem, 11vw, 3.4rem); */
+          font-size: 36px;
+
       }
 
       .services-hero-text {
@@ -6287,7 +6291,7 @@
   .achievement-journey-grid::before {
       content: '';
       position: absolute;
-      left: 4.5%;
+      /* left: 4.5%; */
       right: 4.5%;
       top: 2.9rem;
       border-top: 2px dotted rgba(36, 107, 255, 0.35);
@@ -6298,6 +6302,10 @@
       z-index: 1;
       text-align: center;
       padding: 0.2rem 0.55rem 0;
+      border:2px solid #246bff ;
+      border-radius: 15px ;
+      /* background:pink; */
+      padding:20px;
   }
 
   .achievement-journey-icon {
