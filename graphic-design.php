@@ -1,31 +1,30 @@
 <?php include 'header.php';?>
-<div class="container px-3" style="padding: 100px 0px;  ">
+<div class="container px-3" style="padding: 100px 0px;">
 
-  <!-- ========== SECTION 1: Social Media Hero ========== -->
-  <section class="row g-4 align-items-center mb-4   " >
+  <!-- ========== SECTION 1: Graphic Design Hero ========== -->
+  <section class="row g-4 align-items-center mb-4">
     <div class="col-lg-6">
-      <div class="social_media_left-content  pt-5 ">
+      <div class="social_media_left-content pt-5">
         <h2 class="display-4 fw-bold">
-          Social Media <br />
-          <span style="background: linear-gradient(135deg, var(--blue), #8b5cf6); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Management</span>
-          <br />that drives growth
+          Graphic Design <br />
+          <span style="background: linear-gradient(135deg, var(--blue), #8b5cf6); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">that tells your story</span>
+          <br />and builds trust
         </h2>
         <p class="text-light opacity-75 fs-5" style="max-width: 90%;">
-          We craft data‑driven social strategies that build communities, 
-          amplify your brand voice, and deliver measurable results across every platform.
+          We create visually compelling designs — from logos and branding to print and digital media — that capture attention, communicate clearly, and leave a lasting impression.
         </p>
         <div class="d-flex flex-column gap-2">
           <div class="social_media_feature-item">
-            <i class="fas fa-check-circle"></i> <span>Audience engagement &amp; community building</span>
+            <i class="fas fa-check-circle"></i> <span>Logo &amp; brand identity design</span>
           </div>
           <div class="social_media_feature-item">
-            <i class="fas fa-check-circle"></i> <span>Content strategy &amp; calendar planning</span>
+            <i class="fas fa-check-circle"></i> <span>Print &amp; packaging design</span>
           </div>
           <div class="social_media_feature-item">
-            <i class="fas fa-check-circle"></i> <span>Analytics &amp; performance tracking</span>
+            <i class="fas fa-check-circle"></i> <span>Web &amp; digital graphics</span>
           </div>
           <div class="social_media_feature-item">
-            <i class="fas fa-check-circle"></i> <span>Paid social &amp; influencer collaboration</span>
+            <i class="fas fa-check-circle"></i> <span>Illustration &amp; visual storytelling</span>
           </div>
         </div>
       </div>
@@ -33,8 +32,8 @@
     <div class="col-lg-6">
       <div class="social_media_right-image">
         <img 
-          src="./assets/img/Graphic Design.png" xmlns='http://www.w3.org/2000/svg' width='500' height='320' viewBox='0 0 500 320'%3E%3Crect width='500' height='320' fill='%230b1023'/%3E%3Crect x='40' y='40' width='420' height='200' rx='24' fill='%231a2446' stroke='%23246bff' stroke-width='1.5'/%3E%3Ccircle cx='130' cy='120' r='36' fill='%23246bff' opacity='0.3'/%3E%3Crect x='190' y='100' width='160' height='16' rx='8' fill='%23246bff' opacity='0.7'/%3E%3Crect x='190' y='135' width='120' height='12' rx='6' fill='%23d2d8f5' opacity='0.3'/%3E%3Crect x='190' y='165' width='200' height='12' rx='6' fill='%23d2d8f5' opacity='0.2'/%3E%3Crect x='60' y='200' width='360' height='26' rx='14' fill='%23246bff' opacity='0.2'/%3E%3Crect x='140' y='260' width='180' height='32' rx='16' fill='%23246bff' opacity='0.8'/%3E%3C/svg%3E"
-          alt="Social Media Management"
+          src="./assets/img/Graphic Design1.png" xmlns='http://www.w3.org/2000/svg' width='500' height='320' viewBox='0 0 500 320'%3E%3Crect width='500' height='320' fill='%230b1023'/%3E%3Crect x='40' y='40' width='420' height='200' rx='24' fill='%231a2446' stroke='%23246bff' stroke-width='1.5'/%3E%3Ccircle cx='130' cy='120' r='36' fill='%238b5cf6' opacity='0.3'/%3E%3Crect x='190' y='100' width='160' height='16' rx='8' fill='%238b5cf6' opacity='0.7'/%3E%3Crect x='190' y='135' width='120' height='12' rx='6' fill='%23d2d8f5' opacity='0.3'/%3E%3Crect x='190' y='165' width='200' height='12' rx='6' fill='%23d2d8f5' opacity='0.2'/%3E%3Crect x='60' y='200' width='360' height='26' rx='14' fill='%238b5cf6' opacity='0.2'/%3E%3Crect x='140' y='260' width='180' height='32' rx='16' fill='%238b5cf6' opacity='0.8'/%3E%3C/svg%3E"
+          alt="Graphic Design"
           loading="lazy"
           class="img-fluid"
         />
@@ -44,135 +43,193 @@
 
   <hr class="social_media-divider" />
 
-  <!-- ========== SECTION 2: All Social Media Platforms ========== -->
+  <!-- ========== SECTION 2: Graphic Design Services ========== -->
   <section class="mb-5">
     <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold mb-4">
-      <i class="fas fa-share-alt" style="color: var(--blue);"></i> All Social Platforms
+      <i class="fas fa-paint-brush" style="color: var(--blue);"></i> Our Design Services
     </h3>
-    <div class="row g-4">
-      <!-- YouTube -->
-      <div class="col-6 col-md-4 ">
+     <!-- Flyer -->
+<div class="row g-5">
+      <div class="col-6 col-md-4">
+
         <div class="social_media-card">
-          <div class="social_media-icon youtube"><i class="fab fa-youtube"></i></div>
-          <div class="social_media-name">YouTube</div>
-          <!-- <div class="social_media-followers">2.5B+ active users</div> -->
+
+          <div class="social_media-icon" style="color:#246bff;">
+            <i class="fas fa-file-alt"></i>
+          </div>
+
+          <div class="social_media-name">
+            Flyers
+          </div>
+
         </div>
+
       </div>
-      <!-- Instagram -->
-      <div class="col-6 col-md-4 ">
+
+      <!-- Brochure -->
+
+      <div class="col-6 col-md-4">
+
         <div class="social_media-card">
-          <div class="social_media-icon instagram"><i class="fab fa-instagram"></i></div>
-          <div class="social_media-name">Instagram</div>
-          <!-- <div class="social_media-followers">2B+ active users</div> -->
+
+          <div class="social_media-icon" style="color:#246bff;">
+            <i class="fas fa-book-open"></i>
+          </div>
+
+          <div class="social_media-name">
+            Brochures
+          </div>
+
         </div>
+
       </div>
-      <!-- Facebook -->
-      <div class="col-6 col-md-4 ">
+
+      <!-- Posters -->
+
+      <div class="col-6 col-md-4">
+
         <div class="social_media-card">
-          <div class="social_media-icon facebook"><i class="fab fa-facebook-f"></i></div>
-          <div class="social_media-name">Facebook</div>
-          <!-- <div class="social_media-followers">3B+ active users</div> -->
+
+          <div class="social_media-icon" style="color:#246bff;">
+            <i class="fas fa-image"></i>
+          </div>
+
+          <div class="social_media-name">
+            Posters
+          </div>
+
         </div>
+
       </div>
-      <!-- Twitter (X) -->
-      <div class="col-6 col-md-4 ">
+
+      <!-- Banners -->
+
+      <div class="col-6 col-md-4">
+
         <div class="social_media-card">
-          <div class="social_media-icon twitter"><i class="fab fa-x-twitter"></i></div>
-          <div class="social_media-name">Twitter / X</div>
-          <!-- <div class="social_media-followers">550M+ active users</div> -->
+
+          <div class="social_media-icon" style="color:#246bff;">
+            <i class="fas fa-flag"></i>
+          </div>
+
+          <div class="social_media-name">
+            Banners
+          </div>
+
         </div>
+
       </div>
-      <!-- LinkedIn -->
-      <div class="col-6 col-md-4 ">
+
+      <!-- Hoardings -->
+
+      <!-- <div class="col-6 col-md-4">
+
         <div class="social_media-card">
-          <div class="social_media-icon linkedin"><i class="fab fa-linkedin-in"></i></div>
-          <div class="social_media-name">LinkedIn</div>
-          <!-- <div class="social_media-followers">900M+ active users</div> -->
+
+          <div class="social_media-icon" style="color:#246bff;">
+            <i class="fas fa-sign"></i>
+          </div>
+
+          <div class="social_media-name">
+            Hoardings
+          </div>
+
         </div>
-      </div>
-      <!-- Pinterest -->
-      <div class="col-6 col-md-4 ">
-        <div class="social_media-card">
-          <div class="social_media-icon pinterest"><i class="fab fa-pinterest-p"></i></div>
-          <div class="social_media-name">Pinterest</div>
-          <!-- <div class="social_media-followers">450M+ active users</div> -->
-        </div>
-      </div>
-      <!-- TikTok (extra) 
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="social_media-card">
-          <div class="social_media-icon" style="color: #00f2ea;"><i class="fab fa-tiktok"></i></div>
-          <div class="social_media-name">TikTok</div>
-          <div class="social_media-followers">1.5B+ active users</div>
-        </div>
-      </div>-->
-      <!-- Snapchat (extra)
-      <div class="col-6 col-md-4 col-lg-3">
-        <div class="social_media-card">
-          <div class="social_media-icon" style="color: #FFFC00;"><i class="fab fa-snapchat-ghost"></i></div>
-          <div class="social_media-name">Snapchat</div>
-          <div class="social_media-followers">600M+ active users</div>
-        </div>
+
       </div> -->
+
+      <!-- Visiting Cards -->
+
+<div class="col-6 col-md-4">
+
+    <div class="social_media-card">
+
+        <div class="social_media-icon" style="color:#246bff;">
+            <i class="fas fa-id-card"></i>
+        </div>
+
+        <div class="social_media-name">
+            Visiting Cards
+        </div>
+
     </div>
+
+</div>
+
+<!-- Marketing Collaterals -->
+
+<div class="col-6 col-md-4">
+
+    <div class="social_media-card">
+
+        <div class="social_media-icon" style="color:#246bff;">
+            <i class="fas fa-layer-group"></i>
+        </div>
+
+        <div class="social_media-name">
+            Marketing Collaterals
+        </div>
+
+    </div>
+
+</div>
+</div>
   </section>
 
   <hr class="social_media-divider" />
 
-  <!-- ========== SECTION 3: Benefits of Social Media ========== -->
+  <!-- ========== SECTION 3: Benefits of Graphic Design ========== -->
   <section>
     <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold mb-4">
-      <i class="fas fa-rocket" style="color: #8b5cf6;"></i> Benefits of Social Media
+      <i class="fas fa-rocket" style="color: #8b5cf6;"></i> Benefits of Great Design
     </h3>
     <div class="row g-4">
       <div class="col-md-6 col-lg-4">
         <div class="social_media-benefit-card">
-          <div class="social_media-benefit-icon"><i class="fas fa-bullhorn"></i></div>
-          <h5>Brand Awareness</h5>
-          <p>Reach a global audience and make your brand visible across multiple platforms, increasing recognition and recall.</p>
+          <div class="social_media-benefit-icon"><i class="fas fa-eye"></i></div>
+          <h5>Strong First Impression</h5>
+          <p>Professional design instantly builds credibility and trust, making your brand memorable from the very first glance.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="social_media-benefit-card">
-          <div class="social_media-benefit-icon"><i class="fas fa-users"></i></div>
-          <h5>Community Building</h5>
-          <p>Foster loyal communities around your brand, encourage user‑generated content, and build lasting relationships.</p>
+          <div class="social_media-benefit-icon"><i class="fas fa-comment-dots"></i></div>
+          <h5>Clear Communication</h5>
+          <p>Visuals convey complex messages quickly and effectively, ensuring your audience understands your value proposition.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="social_media-benefit-card">
-          <div class="social_media-benefit-icon"><i class="fas fa-chart-line"></i></div>
-          <h5>Traffic &amp; Conversions</h5>
-          <p>Drive qualified traffic to your website and convert followers into customers with targeted campaigns and CTAs.</p>
+          <div class="social_media-benefit-icon"><i class="fas fa-arrows-alt-h"></i></div>
+          <h5>Consistent Branding</h5>
+          <p>Unified visual identity across all touchpoints builds recognition, loyalty, and a cohesive brand experience.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="social_media-benefit-card">
-          <div class="social_media-benefit-icon"><i class="fas fa-headset"></i></div>
-          <h5>Customer Support</h5>
-          <p>Provide real‑time support and address concerns directly, enhancing customer satisfaction and retention.</p>
+          <div class="social_media-benefit-icon"><i class="fas fa-arrow-up"></i></div>
+          <h5>Higher Engagement</h5>
+          <p>Eye-catching graphics boost social shares, click‑through rates, and overall audience interaction with your content.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="social_media-benefit-card">
-          <div class="social_media-benefit-icon"><i class="fas fa-lightbulb"></i></div>
-          <h5>Market Insights</h5>
-          <p>Gain valuable data on audience preferences, trends, and competitor activity to refine your strategy.</p>
+          <div class="social_media-benefit-icon"><i class="fas fa-dice-d6"></i></div>
+          <h5>Competitive Edge</h5>
+          <p>Stand out in crowded markets with distinctive, high‑quality design that reflects your unique personality and values.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="social_media-benefit-card">
-          <div class="social_media-benefit-icon"><i class="fas fa-hand-holding-usd"></i></div>
-          <h5>Cost‑Effective Marketing</h5>
-          <p>Reach thousands with minimal spend, using organic content or targeted ads that deliver high ROI.</p>
+          <div class="social_media-benefit-icon"><i class="fas fa-chart-pie"></i></div>
+          <h5>Higher ROI</h5>
+          <p>Well‑designed marketing materials convert better, maximizing your return on investment and driving business growth.</p>
         </div>
       </div>
     </div>
   </section>
 
-
-
 </div>
-<!-- end wrapper -->
+<!-- end container -->
 
 <?php include 'footer.php' ;?>

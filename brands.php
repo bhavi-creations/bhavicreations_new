@@ -105,17 +105,18 @@
             </div>
 
             <div class="brands-project-grid">
-                <article class="brands-project-card" data-category="branding">
-                    <div class="brands-project-media brands-project-media-a">
-                        <span class="brands-project-badge">Branding</span>
-                        <img src="assets/img/branding.png" alt="Aurora Skincare" class="brands-project-image img-fluid" loading="lazy" decoding="async">
-                    </div>
-                    <div class="brands-project-content">
-                        <h3>Branding</h3>
-                        <p class="brands-project-meta">Build a Brand That Lasts</p>
-                        <p class="brands-project-desc">Craft a memorable brand identity that builds trust, reflects your vision, and creates a lasting impression.</p>
+                <a href="branding.php">
+                    <article class="brands-project-card" data-category="branding">
+                        <div class="brands-project-media brands-project-media-a">
+                            <span class="brands-project-badge">Branding</span>
+                            <img src="assets/img/branding.png" alt="Aurora Skincare" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        </div>
+                        <div class="brands-project-content">
+                            <h3>Branding</h3>
+                            <p class="brands-project-meta">Build a Brand That Lasts</p>
+                            <p class="brands-project-desc">Craft a memorable brand identity that builds trust, reflects your vision, and creates a lasting impression.</p>
 
-                        <div class="brands-project-stats">
+                            <!-- <div class="brands-project-stats">
                             <div class="brands-project-stat">
                                 <strong>200%</strong>
                                 <span>Brand Awareness</span>
@@ -124,23 +125,24 @@
                                 <strong>150%</strong>
                                 <span>Growth in Sales</span>
                             </div>
+                        </div> -->
+
+                            <!-- <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a> -->
                         </div>
+                    </article>
+                </a>
+                <a href="website.php">
+                    <article class="brands-project-card" data-category="web-design">
+                        <div class="brands-project-media brands-project-media-b">
+                            <span class="brands-project-badge">Website Design</span>
+                            <img src="assets/img/website.png" alt="Fintek Financial" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        </div>
+                        <div class="brands-project-content">
+                            <h3>Website Design</h3>
+                            <p class="brands-project-meta">Design Websites That Inspire</p>
+                            <p class="brands-project-desc">Create modern, responsive websites that deliver seamless user experiences and leave a lasting impression.</p>
 
-                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a>
-                    </div>
-                </article>
-
-                <article class="brands-project-card" data-category="web-design">
-                    <div class="brands-project-media brands-project-media-b">
-                        <span class="brands-project-badge">Website Design</span>
-                        <img src="assets/img/website.png" alt="Fintek Financial" class="brands-project-image img-fluid" loading="lazy" decoding="async">
-                    </div>
-                    <div class="brands-project-content">
-                        <h3>Website Design</h3>
-                        <p class="brands-project-meta">Design Websites That Inspire</p>
-                        <p class="brands-project-desc">Create modern, responsive websites that deliver seamless user experiences and leave a lasting impression.</p>
-
-                        <div class="brands-project-stats">
+                            <!-- <div class="brands-project-stats">
                             <div class="brands-project-stat">
                                 <strong>180%</strong>
                                 <span>Website Traffic</span>
@@ -149,23 +151,24 @@
                                 <strong>120%</strong>
                                 <span>Lead Generation</span>
                             </div>
+                        </div> -->
+
+                            <!-- <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a> -->
                         </div>
+                    </article>
+                </a>
+                <a href="seo.php">
+                    <article class="brands-project-card" data-category="branding">
+                        <div class="brands-project-media brands-project-media-c">
+                            <span class="brands-project-badge">SEO</span>
+                            <img src="assets/img/seo.png" alt="Mountain Brew" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        </div>
+                        <div class="brands-project-content">
+                            <h3>Seo</h3>
+                            <p class="brands-project-meta">Rank Higher on Search</p>
+                            <p class="brands-project-desc">Boost your online visibility and attract more organic traffic with effective SEO strategies that improve search rankings.</p>
 
-                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a>
-                    </div>
-                </article>
-
-                <article class="brands-project-card" data-category="branding">
-                    <div class="brands-project-media brands-project-media-c">
-                        <span class="brands-project-badge">SEO</span>
-                        <img src="assets/img/seo.png" alt="Mountain Brew" class="brands-project-image img-fluid" loading="lazy" decoding="async">
-                    </div>
-                    <div class="brands-project-content">
-                        <h3>Seo</h3>
-                        <p class="brands-project-meta">Rank Higher on Search</p>
-                        <p class="brands-project-desc">Boost your online visibility and attract more organic traffic with effective SEO strategies that improve search rankings.</p>
-
-                        <div class="brands-project-stats">
+                            <!-- <div class="brands-project-stats">
                             <div class="brands-project-stat">
                                 <strong>160%</strong>
                                 <span>Engagement</span>
@@ -176,21 +179,22 @@
                             </div>
                         </div>
 
-                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a>
-                    </div>
-                </article>
+                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a> -->
+                        </div>
+                    </article>
+                </a>
+                <a href="service.php">
+                    <article class="brands-project-card" data-category="digital-marketing">
+                        <div class="brands-project-media brands-project-media-d">
+                            <span class="brands-project-badge">Digital Marketing</span>
+                            <img src="assets/img/digital_marketing.png" alt="Elite Living" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        </div>
+                        <div class="brands-project-content">
+                            <h3>Digital Marketing</h3>
+                            <p class="brands-project-meta">Grow Your Brand Digitally</p>
+                            <p class="brands-project-desc">Reach the right audience, increase engagement, and drive business growth with result-focused digital marketing strategies.</p>
 
-                <article class="brands-project-card" data-category="digital-marketing">
-                    <div class="brands-project-media brands-project-media-d">
-                        <span class="brands-project-badge">Digital Marketing</span>
-                        <img src="assets/img/digital_marketing.png" alt="Elite Living" class="brands-project-image img-fluid" loading="lazy" decoding="async">
-                    </div>
-                    <div class="brands-project-content">
-                        <h3>Digital Marketing</h3>
-                        <p class="brands-project-meta">Grow Your Brand Digitally</p>
-                        <p class="brands-project-desc">Reach the right audience, increase engagement, and drive business growth with result-focused digital marketing strategies.</p>
-
-                        <div class="brands-project-stats">
+                            <!-- <div class="brands-project-stats">
                             <div class="brands-project-stat">
                                 <strong>250%</strong>
                                 <span>Brand Visibility</span>
@@ -201,21 +205,22 @@
                             </div>
                         </div>
 
-                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a>
-                    </div>
-                </article>
+                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a> -->
+                        </div>
+                    </article>
+                </a>
+                <a href="social_media.php">
+                    <article class="brands-project-card" data-category="social-media">
+                        <div class="brands-project-media brands-project-media-e">
+                            <span class="brands-project-badge">Social Media</span>
+                            <img src="assets/img/social media.png" alt="Urban Bites" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        </div>
+                        <div class="brands-project-content">
+                            <h3>Social Media</h3>
+                            <p class="brands-project-meta">Connect. Engage. Grow.</p>
+                            <p class="brands-project-desc">Build a strong social media presence with creative content that engages your audience and grows your brand.</p>
 
-                <article class="brands-project-card" data-category="social-media">
-                    <div class="brands-project-media brands-project-media-e">
-                        <span class="brands-project-badge">Social Media</span>
-                        <img src="assets/img/social media.png" alt="Urban Bites" class="brands-project-image img-fluid" loading="lazy" decoding="async">
-                    </div>
-                    <div class="brands-project-content">
-                        <h3>Social Media</h3>
-                        <p class="brands-project-meta">Connect. Engage. Grow.</p>
-                        <p class="brands-project-desc">Build a strong social media presence with creative content that engages your audience and grows your brand.</p>
-
-                        <div class="brands-project-stats">
+                            <!-- <div class="brands-project-stats">
                             <div class="brands-project-stat">
                                 <strong>300%</strong>
                                 <span>Followers Growth</span>
@@ -226,21 +231,22 @@
                             </div>
                         </div>
 
-                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a>
-                    </div>
-                </article>
+                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a> -->
+                        </div>
+                    </article>
+                </a>
+                <a href="video-production.php">
+                    <article class="brands-project-card" data-category="video-production">
+                        <div class="brands-project-media brands-project-media-f">
+                            <span class="brands-project-badge">Video Production</span>
+                            <img src="assets/img/video_editing.png" alt="NextGen Solutions" class="brands-project-image img-fluid" loading="lazy" decoding="async">
+                        </div>
+                        <div class="brands-project-content">
+                            <h3>Video Production</h3>
+                            <p class="brands-project-meta">Bring Stories to Life</p>
+                            <p class="brands-project-desc">Create impactful videos that capture attention, communicate your message, and strengthen your brand.</p>
 
-                <article class="brands-project-card" data-category="video-production">
-                    <div class="brands-project-media brands-project-media-f">
-                        <span class="brands-project-badge">Video Production</span>
-                        <img src="assets/img/video_editing.png" alt="NextGen Solutions" class="brands-project-image img-fluid" loading="lazy" decoding="async">
-                    </div>
-                    <div class="brands-project-content">
-                        <h3>Video Production</h3>
-                        <p class="brands-project-meta">Bring Stories to Life</p>
-                        <p class="brands-project-desc">Create impactful videos that capture attention, communicate your message, and strengthen your brand.</p>
-
-                        <div class="brands-project-stats">
+                            <!-- <div class="brands-project-stats">
                             <div class="brands-project-stat">
                                 <strong>180%</strong>
                                 <span>Video Views</span>
@@ -251,9 +257,10 @@
                             </div>
                         </div>
 
-                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a>
-                    </div>
-                </article>
+                        <a href="#" class="brands-project-link">View Case Study <i class="bi bi-arrow-up-right"></i></a> -->
+                        </div>
+                    </article>
+                </a>
             </div>
         </div>
     </section>
@@ -278,9 +285,9 @@
                 </a> -->
 
 
-                <a href="tel:+919642343434" class="talk_btn">
+                <!-- <a href="tel:+919642343434" class="talk_btn">
                     <i class="bi bi-telephone-fill"></i> Let's Talk
-                </a>
+                </a> -->
             </div>
         </div>
     </section>

@@ -1,215 +1,600 @@
 <?php include 'header.php'; ?>
 
-<div class="container  px-3" style="padding: 100px 0px; ">
+<div class="container px-3" style="padding:100px 0px;">
 
-  <!-- ========== SECTION 1: left content + right image (Bootstrap grid) ========== -->
-  <section class="row g-4 align-items-center mb-4  pt-5 "  >
-    <div class="col-lg-6">
-      <div class="website_section_left-content">
-        <h2 class="display-4 fw-bold">Explain your <span style="background: linear-gradient(135deg, var(--blue), #8b5cf6); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">website</span> <br />with clarity &amp; purpose</h2>
-        <p class="text-light opacity-75 fs-5" style="max-width: 90%;">
-          The left side presents your value proposition, core features, and 
-          the story behind your brand. The right side visualises it — 
-          creating instant connection and trust.
-        </p>
-        <div class="d-flex flex-column gap-2">
-          <div class="website_section_feature-item">
-            <i class="fas fa-check-circle"></i> <span>Clear content hierarchy &amp; UX</span>
-          </div>
-          <div class="website_section_feature-item">
-            <i class="fas fa-check-circle"></i> <span>Strategic calls‑to‑action</span>
-          </div>
-          <div class="website_section_feature-item">
-            <i class="fas fa-check-circle"></i> <span>High‑impact imagery &amp; branding</span>
-          </div>
-          <div class="website_section_feature-item">
-            <i class="fas fa-check-circle"></i> <span>Mobile‑first, accessible &amp; fast</span>
-          </div>
+    <!-- ========== SECTION 1 : Website Development Hero ========== -->
+    <section class="row g-4 align-items-center mb-4">
+
+        <div class="col-lg-6">
+
+            <div class="social_media_left-content pt-5">
+
+                <h2 class="display-4 fw-bold">
+                    Website Development <br>
+                    <span style="background:linear-gradient(135deg,var(--blue),#8b5cf6);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+                        for Your Business
+                    </span>
+                    <br>Made Simple
+                </h2>
+
+                <p class="text-light opacity-75 fs-5" style="max-width:90%;">
+                    A website helps people learn about your business, products, and services. We create modern, fast, and mobile-friendly websites that help your business grow online.
+                </p>
+
+                <div class="d-flex flex-column gap-2">
+
+                    <div class="social_media_feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Business Website Design</span>
+                    </div>
+
+                    <div class="social_media_feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Responsive on All Devices</span>
+                    </div>
+
+                    <div class="social_media_feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Fast &amp; Secure Website</span>
+                    </div>
+
+                    <div class="social_media_feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Easy to Use Navigation</span>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-      </div>
-    </div>
-    <div class="col-lg-6">
-      <div class="website_section_right-image">
-        <img 
-          src="./assets/img/website.png" width='500' height='320' viewBox='0 0 500 320'%3E%3Crect width='500' height='320' fill='%230b1023'/%3E%3Crect x='40' y='40' width='420' height='200' rx='24' fill='%231a2446' stroke='%23246bff' stroke-width='1.5'/%3E%3Ccircle cx='130' cy='120' r='36' fill='%23246bff' opacity='0.3'/%3E%3Crect x='190' y='100' width='160' height='16' rx='8' fill='%23246bff' opacity='0.7'/%3E%3Crect x='190' y='135' width='120' height='12' rx='6' fill='%23d2d8f5' opacity='0.3'/%3E%3Crect x='190' y='165' width='200' height='12' rx='6' fill='%23d2d8f5' opacity='0.2'/%3E%3Crect x='60' y='200' width='360' height='26' rx='14' fill='%23246bff' opacity='0.2'/%3E%3Crect x='140' y='260' width='180' height='32' rx='16' fill='%23246bff' opacity='0.8'/%3E%3C/svg%3E"
-          alt="Website visual – left content, right image concept"
-          loading="lazy"
-          class="img-fluid"
-        />
-      </div>
-    </div>
-  </section>
 
-  <hr class="section-divider" />
+        <div class="col-lg-6">
 
-  <!-- ========== SECTION 2: how to create (professional) ========== -->
-  <section class="mb-5">
-    <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold">
-      <i class="fas fa-code" style="color: var(--blue);"></i> How to create a website — professionally
+            <div class="social_media_right-image">
+
+                <img src="./assets/img/web_development1.png"
+                    alt="Website Development"
+                    loading="lazy"
+                    class="img-fluid">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr class="social_media-divider">
+
+    <!-- ========== SECTION 2 : Our Website Services ========== -->
+
+    <section class="mb-5">
+
+        <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold mb-4">
+
+            <i class="fas fa-code" style="color:var(--blue);"></i>
+
+            Our Website Services
+
+        </h3>
+
+        <div class="row g-4">
+
+            <!-- Business Website -->
+
+            <div class="col-6 col-md-4">
+
+                <div class="social_media-card">
+
+                    <div class="social_media-icon" style="color:#246bff;">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+
+                    <div class="social_media-name">
+                        Business Website
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Responsive Design -->
+
+            <div class="col-6 col-md-4">
+
+                <div class="social_media-card">
+
+                    <div class="social_media-icon" style="color:#246bff;">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+
+                    <div class="social_media-name">
+                        Responsive Design
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- UI / UX -->
+
+            <div class="col-6 col-md-4">
+
+                <div class="social_media-card">
+
+                    <div class="social_media-icon" style="color:#246bff;">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+
+                    <div class="social_media-name">
+                        UI / UX Design
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- E-Commerce -->
+
+            <div class="col-6 col-md-4">
+
+                <div class="social_media-card">
+
+                    <div class="social_media-icon" style="color:#246bff;">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+
+                    <div class="social_media-name">
+                        E-Commerce Website
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Website Maintenance -->
+
+            <div class="col-6 col-md-4">
+
+                <div class="social_media-card">
+
+                    <div class="social_media-icon" style="color:#246bff;">
+                        <i class="fas fa-tools"></i>
+                    </div>
+
+                    <div class="social_media-name">
+                        Website Maintenance
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- SEO Friendly -->
+
+            <div class="col-6 col-md-4">
+
+                <div class="social_media-card">
+
+                    <div class="social_media-icon" style="color:#246bff;">
+                        <i class="fas fa-search"></i>
+                    </div>
+
+                    <div class="social_media-name">
+                        SEO Friendly Website
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr class="social_media-divider">
+
+
+        <!-- ========== SECTION 3 : Benefits of a Website ========== -->
+
+    <section>
+
+        <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold mb-4">
+            <i class="fas fa-globe" style="color:#246bff;"></i>
+            Benefits of a Website
+        </h3>
+
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-4">
+
+                <div class="social_media-benefit-card">
+
+                    <div class="social_media-benefit-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+
+                    <h5>Builds Trust</h5>
+
+                    <p>
+                        A professional website helps people trust your business and gives a good first impression.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="social_media-benefit-card">
+
+                    <div class="social_media-benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+
+                    <h5>Reach More Customers</h5>
+
+                    <p>
+                        People can find your business online anytime and learn about your products and services.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 3 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="social_media-benefit-card">
+
+                    <div class="social_media-benefit-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+
+                    <h5>Mobile Friendly</h5>
+
+                    <p>
+                        Your website works smoothly on mobile phones, tablets, and desktop computers.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 4 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="social_media-benefit-card">
+
+                    <div class="social_media-benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+
+                    <h5>Fast Performance</h5>
+
+                    <p>
+                        A fast website gives visitors a better experience and helps keep them on your site.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 5 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="social_media-benefit-card">
+
+                    <div class="social_media-benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+
+                    <h5>Safe & Secure</h5>
+
+                    <p>
+                        We build secure websites that protect your information and work reliably.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- Card 6 -->
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="social_media-benefit-card">
+
+                    <div class="social_media-benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+
+                    <h5>Grow Your Business</h5>
+
+                    <p>
+                        A website helps you attract new customers and increase business opportunities.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr class="social_media-divider">
+
+    <!-- ========== SECTION 4 : What is a Website? & How to Build It ========== -->
+
+    <section class="mb-5">
+
+        <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold mb-4">
+
+            <i class="fas fa-laptop-code" style="color:#246bff;"></i>
+
+            What is a Website? &amp; How to Build It
+
+        </h3>
+
+        <div class="row g-4">
+
+            <!-- Left -->
+
+            <div class="col-md-6">
+
+                <div class="explain-card">
+
+                    <div class="explain-icon">
+
+                        <i class="fas fa-globe"></i>
+
+                    </div>
+
+                    <h4>What is a Website?</h4>
+
+                    <p class="text-light opacity-75">
+
+                        A website is a collection of web pages on the internet. It helps people learn about your business, products, or services anytime and from anywhere.
+
+                    </p>
+
+                    <h5 class="mt-3 text-white fw-semibold" style="font-size:1rem;">
+
+                        Why is a Website Important?
+
+                    </h5>
+
+                    <ul>
+
+                        <li><span class="highlight-blue">Show</span> your business online</li>
+
+                        <li><span class="highlight-blue">Share</span> your products and services</li>
+
+                        <li><span class="highlight-blue">Reach</span> more customers</li>
+
+                        <li><span class="highlight-blue">Build</span> customer trust</li>
+
+                        <li><span class="highlight-blue">Grow</span> your business</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div class="col-md-6">
+
+                <div class="explain-card">
+
+                    <div class="explain-icon">
+
+                        <i class="fas fa-code"></i>
+
+                    </div>
+
+                    <h4>How Do We Build It?</h4>
+
+                    <p class="text-light opacity-75">
+
+                        We follow a simple process to build a modern, fast, and user-friendly website for your business.
+
+                    </p>
+
+                    <h5 class="mt-3 text-white fw-semibold" style="font-size:1rem;">
+
+                        Our Process
+
+                    </h5>
+
+                    <ul>
+
+                        <li><span class="highlight-blue">Plan</span> the website</li>
+
+                        <li><span class="highlight-blue">Design</span> attractive pages</li>
+
+                        <li><span class="highlight-blue">Develop</span> the website</li>
+
+                        <li><span class="highlight-blue">Test</span> on all devices</li>
+
+                        <li><span class="highlight-blue">Launch</span> it online</li>
+
+                    </ul>
+
+                    <p class="mt-3 text-light opacity-75">
+
+                        <i class="fas fa-check-circle me-2" style="color:#246bff;"></i>
+
+                        We create websites that are fast, secure, mobile-friendly, and easy for everyone to use.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr class="social_media-divider">
+
+
+    <!-- ========== SECTION 5 : How We Work With Our Clients ========== -->
+
+<section class="mb-5">
+
+    <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold mb-4">
+        <i class="fas fa-handshake" style="color:#246bff;"></i>
+        How We Work With Our Clients
     </h3>
+
     <div class="row g-4">
-      <div class="col-md-4">
-        <div class="website_section_create-card">
-          <div class="step-icon">1</div>
-          <h4>Strategy &amp; wireframe</h4>
-          <p class="text-light opacity-75">Information architecture, user flows, and low‑fidelity wireframes that align with business goals.</p>
-          <ul>
-            <li>User personas &amp; journey</li>
-            <li>Content mapping &amp; sitemap</li>
-          </ul>
+
+        <!-- Card 1 -->
+
+        <div class="col-md-6">
+
+            <div class="website_section_approach-card">
+
+                <div class="approach-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+
+                <h4>Understand Your Business</h4>
+
+                <p class="text-light opacity-75">
+                    We first learn about your business, your goals, and the people you want to reach through your website.
+                </p>
+
+                <ul>
+                    <li>Understand your business</li>
+                    <li>Know your website goals</li>
+                </ul>
+
+            </div>
+
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="website_section_create-card">
-          <div class="step-icon">2</div>
-          <h4>Design system &amp; UI</h4>
-          <p class="text-light opacity-75">Component‑based design with consistent typography, spacing, and a polished visual language.</p>
-          <ul>
-            <li>Atomic design principles</li>
-            <li>Accessible contrast &amp; hierarchy</li>
-          </ul>
+
+        <!-- Card 2 -->
+
+        <div class="col-md-6">
+
+            <div class="website_section_approach-card">
+
+                <div class="approach-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+
+                <h4>Plan the Best Solution</h4>
+
+                <p class="text-light opacity-75">
+                    We suggest the right website design and features based on your business needs.
+                </p>
+
+                <ul>
+                    <li>Simple website planning</li>
+                    <li>Choose useful features</li>
+                </ul>
+
+            </div>
+
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="website_section_create-card">
-          <div class="step-icon">3</div>
-          <h4>Development &amp; delivery</h4>
-          <p class="text-light opacity-75">Semantic HTML, modular CSS, and performant interactions. Git workflow and quality assurance.</p>
-          <ul>
-            <li>Responsive testing</li>
-            <li>Performance &amp; SEO audit</li>
-          </ul>
+
+        <!-- Card 3 -->
+
+        <div class="col-md-6">
+
+            <div class="website_section_approach-card">
+
+                <div class="approach-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+
+                <h4>Build Your Website</h4>
+
+                <p class="text-light opacity-75">
+                    Our team develops a fast, secure, and responsive website that works perfectly on every device.
+                </p>
+
+                <ul>
+                    <li>Modern website design</li>
+                    <li>Responsive development</li>
+                </ul>
+
+            </div>
+
         </div>
-      </div>
+
+        <!-- Card 4 -->
+
+        <div class="col-md-6">
+
+            <div class="website_section_approach-card">
+
+                <div class="approach-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+
+                <h4>Support After Launch</h4>
+
+                <p class="text-light opacity-75">
+                    After your website is live, we continue to provide support, updates, and maintenance whenever needed.
+                </p>
+
+                <ul>
+                    <li>Regular website updates</li>
+                    <li>Ongoing technical support</li>
+                </ul>
+
+            </div>
+
+        </div>
+
     </div>
-  </section>
 
-  <hr class="section-divider" />
+</section>
 
-  <!-- ========== SECTION 3: approach client ========== -->
-  <section class="mb-5">
-    <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold">
-      <i class="fas fa-handshake" style="color: #8b5cf6;"></i> Approach the client for website purpose
-    </h3>
-    <div class="row g-4">
-      <div class="col-md-6">
-        <div class="website_section_approach-card">
-          <div class="approach-icon"><i class="fas fa-notes-medical"></i></div>
-          <h4>Discovery &amp; consult</h4>
-          <p class="text-light opacity-75">Start with a deep‑dive discovery session. Understand their business, audience, and unique value.</p>
-          <ul>
-            <li>Ask about pain points &amp; goals</li>
-            <li>Showcase relevant case studies</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="website_section_approach-card">
-          <div class="approach-icon"><i class="fas fa-chart-pie"></i></div>
-          <h4>Value‑first proposal</h4>
-          <p class="text-light opacity-75">Frame the website as a growth tool. Outline ROI, user experience, and measurable outcomes.</p>
-          <ul>
-            <li>Highlight conversion paths</li>
-            <li>Offer flexible milestones</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="website_section_approach-card">
-          <div class="approach-icon"><i class="fas fa-comment-dots"></i></div>
-          <h4>Collaborative iteration</h4>
-          <p class="text-light opacity-75">Present interactive prototypes and gather feedback. Build trust through transparency and agility.</p>
-          <ul>
-            <li>Regular check‑ins &amp; demos</li>
-            <li>Clear communication channels</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="website_section_approach-card">
-          <div class="approach-icon"><i class="fas fa-rocket"></i></div>
-          <h4>Launch &amp; beyond</h4>
-          <p class="text-light opacity-75">Support the client with post‑launch analytics, training, and a maintenance roadmap.</p>
-          <ul>
-            <li>Performance monitoring</li>
-            <li>Iterative improvements</li>
-          </ul>
-        </div>
-      </div>
+<hr class="social_media-divider">
+
+<!-- ========== SECTION 6 : Ready to Build Your Website? ========== -->
+
+<section class="website_cta_section text-center py-5">
+
+    <h2 class="display-5 fw-bold mb-3">
+        Ready to Build Your
+        <span style="background:linear-gradient(135deg,var(--blue),#8b5cf6);background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+            Dream Website?
+        </span>
+    </h2>
+
+    <p class="text-light opacity-75 fs-5 mx-auto" style="max-width:750px;">
+        Whether you need a business website, portfolio, landing page, or e-commerce store, our team is here to build a modern website that helps your business grow online.
+    </p>
+
+    <div class="mt-4">
+
+        <a href="contact.php" class="btn btn-primary px-4 py-3 me-3">
+            Get Started
+        </a>
+
+        <a href="service.php" class="btn btn-outline-light px-4 py-3">
+            Explore Services
+        </a>
+
     </div>
-  </section>
 
-  <hr class="section-divider" />
-
-  <!-- ========== EXTRA: explain website, types, languages ========== -->
-  <section>
-    <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold">
-      <i class="fas fa-globe" style="color: #fbbf24;"></i> What is a website? &amp; how to build it
-    </h3>
-    <div class="row g-4">
-      <!-- left: definition + types -->
-      <div class="col-md-6">
-        <div class="explain-card">
-          <div class="explain-icon"><i class="fas fa-info-circle"></i></div>
-          <h4>Website · definition</h4>
-          <p class="text-light opacity-75">
-            A website is a collection of interconnected web pages, typically 
-            identified by a common domain name, published on the internet. 
-            It serves as a digital presence for businesses, individuals, or 
-            organisations — delivering content, services, or e‑commerce.
-          </p>
-          <h5 class="mt-3 text-white fw-semibold" style="font-size:1rem;">Common types:</h5>
-          <ul>
-            <li><span class="highlight-blue">Static</span> – fixed content, HTML/CSS</li>
-            <li><span class="highlight-blue">Dynamic</span> – database‑driven, CMS (WordPress)</li>
-            <li><span class="highlight-blue">E‑commerce</span> – online stores (Shopify, WooCommerce)</li>
-            <li><span class="highlight-blue">Single‑page apps</span> – React, Vue, SPA</li>
-            <li><span class="highlight-blue">Portfolio / landing</span> – showcase, lead generation</li>
-          </ul>
-        </div>
-      </div>
-      <!-- right: languages + tools -->
-      <div class="col-md-6">
-        <div class="explain-card">
-          <div class="explain-icon"><i class="fas fa-cogs"></i></div>
-          <h4>Languages &amp; technologies</h4>
-          <p class="text-light opacity-75">
-            Building a website typically involves a combination of front‑end 
-            and back‑end languages. Here are the core ones:
-          </p>
-          <div class="mt-2">
-            <span class="lang-badge"><i class="fab fa-html5"></i> HTML5</span>
-            <span class="lang-badge"><i class="fab fa-css3-alt"></i> CSS3</span>
-            <span class="lang-badge"><i class="fab fa-js"></i> JavaScript</span>
-            <span class="lang-badge"><i class="fab fa-react"></i> React</span>
-            <span class="lang-badge"><i class="fab fa-vuejs"></i> Vue</span>
-            <span class="lang-badge"><i class="fab fa-python"></i> Python</span>
-            <span class="lang-badge"><i class="fab fa-php"></i> PHP</span>
-            <span class="lang-badge"><i class="fas fa-database"></i> SQL</span>
-            <span class="lang-badge"><i class="fab fa-node-js"></i> Node.js</span>
-          </div>
-          <p class="mt-3 text-light opacity-75" style="font-size:0.95rem;">
-            <i class="fas fa-tools text-accent me-1"></i> 
-            <strong>Professional stack:</strong> HTML, CSS, JavaScript (frontend) · 
-            Node/PHP/Python (backend) · Git, Figma, Webpack, Docker.
-          </p>
-          <p class="text-light opacity-75" style="font-size:0.9rem; margin-top:0.6rem;">
-            <i class="fas fa-check-circle text-accent me-1"></i> 
-            Modern workflows include component‑based design, version control, 
-            and CI/CD for seamless deployment.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- subtle bottom note (no header/footer) -->
-  <!-- <div class="mt-5 pt-4 text-center border-top" style="border-color: var(--border) !important; opacity: 0.5; color: var(--text); font-size: 0.85rem;">
-    <i class="fas fa-arrow-up text-accent me-1"></i> Built with clarity · no header, no footer · Bootstrap 5
-  </div> -->
+</section>
 
 </div>
-<!-- end wrapper -->
+<!-- End Container -->
 
-<!-- Bootstrap JS (optional, for toggles etc.) -->
-<?php include 'footer.php' ; ?>
+<?php include 'footer.php'; ?>

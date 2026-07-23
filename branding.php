@@ -1,482 +1,373 @@
 <?php include 'header.php'; ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Branding | What it is, Types & Benefits</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --blue: #246BFF;
-            --dark: #050816;
-            --card: #0B1023;
-            --border: #1A2446;
-            --text: #D2D8F5;
+<div class="container px-3" style="padding: 150px 0px;">
 
-            --bg-dark: #04050a;
-            --primary-blue: #0d6efd;
-            --neon-glow: rgba(13, 110, 253, 0.5);
-            --text-gray: #a9a9b3;
-            --border-color: rgba(255, 255, 255, 0.1);
-            --card-bg: rgba(255, 255, 255, 0.03);
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            background: radial-gradient(ellipse at top, #0a0f28 0%, var(--bg-dark) 55%, #000 100%);
-            color: var(--text);
-            font-family: 'Inter', sans-serif;
-            overflow-x: hidden;
-        }
-
-        h1,
-        h2,
-        h3,
-        .display-font {
-            font-family: 'Space Grotesk', sans-serif;
-        }
-
-        .grain-overlay {
-            position: fixed;
-            inset: 0;
-            pointer-events: none;
-            background-image: radial-gradient(circle at 20% 20%, var(--neon-glow) 0%, transparent 35%),
-                radial-gradient(circle at 80% 70%, rgba(36, 107, 255, 0.25) 0%, transparent 40%);
-            z-index: 0;
-        }
-
-        .content-wrap {
-            position: relative;
-            z-index: 1;
-        }
-
-        /* NAV */
-        .navbar-custom {
-            background: rgba(5, 8, 22, 0.7);
-            backdrop-filter: blur(14px);
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .navbar-brand span {
-            background: linear-gradient(90deg, var(--blue), #7db3ff);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            font-weight: 700;
-        }
-
-        /* HERO */
-        .hero-section {
-            padding: 140px 0 90px;
-            text-align: center;
-        }
-
-        .eyebrow-tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 6px 18px;
-            border: 1px solid var(--border-color);
-            border-radius: 999px;
-            background: var(--card-bg);
-            color: var(--text-gray);
-            font-size: 0.8rem;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-        }
-
-        .eyebrow-tag .dot {
-            width: 7px;
-            height: 7px;
-            border-radius: 50%;
-            background: var(--primary-blue);
-            box-shadow: 0 0 10px 2px var(--neon-glow);
-        }
-
-        .hero-title {
-            font-size: clamp(2.4rem, 5vw, 4rem);
-            font-weight: 700;
-            line-height: 1.08;
-            margin: 26px 0 22px;
-            letter-spacing: -0.02em;
-        }
-
-        .hero-title .glow-word {
-            background: linear-gradient(90deg, #7db3ff, var(--blue) 60%, #a685ff);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-
-        .hero-sub {
-            max-width: 680px;
-            margin: 0 auto;
-            color: var(--text-gray);
-            font-size: 1.08rem;
-            line-height: 1.7;
-        }
-
-        /* SECTION LABELS */
-        .section-label {
-            font-size: 0.78rem;
-            letter-spacing: 0.18em;
-            text-transform: uppercase;
-            color: var(--primary-blue);
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-
-        .section-heading {
-            font-size: clamp(1.8rem, 3.2vw, 2.6rem);
-            font-weight: 700;
-            margin-bottom: 16px;
-        }
-
-        .section-desc {
-            color: var(--text-gray);
-            max-width: 620px;
-        }
-
-        section {
-            padding: 80px 0;
-            border-top: 1px solid var(--border-color);
-        }
-
-        /* KEY POINTS - HERO SECTION CARD */
-        .glass-panel {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 20px;
-            padding: 36px;
-            backdrop-filter: blur(10px);
-        }
-
-        .point-row {
-            display: flex;
-            align-items: flex-start;
-            gap: 14px;
-            padding: 14px 0;
-            border-bottom: 1px dashed var(--border-color);
-        }
-
-        .point-row:last-child {
-            border-bottom: none;
-        }
-
-        .point-icon {
-            flex: 0 0 auto;
-            width: 26px;
-            height: 26px;
-            border-radius: 8px;
-            background: rgba(13, 110, 253, 0.15);
-            border: 1px solid rgba(13, 110, 253, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--primary-blue);
-            font-size: 0.75rem;
-            font-weight: 700;
-        }
-
-        /* TYPES GRID */
-        .type-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 18px;
-            padding: 28px;
-            height: 100%;
-            position: relative;
-            transition: transform .35s ease, border-color .35s ease, box-shadow .35s ease;
-            overflow: hidden;
-        }
-
-        .type-card::before {
-            content: "";
-            position: absolute;
-            top: -40%;
-            right: -40%;
-            width: 200px;
-            height: 200px;
-            background: radial-gradient(circle, var(--neon-glow), transparent 70%);
-            opacity: 0;
-            transition: opacity .35s ease;
-        }
-
-        .type-card:hover {
-            transform: translateY(-6px);
-            border-color: rgba(13, 110, 253, 0.5);
-            box-shadow: 0 18px 40px -12px rgba(13, 110, 253, 0.35);
-        }
-
-        .type-card:hover::before {
-            opacity: 1;
-        }
-
-        .type-index {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 2rem;
-            font-weight: 700;
-            color: rgba(210, 216, 245, 0.15);
-            line-height: 1;
-        }
-
-        .type-card h3 {
-            font-size: 1.15rem;
-            margin: 10px 0 8px;
-            color: #fff;
-        }
-
-        .type-card p {
-            color: var(--text-gray);
-            font-size: 0.92rem;
-            margin-bottom: 6px;
-        }
-
-        .type-example {
-            font-size: 0.82rem;
-            color: var(--primary-blue);
-            font-style: italic;
-        }
-
-        /* BENEFITS */
-        .benefit-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 24px;
-            height: 100%;
-            transition: border-color .3s ease, transform .3s ease;
-        }
-
-        .benefit-card:hover {
-            border-color: var(--primary-blue);
-            transform: translateY(-4px);
-        }
-
-        .benefit-num {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 38px;
-            height: 38px;
-            border-radius: 10px;
-            background: linear-gradient(135deg, var(--primary-blue), #6f42c1);
-            color: #fff;
-            font-weight: 700;
-            font-size: 0.9rem;
-            margin-bottom: 14px;
-        }
-
-        .benefit-card h4 {
-            font-size: 1.02rem;
-            color: #fff;
-            margin-bottom: 6px;
-        }
-
-        .benefit-card p {
-            color: var(--text-gray);
-            font-size: 0.9rem;
-            margin: 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px 0;
-            color: var(--text-gray);
-            font-size: 0.85rem;
-            border-top: 1px solid var(--border-color);
-        }
-
-        footer .glow-word {
-            color: var(--primary-blue);
-        }
-    </style>
-</head>
-
-<body>
-
-    <div class="grain-overlay"></div>
-    <div class="content-wrap">
-
-        <!-- NAVBAR -->
-        
-
-        <!-- HERO -->
-        <div class="hero-section" id="what-is">
-            <div class="container">
-                <span class="eyebrow-tag"><span class="dot"></span> Brand Strategy Basics</span>
-                <h1 class="hero-title">What is <span class="glow-word">Branding</span>?</h1>
-                <p class="hero-sub">
-                    Branding is the process of creating a unique identity and image for a business,
-                    product, or service. It helps people recognize, remember, and trust a brand
-                    compared to its competitors.
+    <!-- ========== SECTION 1: Branding Hero ========== -->
+    <!-- <section class="row g-4 align-items-center mb-4">
+        <div class="col-lg-6">
+            <div class="branding_media_left-content">
+                <h2 class="display-4 fw-bold">
+                    Strategic
+                    <span style="background: linear-gradient(135deg, var(--blue), #8b5cf6); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Brand Identity</span>
+                    &amp; Growth
+                </h2>
+                <p class="text-light opacity-75 fs-5" style="max-width: 90%;">
+                    We craft memorable visual identities, clear brand positioning, and cohesive strategies that turn casual visitors into loyal brand advocates.
                 </p>
-
-                <div class="row justify-content-center mt-5">
-                    <div class="col-lg-8">
-                        <div class="glass-panel text-start">
-                            <div class="point-row">
-                                <div class="point-icon">01</div>
-                                <div>Creates a unique identity for a business.</div>
-                            </div>
-                            <div class="point-row">
-                                <div class="point-icon">02</div>
-                                <div>Includes elements like logo, colors, design, brand name, and tagline.</div>
-                            </div>
-                            <div class="point-row">
-                                <div class="point-icon">03</div>
-                                <div>Builds a positive impression in customers' minds.</div>
-                            </div>
-                            <div class="point-row">
-                                <div class="point-icon">04</div>
-                                <div>Increases brand value and reputation.</div>
-                            </div>
-                            <div class="point-row">
-                                <div class="point-icon">05</div>
-                                <div>Helps a business stand out in the competitive market.</div>
-                            </div>
-                        </div>
+                <div class="d-flex flex-column gap-2">
+                    <div class="branding_media_feature-item">
+                        <i class="fas fa-check-circle"></i> <span>Logo Systems &amp; Visual Assets</span>
+                    </div>
+                    <div class="branding_media_feature-item">
+                        <i class="fas fa-check-circle"></i> <span>Market Positioning &amp; Brand Strategy</span>
+                    </div>
+                    <div class="branding_media_feature-item">
+                        <i class="fas fa-check-circle"></i> <span>Brand Voice &amp; Core Messaging</span>
+                    </div>
+                    <div class="branding_media_feature-item">
+                        <i class="fas fa-check-circle"></i> <span>Comprehensive Brand Style Guides</span>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="col-lg-6">
+            <div class="branding_media_right-image">
+                <img
+                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='320' viewBox='0 0 500 320'%3E%3Crect width='500' height='320' fill='%230b1023'/%3E%3Crect x='40' y='40' width='420' height='200' rx='24' fill='%231a2446' stroke='%23246bff' stroke-width='1.5'/%3E%3Ccircle cx='130' cy='120' r='36' fill='%23246bff' opacity='0.3'/%3E%3Crect x='190' y='100' width='160' height='16' rx='8' fill='%23246bff' opacity='0.7'/%3E%3Crect x='190' y='135' width='120' height='12' rx='6' fill='%23d2d8f5' opacity='0.3'/%3E%3Crect x='190' y='165' width='200' height='12' rx='6' fill='%23d2d8f5' opacity='0.2'/%3E%3Crect x='60' y='200' width='360' height='26' rx='14' fill='%23246bff' opacity='0.2'/%3E%3Crect x='140' y='260' width='180' height='32' rx='16' fill='%23246bff' opacity='0.8'/%3E%3C/svg%3E"
+                    alt="Branding Services"
+                    loading="lazy"
+                    class="img-fluid" />
+            </div>
+        </div>
+    </section> -->
 
-        <!-- TYPES OF BRANDING -->
-        <section id="types">
-            <div class="container">
-                <div class="section-label">Categories</div>
-                <h2 class="section-heading">Types of Branding</h2>
-                <p class="section-desc mb-5">Businesses use different branding strategies depending on what they want the audience to recognize — a product, a company, a person, or an experience.</p>
+    <section class="row g-4 align-items-center mb-4">
+        <div class="col-lg-6">
+            <div class="branding_media_left-content">
 
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="type-card">
-                            <div class="type-index">01</div>
-                            <h3>Product Branding</h3>
-                            <p>Creating a unique identity and image for a specific product.</p>
-                            <div class="type-example">e.g. A mobile phone brand or a food product having its own identity.</div>
-                        </div>
+                <h2 class="display-4 fw-bold">
+                    Build a
+                    <br>
+                    <span style="background: linear-gradient(135deg, var(--blue), #8b5cf6); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                        Powerful Brand
+                    </span>
+                    <br>
+                    that stands out
+                </h2>
+
+                <p class="text-light opacity-75 fs-5" style="max-width:90%;">
+                    Create a strong and memorable brand identity that builds trust,
+                    connects with your audience, and helps your business stand out in
+                    today's competitive market with a consistent and professional image.
+                </p>
+
+                <div class="d-flex flex-column gap-2">
+
+                    <div class="branding_media_feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Unique Logo & Visual Identity Design</span>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="type-card">
-                            <div class="type-index">02</div>
-                            <h3>Corporate Branding</h3>
-                            <p>Building the overall image and reputation of a company.</p>
-                            <div class="type-example">e.g. Creating trust and recognition for the entire organization.</div>
-                        </div>
+
+                    <div class="branding_media_feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Brand Strategy & Market Positioning</span>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="type-card">
-                            <div class="type-index">03</div>
-                            <h3>Personal Branding</h3>
-                            <p>Creating a unique identity for an individual.</p>
-                            <div class="type-example">e.g. Entrepreneurs, influencers, and professionals building their own personal brand.</div>
-                        </div>
+
+                    <div class="branding_media_feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Consistent Brand Messaging & Voice</span>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="type-card">
-                            <div class="type-index">04</div>
-                            <h3>Service Branding</h3>
-                            <p>Creating a strong identity for a service.</p>
-                            <div class="type-example">e.g. Banking, education, and healthcare services.</div>
-                        </div>
+
+                    <div class="branding_media_feature-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Complete Brand Guidelines & Assets</span>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="type-card">
-                            <div class="type-index">05</div>
-                            <h3>Digital Branding</h3>
-                            <p>Building a brand presence through online platforms.</p>
-                            <div class="type-example">e.g. Websites, social media, and online advertising.</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="type-card">
-                            <div class="type-index">06</div>
-                            <h3>Retail Branding</h3>
-                            <p>Creating a unique identity for a retail store or shopping business.</p>
-                            <div class="type-example">e.g. A distinct store look, layout, and shopping experience.</div>
-                        </div>
-                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="branding_media_right-image">
+                <img
+                    src="./assets/img/branding1.png" xmlns='http://www.w3.org/2000/svg' width='500' height='320' viewBox='0 0 500 320'%3E%3Crect width='500' height='320' fill='%230b1023'/%3E%3Crect x='40' y='40' width='420' height='200' rx='24' fill='%231a2446' stroke='%23246bff' stroke-width='1.5'/%3E%3Ccircle cx='130' cy='120' r='36' fill='%23246bff' opacity='0.3'/%3E%3Crect x='190' y='100' width='160' height='16' rx='8' fill='%23246bff' opacity='0.7'/%3E%3Crect x='190' y='135' width='120' height='12' rx='6' fill='%23d2d8f5' opacity='0.3'/%3E%3Crect x='190' y='165' width='200' height='12' rx='6' fill='%23d2d8f5' opacity='0.2'/%3E%3Crect x='60' y='200' width='360' height='26' rx='14' fill='%23246bff' opacity='0.2'/%3E%3Crect x='140' y='260' width='180' height='32' rx='16' fill='%23246bff' opacity='0.8'/%3E%3C/svg%3E"
+                    alt="Branding Services"
+                    loading="lazy"
+                    class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+
+    <hr class="branding_media-divider" />
+
+    <!-- ========== SECTION 2: Branding Services ========== -->
+    <!-- <section class="mb-5">
+        <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold mb-4">
+            <i class="fas fa-paint-brush" style="color: var(--blue);"></i> Branding Solutions
+        </h3>
+        <div class="row g-4">
+           
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon logo"><i class="fas fa-crown"></i></div>
+                    <div class="branding_media-name">Logo Design</div>
+                    <div class="branding_media-desc">Core Visual Mark</div>
                 </div>
             </div>
-        </section>
-
-        <!-- BENEFITS -->
-        <section id="benefits">
-            <div class="container">
-                <div class="section-label">Why it matters</div>
-                <h2 class="section-heading">Uses & Benefits of Branding</h2>
-                <p class="section-desc mb-5">Branding provides many benefits for a business — from trust to growth.</p>
-
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-card">
-                            <div class="benefit-num">1</div>
-                            <h4>Builds Customer Trust</h4>
-                            <p>Strong branding helps customers trust the business and its products.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-card">
-                            <div class="benefit-num">2</div>
-                            <h4>Improves Recognition</h4>
-                            <p>Customers can easily identify and remember the brand.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-card">
-                            <div class="benefit-num">3</div>
-                            <h4>Competitive Advantage</h4>
-                            <p>Helps the business stand out from competitors.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-card">
-                            <div class="benefit-num">4</div>
-                            <h4>Customer Loyalty</h4>
-                            <p>A strong brand encourages customers to choose the same brand repeatedly.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-card">
-                            <div class="benefit-num">5</div>
-                            <h4>Business Value</h4>
-                            <p>A powerful brand improves the overall value of the company.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-card">
-                            <div class="benefit-num">6</div>
-                            <h4>Boosts Sales & Growth</h4>
-                            <p>Good branding attracts more customers and increases business opportunities.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="benefit-card">
-                            <div class="benefit-num">7</div>
-                            <h4>Professional Image</h4>
-                            <p>Branding gives the business a reliable and professional identity.</p>
-                        </div>
-                    </div>
+          
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon identity"><i class="fas fa-shield-halved"></i></div>
+                    <div class="branding_media-name">Visual Identity</div>
+                    <div class="branding_media-desc">Colors, Fonts & Assets</div>
                 </div>
             </div>
-        </section>
+           
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon strategy"><i class="fas fa-bullseye"></i></div>
+                    <div class="branding_media-name">Brand Strategy</div>
+                    <div class="branding_media-desc">Market Positioning</div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon voice"><i class="fas fa-comment-dots"></i></div>
+                    <div class="branding_media-name">Brand Messaging</div>
+                    <div class="branding_media-desc">Tone & Value Prop</div>
+                </div>
+            </div>
+           
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon packaging"><i class="fas fa-box"></i></div>
+                    <div class="branding_media-name">Packaging Design</div>
+                    <div class="branding_media-desc">Product Experience</div>
+                </div>
+            </div>
+           
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon digital"><i class="fas fa-globe"></i></div>
+                    <div class="branding_media-name">Digital Assets</div>
+                    <div class="branding_media-desc">Web & Social Touchpoints</div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon story"><i class="fas fa-book-open"></i></div>
+                    <div class="branding_media-name">Brand Storytelling</div>
+                    <div class="branding_media-desc">Narrative & Purpose</div>
+                </div>
+            </div>
+           
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon management"><i class="fas fa-sliders-h"></i></div>
+                    <div class="branding_media-name">Brand Guidelines</div>
+                    <div class="branding_media-desc">Consistency Standards</div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
-        <footer>
-            Crafted with a <span class="glow-word">deep-space blue</span> identity — BrandLab &copy; 2026
-        </footer>
+
+    <section class="mb-5">
+        <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold mb-4">
+            <i class="fas fa-layer-group" style="color: var(--blue);"></i>
+            Branding Services
+        </h3>
+
+        <div class="row g-4">
+
+            <!-- Logo Design -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon logo">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <div class="branding_media-name">Logo Design</div>
+                    <div class="branding_media-desc">Unique & Memorable Brand Logos</div>
+                </div>
+            </div>
+
+            <!-- Brand Identity -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon identity">
+                        <i class="fas fa-fingerprint"></i>
+                    </div>
+                    <div class="branding_media-name">Brand Identity</div>
+                    <div class="branding_media-desc">Colors, Fonts & Visual Style</div>
+                </div>
+            </div>
+
+            <!-- Brand Strategy -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon strategy">
+                        <i class="fas fa-chess-knight"></i>
+                    </div>
+                    <div class="branding_media-name">Brand Strategy</div>
+                    <div class="branding_media-desc">Position Your Business for Success</div>
+                </div>
+            </div>
+
+            <!-- Brand Messaging -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon voice">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <div class="branding_media-name">Brand Messaging</div>
+                    <div class="branding_media-desc">Clear, Consistent Communication</div>
+                </div>
+            </div>
+
+            <!-- Business Stationery -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon packaging">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <div class="branding_media-name">Business Stationery</div>
+                    <div class="branding_media-desc">Cards, Letterheads & More</div>
+                </div>
+            </div>
+
+            <!-- Social Media Branding -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon digital">
+                        <i class="fas fa-share-nodes"></i>
+                    </div>
+                    <div class="branding_media-name">Social Media Branding</div>
+                    <div class="branding_media-desc">Professional Social Presence</div>
+                </div>
+            </div>
+
+            <!-- Packaging Design -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon story">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <div class="branding_media-name">Packaging Design</div>
+                    <div class="branding_media-desc">Creative Product Packaging</div>
+                </div>
+            </div>
+
+            <!-- Brand Guidelines -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="branding_media-card">
+                    <div class="branding_media-icon management">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="branding_media-name">Brand Guidelines</div>
+                    <div class="branding_media-desc">Maintain a Consistent Brand</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr class="branding_media-divider" />
+
+    <!-- ========== SECTION 3: Benefits of Branding ========== -->
+    <section>
+    <h3 class="d-flex align-items-center gap-2 fs-1 fw-semibold mb-4">
+        <i class="fas fa-palette" style="color:#8b5cf6;"></i>
+        Why Branding Matters
+    </h3>
+
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="branding_media-benefit-card">
+                <div class="branding_media-benefit-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h5>Increase Brand Recognition</h5>
+                <p>A strong brand identity helps customers recognize and remember your business wherever they see it.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="branding_media-benefit-card">
+                <div class="branding_media-benefit-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h5>Build Customer Trust</h5>
+                <p>A professional brand creates confidence and makes customers feel comfortable choosing your products or services.</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="branding_media-benefit-card">
+                <div class="branding_media-benefit-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5>Stand Out from Competitors</h5>
+                <p>Unique branding helps your business look different and makes it easier for customers to choose you.</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="branding_media-benefit-card">
+                <div class="branding_media-benefit-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h5>Create Customer Loyalty</h5>
+                <p>Consistent branding builds lasting relationships and encourages customers to return again and again.</p>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="branding_media-benefit-card">
+                <div class="branding_media-benefit-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h5>Grow Your Business</h5>
+                <p>A strong brand attracts more customers, improves your reputation, and supports long-term business growth.</p>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-md-6 col-lg-4">
+            <div class="branding_media-benefit-card">
+                <div class="branding_media-benefit-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h5>Professional Brand Image</h5>
+                <p>Consistent logos, colors, and messaging create a polished image that leaves a lasting impression.</p>
+            </div>
+        </div>
 
     </div>
+</section>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
+</div>
+<!-- end wrapper -->
 
 <?php include 'footer.php'; ?>
