@@ -33,7 +33,8 @@
                     <li><a href="brands.php">Brand Stories</a></li>
                     <li><a href="package.php">Packages</a></li>
                     <li><a href="achievement.php">Achievements</a></li>
-                    <!-- <li><a href="#">Brochure</a></li> -->
+                    <li><a href="our_works.php">Our Work</a></li>
+                    <li><a href="pages.php">Pages</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                 </ul>
             </div>
