@@ -44,11 +44,13 @@
                             <img src="https://ui-avatars.com/api/?name=CEO&background=random" alt="CEO">
                         </div>
                         <div class="home_section_stat_text">
-                            <div class="text-warning small mb-1 home_section_stat_stars">
-                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                            </div>
-                            <div class="home_section_stat_num fs-6">5.0 Rating</div>
-                            <div class="home_section_stat_label">Based on 100+ reviews</div>
+                            <a href="https://share.google/BseBSB2iCbUUuVZ0i" target="_blank">
+                                <div class="text-warning small mb-1 home_section_stat_stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <div class="home_section_stat_num fs-6">5.0 Rating</div>
+                                <div class="home_section_stat_label">Based on 100+ reviews</div>
+                            </a>
                         </div>
                     </div>
 
@@ -327,17 +329,18 @@
 
             <!-- Card 10: Strategy & Consulting -->
             <div class="col">
-                <a href="strategy-co.php">
-                <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
-                    <div class="home_section_icon_box mb-4 text-primary fs-2">
-                        <!-- <i class="bi bi-lightbulb" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
-                        <img src=".\assets\img\stratgr_co.png" style="width: 50px; height:50px;">
+                <a href="place-branding.php">
+                    <div class="home_section_card h-100 p-4" style="background: #070F1A; border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                        <div class="home_section_icon_box mb-4 text-primary fs-2">
+                            <!-- <i class="bi bi-lightbulb" style="text-shadow: 0 0 15px rgba(13, 110, 253, 0.6);"></i> -->
+                            <img src=".\assets\img\stratgr_co.png" style="width: 50px; height:50px;">
+                        </div>
+                        <h4 class="home_section_card_title fw-bold fs-5 mb-2">Place Branding &amp;<br>Stickers</h4>
+                        <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
+                            Business strategy that builds strong corporate brands.
+                        </p>
                     </div>
-                    <h4 class="home_section_card_title fw-bold fs-5 mb-2">Strategy & Co.</h4>
-                    <p class="home_section_card_desc text-secondary small m-0" style="color: #a9a9b3 !important; font-size: 0.85rem; line-height: 1.5;">
-                        Business strategy that builds strong corporate brands.
-                    </p>
-                </div></a>
+                </a>
             </div>
 
         </div>
@@ -373,11 +376,11 @@
                     <img src="./assets/img/branging_side.png" alt="Branding showcase visual" class="img-fluid rounded-4 main-gfx-img">
 
                     <!-- 98% Client Retention Rate Floating Box -->
-                    <div class="retention-card">
+                    <!-- <div class="retention-card">
                         <h2 class="display-6 fw-bold text-blue mb-1">98%</h2>
                         <h6 class="fw-bold text-white mb-2" style="font-size: 13px; line-height: 1.3;">Client Retention Rate</h6>
                         <p class="text-secondary mb-3" style="font-size: 11px; line-height: 1.5;">We build long-term relationships & grow together.</p>
-                        <!-- Sparkline Mini Graph Simulation -->
+                        
                         <div class="pt-1">
                             <svg width="100%" height="25" viewBox="0 0 100 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0 20C15 18 25 5 45 12C65 19 75 2 100 1" stroke="#0d6efd" stroke-width="2" stroke-linecap="round" />
@@ -390,7 +393,7 @@
                                 </defs>
                             </svg>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -717,43 +720,43 @@
                     <div class="row row-cols-2 row-cols-md-3 g-4 g-lg-5">
 
                         <!-- Stat 1 -->
-                        <div class="col home_section_industire_stat position-relative">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">500+</h2>
-                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Visitors</p>
+                        <div class="col home_section_industire_stat position-relative index_page_counting">
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">500+</h2>
+                            <p class="text-secondary small text-white m-0" style="font-size: 20px;">Visitors</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 2 -->
-                        <div class="col home_section_industire_stat position-relative">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">100+</h2>
-                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Happy Clients</p>
+                        <div class="col home_section_industire_stat position-relative index_page_counting">
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">100+</h2>
+                            <p class="text-secondary small text-white m-0" style="font-size: 20px;">Happy Clients</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 3 -->
-                        <div class="col home_section_industire_stat">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">140+</h2>
-                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Project Completed</p>
+                        <div class="col home_section_industire_stat  position-relative   index_page_counting">
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">140+</h2>
+                            <p class="text-secondary small text-white m-0" style="font-size: 20px;">Project Completed</p>
                         </div>
 
                         <!-- Stat 4 -->
-                        <div class="col home_section_industire_stat position-relative mt-md-5">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">10+</h2>
-                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Years of Experience</p>
+                        <div class="col home_section_industire_stat position-relative mt-md-5    index_page_counting">
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">10+</h2>
+                            <p class="text-secondary small text-white m-0" style="font-size: 20px;">Years of Experience</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 5 -->
-                        <div class="col home_section_industire_stat position-relative mt-md-5">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">98%</h2>
-                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Client Satisfaction</p>
+                        <div class="col home_section_industire_stat position-relative mt-md-5     index_page_counting">
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">98%</h2>
+                            <p class="text-secondary small text-white m-0" style="font-size: 20px;">Client Satisfaction</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 6 -->
-                        <div class="col home_section_industire_stat mt-md-5">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: clamp(2rem, 3vw, 3rem); line-height: 1;">15+</h2>
-                            <p class="text-secondary small text-white m-0" style="font-size: 0.85rem;">Awards Won</p>
+                        <div class="col home_section_industire_stat  position-relative mt-md-5   index_page_counting">
+                            <h2 class="  home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">15+</h2>
+                            <p class="text-secondary small text-white m-0" style="font-size: 20px;">Awards Won</p>
                         </div>
 
                     </div>
@@ -777,20 +780,20 @@
                     What Our Clients Say
                 </span>
             </div>
-            <div class="col-4 col-md-6 text-end">
+            <!-- <div class="col-4 col-md-6 text-end">
                 <a href="#" class="home_section_review_link text-decoration-none  fw-semibold d-inline-flex align-items-center gap-2" style="transition: color 0.3s; font-size: 0.95rem;">
                     <span class="d-none d-sm-inline">View All Testimonials</span>
                     <span class="d-sm-none">View All</span>
                     <i class="bi bi-arrow-up-right text-primary"></i>
                 </a>
-            </div>
+            </div> -->
         </div>
 
 
         <!-- Testimonials Grid -->
         <div class="row g-4">
 
-            <!-- Review 1 -->
+
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
 
@@ -822,7 +825,6 @@
                 </div>
             </div>
 
-            <!-- Review 2 -->
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
 
@@ -846,7 +848,7 @@
                 </div>
             </div>
 
-            <!-- Review 3 -->
+
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
 
@@ -922,19 +924,25 @@
                 <div class="col-12 col-lg-8 col-xl-5">
                     <div class="home_section_brand_cta_features">
                         <!-- Feature 1 -->
-                        <div class="home_section_brand_cta_feat_item">
+                        <!-- <div class="home_section_brand_cta_feat_item">
                             <i class="bi bi-person-check"></i>
                             <span>Free Consultation</span>
-                        </div>
+                        </div> -->
                         <!-- Feature 2 -->
                         <div class="home_section_brand_cta_feat_item">
-                            <i class="bi bi-pie-chart"></i>
-                            <span>Tailored Strategy</span>
+                            <a href="#" class="btn home_section_brand_cta_btn bg-transparent text-white">
+                                Tailored Strategy  <i class="bi bi-pie-chart"></i>
+                            </a>
+                           
+                            <!-- <span></span> -->
                         </div>
                         <!-- Feature 3 -->
                         <div class="home_section_brand_cta_feat_item">
-                            <i class="bi bi-clock-history"></i>
-                            <span>On-Time Delivery</span>
+                            <a  class="btn home_section_brand_cta_btn bg-transparent text-white">
+                                On-Time Delivery  <i class="bi bi-clock-history"></i>
+                            </a>
+                           
+                         
                         </div>
                     </div>
                 </div>
@@ -1157,6 +1165,10 @@
 
         .home_index_why_choose .process-node {
             width: 50%;
+
+            padding: 20px;
+            border: 2px solid white;
+            margin-right: -20px;
         }
 
         .home_index_why_choose .process-timeline::before {

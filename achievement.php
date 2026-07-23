@@ -306,7 +306,7 @@
 
                         <div>
                             <h6 class="home_section_review_name fw-bold mb-0">Dr Sunil Sathyanarayana</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist</span>
+                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist In Benguluru</span>
                         </div>
                     </div>
 
@@ -325,14 +325,14 @@
                         <i class="bi bi-star-fill"></i>
                     </div>
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
-                        "We had a great experience working with Bhavi Creations Pvt. Ltd., the best branding agency in Kakinada. From logo design to digital ad campaigns, their creativity and dedication are unmatched. They also designed a beautiful and responsive website for us!"
+                       "I am using their service for marketing from last 3 years and Iam very happy with their work and sincerity in delivering good results on time."
                     </p>
                     <div class="achievement-client-row">
                         <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
-                        <h2 class="rounded-circle border border-secondary   p-2">NV </h2>
+                        <h2 class="rounded-circle border border-secondary   p-2">KR </h2>
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">Nsri Vinaya</h6>
-                            <!-- <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Founder, Nourish Organic</span> -->
+                            <h6 class="home_section_review_name fw-bold mb-0">kiran raju</h6>
+                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist in Kakinada</span>
                         </div>
                     </div>
 
@@ -350,14 +350,14 @@
                         <i class="bi bi-star-fill"></i>
                     </div>
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
-                        "Highly professional team at Bhavi Creations! They handled our SEO and content marketing with great expertise. If you’re searching for the top digital marketing services in Kakinada, Bhavi Creations is the one to trust. Their designs and campaign planning are top-notch."
+                        "Designs are good and response is quick and overall Experience with them is 🙂"
                     </p>
                     <div class="achievement-client-row">
                         <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
-                        <h2 class="rounded-circle border border-secondary   p-2">sk </h2>
+                        <h2 class="rounded-circle border border-secondary   p-2">SS </h2>
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">Satish Kumar</h6>
-                            <!-- <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Marketing Head, Urban Space</span> -->
+                            <h6 class="home_section_review_name fw-bold mb-0">sowmya manasa</h6>
+                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dermatologist</span>
                         </div>
                     </div>
 
@@ -366,11 +366,11 @@
                 </article>
             </div>
 
-            <div class="achievement-testimonial-dots" aria-hidden="true">
+            <!-- <div class="achievement-testimonial-dots" aria-hidden="true">
                 <span class="is-active"></span>
                 <span></span>
                 <span></span>
-            </div>
+            </div> -->
         </div>
     </section>
 
