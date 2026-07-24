@@ -37,8 +37,8 @@
                         <p class="about_section_inner_tagline text-muted small mt-2">Creative. Strategic. Impactful.</p>
                     </div>
                 </div> -->
-                 <!-- <img src="./assets/img/about_img.png" alt="about_img" class="img-fluid" style="border-radius: 7px;"> -->
-                  <img src="./assets/img/Bhavi-staff.png" alt="about_img" class="img-fluid" style="border-radius: 7px;">
+                <!-- <img src="./assets/img/about_img.png" alt="about_img" class="img-fluid" style="border-radius: 7px;"> -->
+                <img src="./assets/img/Bhavi-staff.png" alt="about_img" class="img-fluid" style="border-radius: 7px;">
             </div>
 
         </div>
@@ -131,12 +131,12 @@
                 <!-- Right Image Column -->
                 <div class="col-12 col-lg-6 about_story_img_col">
                     <!-- <div class="about_story_image_holder"> -->
-                        <!-- <div class="about_story_img_overlay"></div> -->
-                         <!-- <img src="./assets/img/2.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
+                    <!-- <div class="about_story_img_overlay"></div> -->
+                    <!-- <img src="./assets/img/2.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
                          <img src="./assets/img/2.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;"> -->
 
-                         <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
-                         <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;">
+                    <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
+                    <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;">
                     <!-- </div> -->
                 </div>
 
@@ -144,43 +144,43 @@
         </div>
 
         <!-- Second Row: 4-Column Counter Metrics Grid -->
-       <section class="services-stats-section">
-        <div class="container-fluid px-4 px-lg-5">
-            <div class="services-stats-banner">
-                <div class="services-stat-item">
-                    <div class="services-stat-icon"><img src=".\assets\img\project completed.png" style="width: 50px; height:50px;"></div>
-                    <div>
-                        <h3 class="services-stat-number">140+</h3>
-                        <p class="services-stat-label">Projects Completed</p>
+        <section class="services-stats-section">
+            <div class="container-fluid px-4 px-lg-5">
+                <div class="services-stats-banner">
+                    <div class="services-stat-item">
+                        <div class="services-stat-icon"><img src=".\assets\img\project completed.png" style="width: 50px; height:50px;"></div>
+                        <div>
+                            <h3 class="services-stat-number">140+</h3>
+                            <p class="services-stat-label">Projects Completed</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="services-stat-item">
-                    <div class="services-stat-icon"><img src=".\assets\img\happy-clients-01.png" style="width: 50px; height:50px;"></div>
-                    <div>
-                        <h3 class="services-stat-number">100+</h3>
-                        <p class="services-stat-label">Happy Clients</p>
+                    <div class="services-stat-item">
+                        <div class="services-stat-icon"><img src=".\assets\img\happy-clients-01.png" style="width: 50px; height:50px;"></div>
+                        <div>
+                            <h3 class="services-stat-number">100+</h3>
+                            <p class="services-stat-label">Happy Clients</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="services-stat-item">
-                    <div class="services-stat-icon"><img src=".\assets\img\years_of_experience.png" style="width: 50px; height:50px;"></div>
-                    <div>
-                        <h3 class="services-stat-number">10+</h3>
-                        <p class="services-stat-label">Years of Experience</p>
+                    <div class="services-stat-item">
+                        <div class="services-stat-icon"><img src=".\assets\img\years_of_experience.png" style="width: 50px; height:50px;"></div>
+                        <div>
+                            <h3 class="services-stat-number">10+</h3>
+                            <p class="services-stat-label">Years of Experience</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="services-stat-item">
-                    <div class="services-stat-icon"><img src=".\assets\img\client_satisfaction.png" style="width: 50px; height:50px;"></div>
-                    <div>
-                        <h3 class="services-stat-number">98%</h3>
-                        <p class="services-stat-label">Client Satisfaction</p>
+                    <div class="services-stat-item">
+                        <div class="services-stat-icon"><img src=".\assets\img\client_satisfaction.png" style="width: 50px; height:50px;"></div>
+                        <div>
+                            <h3 class="services-stat-number">98%</h3>
+                            <p class="services-stat-label">Client Satisfaction</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     </div>
 </section>
@@ -190,7 +190,7 @@
 <div class="about_multi_section_container">
     <div class="container-fluid px-4 px-lg-5">
 
-        
+
         <!-- 1. ABOUT FIFTH SECTION: What Drives Us -->
         <div class="about_fifth_section position-relative overflow-hidden mb-4">
             <div class="row align-items-center g-4 position-relative z-1">
@@ -292,6 +292,12 @@
             </div>
         </div>
 
+
+        <!-- OUR EXPERT TEAM SECTION -->
+        <!-- ============================================ -->
+        <?php include 'our_expert_team.php'; ?>
+
+
         <!-- 3. ABOUT SEVENTH SECTION: Let's Create Banner -->
         <div class="about_seventh_section position-relative overflow-hidden">
             <!-- Decorative Abstract Light Shapes -->
@@ -345,5 +351,44 @@
     </div>
 </section>
 <!-- BRANDS SECTION END -->
+<!-- ✅ FIXED: JavaScript without shaking -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Category Filter
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const teamMembers = document.querySelectorAll('.team-member');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                this.classList.add('active');
+
+                const category = this.getAttribute('data-category');
+
+                teamMembers.forEach(member => {
+                    const memberCategory = member.getAttribute('data-category');
+                    if (category === 'all' || memberCategory === category) {
+                        member.classList.remove('hidden');
+                        // ✅ FIX: Reset animation to prevent shaking
+                        member.style.animation = 'none';
+                        // Force reflow
+                        void member.offsetHeight;
+                        member.style.animation = 'fadeIn 0.5s ease forwards';
+                    } else {
+                        member.classList.add('hidden');
+                    }
+                });
+            });
+        });
+
+        // Trigger All filter by default
+        const allBtn = document.querySelector('.filter-btn[data-category="all"]');
+        if (allBtn) {
+            allBtn.click();
+        }
+    });
+</script>
 
 <?php include 'footer.php'; ?>

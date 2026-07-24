@@ -3,7 +3,7 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center  bg-light text-primary" href="./index.php">
         <div class="sidebar-brand-icon rotate-n-15">
-         
+
         </div>
         <div class="sidebar-brand-text mx-3">Bhavi Creations</div>
     </a>
@@ -26,7 +26,6 @@
         posts
     </div>
 
-  
 
 
 
@@ -34,7 +33,8 @@
 
 
 
-     <li class="nav-item">
+
+    <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
             <i class="fas fa-fw fa-blog"></i>
             <span>Works</span>
@@ -44,7 +44,25 @@
                 <h6 class="collapse-header">works</h6>
                 <a class="collapse-item" href="work_images.php"> <i class="fas fa-fw fa-blog"></i> UPLOAD WORKS</a>
                 <a class="collapse-item" href="view_works.php"> <i class="fas fa-fw fa-edit"></i> All Posts</a>
-               
+
+            </div>
+        </div>
+    </li>
+
+
+
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+            <i class="fas fa-fw fa-blog"></i>
+            <span>Works</span>
+        </a>
+        <div id="collapsefive" class="collapse" aria-labelledby="headingfour" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">works</h6>
+                <a class="collapse-item" href="addemployee.php"> <i class="fas fa-fw fa-blog"></i> UPLOAD Employee</a>
+                <a class="collapse-item" href="view_works.php"> <i class="fas fa-fw fa-edit"></i> All Posts</a>
+
             </div>
         </div>
     </li>
@@ -57,7 +75,7 @@
 
 
 
-        <li class="nav-item">
+    <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
             <i class="fas fa-fw fa-blog"></i>
             <span>BLOGS</span>
@@ -72,7 +90,7 @@
     </li>
 
 
- <li class="nav-item">
+    <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseservice" aria-expanded="true" aria-controls="collapseservice">
             <i class="fas fa-fw fa-file-pdf"></i>
             <span>Service</span>
