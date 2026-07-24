@@ -11,7 +11,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
 
     $username = "bhavicreations";
     $password = "d8Az75YlgmyBnVM";
-    $dbname = "bhavicreations";
+    $dbname = "bhavi";
 }
 
 // Create connection

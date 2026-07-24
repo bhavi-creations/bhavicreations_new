@@ -115,7 +115,7 @@
 
                 <!-- Left Content Column -->
                 <div class="col-12 col-lg-6 about_story_content_col">
-                    <h2 class="about_story_title">
+                    <!-- <h2 class="about_story_title">
                         Our <span class="about_story_highlight">Story</span>
                     </h2>
 
@@ -125,18 +125,22 @@
 
                     <p class="about_story_text mb-0">
                         Our mission is to help brands stand out, connect deeply and grow fearlessly in a competitive world.
-                    </p>
+                    </p> -->
+                    <h2>About us</h2>
+                    <p>Meet Mr. Ch. Naga Phaneendra, CEO of Bhavi Creations, nestled in Kakinada, behind the J.N.T.U. Engineering College Playground. Under his leadership, Bhavi Creations thrives with a commitment to innovation and excellence, propelling it to the forefront of the industry.</p>
+          <p>Phaneendra's strategic insights and passion define the company's ethos, ensuring a journey towards artistic brilliance. Beyond business, he's a visionary with a profound love for the arts, rooted in Kakinada's cultural richness. Phaneendra fosters an environment of innovation and creativity, exploring the intersection of technology and art. Reach out for inquiries or collaborations at admin@bhavicreations.com or 9642343434. Join him on the creative journey at Bhavi Creations: https://bhavicreations.com/.</p>
+          
                 </div>
 
                 <!-- Right Image Column -->
-                <div class="col-12 col-lg-6 about_story_img_col">
+                <div class="col-12 col-lg-6 about_story_img_col d-flex justify-content-center">
                     <!-- <div class="about_story_image_holder"> -->
                     <!-- <div class="about_story_img_overlay"></div> -->
-                    <!-- <img src="./assets/img/2.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
-                         <img src="./assets/img/2.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;"> -->
+                    <!-- <img src="./assets/img/2.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">-->
+                         <img src="./assets/img/phani_seo.png" alt="about_img" class="img-fluid" > 
 
-                    <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
-                    <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;">
+                    <!-- <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid d-none d-lg-block " style="height:350px;">
+                    <img src="./assets/img/Studio-img.png" alt="about_img" class="img-fluid  d-block d-lg-none " style="height:auto;"> -->
                     <!-- </div> -->
                 </div>
 
