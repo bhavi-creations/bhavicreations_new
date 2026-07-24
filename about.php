@@ -128,7 +128,7 @@
                     </p> -->
                     <h2>About us</h2>
                     <p>Meet Mr. Ch. Naga Phaneendra, CEO of Bhavi Creations, nestled in Kakinada, behind the J.N.T.U. Engineering College Playground. Under his leadership, Bhavi Creations thrives with a commitment to innovation and excellence, propelling it to the forefront of the industry.</p>
-          <p>Phaneendra's strategic insights and passion define the company's ethos, ensuring a journey towards artistic brilliance. Beyond business, he's a visionary with a profound love for the arts, rooted in Kakinada's cultural richness. Phaneendra fosters an environment of innovation and creativity, exploring the intersection of technology and art. Reach out for inquiries or collaborations at admin@bhavicreations.com or 9642343434. Join him on the creative journey at Bhavi Creations: https://bhavicreations.com/.</p>
+          <p>Phaneendra's strategic insights and passion define the company's ethos, ensuring a journey towards artistic brilliance. Beyond business, he's a visionary with a profound love for the arts, rooted in Kakinada's cultural richness. Phaneendra fosters an environment of innovation and creativity, exploring the intersection of technology and art. Reach out for inquiries or collaborations at    <a href="mailto:admin@bhavicreations.com" class="contact-card">admin@bhavicreations.com</a>   or   <a href="tel:+919642343434" class="contact-card">9642343434</a> . Join him on the creative journey at   <a href="https://bhavicreations.com/">   Bhavi Creations:  https://bhavicreations.com/. </a> </p>
           
                 </div>
 
