@@ -53,15 +53,15 @@
 
 
     <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsesix" aria-expanded="true" aria-controls="collapsesix">
             <i class="fas fa-fw fa-blog"></i>
-            <span>Works</span>
+            <span>Employee</span>
         </a>
-        <div id="collapsefive" class="collapse" aria-labelledby="headingfour" data-parent="#accordionSidebar">
+        <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">works</h6>
-                <a class="collapse-item" href="addemployee.php"> <i class="fas fa-fw fa-blog"></i> UPLOAD Employee</a>
-                <a class="collapse-item" href="view_works.php"> <i class="fas fa-fw fa-edit"></i> All Posts</a>
+                <a class="collapse-item" href="addemployee.php"> <i class="fas fa-fw fa-blog"></i> Upload Employee</a>
+                <!-- <a class="collapse-item" href="view_works.php"> <i class="fas fa-fw fa-edit"></i> All emloyee</a> -->
 
             </div>
         </div>
