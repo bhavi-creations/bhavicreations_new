@@ -15,12 +15,18 @@ if ($role_result && $role_result->num_rows > 0) {
     }
 }
 
-// ✅ FUNCTION TO GET CORRECT IMAGE PATH
+function teamCategoryKey($role) {
+    $role = trim((string)$role);
+    $role = strtolower($role);
+    $role = preg_replace('/[^a-z0-9]+/', '-', $role);
+    return trim($role, '-');
+}
+
 function getImagePath($image_name) {
     if (empty($image_name)) {
         return 'assets/images/default-avatar.jpg';
     }
-    
+
     $paths_to_check = [
         'admin/public/uploads/' . $image_name,
         '../admin/public/uploads/' . $image_name,
@@ -31,54 +37,48 @@ function getImagePath($image_name) {
         $_SERVER['DOCUMENT_ROOT'] . '/admin/public/uploads/' . $image_name,
         $_SERVER['DOCUMENT_ROOT'] . '/public/uploads/' . $image_name
     ];
-    
+
     foreach ($paths_to_check as $path) {
         $check_path = ltrim($path, '/');
         if (file_exists($check_path)) {
             return $path;
         }
     }
-    
+
     return 'assets/images/default-avatar.jpg';
 }
 ?>
-
 
 <!-- ============================================ -->
 <!-- OUR EXPERT TEAM SECTION -->
 <!-- ============================================ -->
 <section class="our_expert_team my-5">
     <div class="container">
-        <!-- Section Title -->
         <div class="section-header text-center mb-5">
             <h2 class="section-title">Our Expert Team</h2>
             <p class="section-subtitle">Meet our highly skilled and experienced Expert Team</p>
             <div class="title-line"></div>
         </div>
 
-        <!-- Category Filters - Dynamic from Database -->
         <div class="category-filters text-center mb-4">
             <button class="filter-btn active" data-category="all">All</button>
             <?php foreach ($roles as $role): ?>
-                <!-- ✅ FIX: Use exact role name as data-category -->
-                <button class="filter-btn" data-category="<?= htmlspecialchars($role) ?>">
+                <button class="filter-btn" data-category="<?= htmlspecialchars(teamCategoryKey($role)) ?>">
                     <?= htmlspecialchars($role) ?>
                 </button>
             <?php endforeach; ?>
         </div>
 
-        <!-- Team Grid - Dynamic from Database -->
         <div class="team-grid">
             <?php if ($result && $result->num_rows > 0): ?>
-                <?php while($employee = $result->fetch_assoc()): 
-                    // ✅ FIX: Use exact role name as data-category
-                    $category = $employee['role'];
+                <?php while ($employee = $result->fetch_assoc()):
+                    $category = teamCategoryKey($employee['role']);
                     $image_path = getImagePath($employee['image']);
                 ?>
                     <div class="team-member" data-category="<?= htmlspecialchars($category) ?>">
                         <div class="member-card">
                             <div class="member-image">
-                                <img src="<?= $image_path ?>" 
+                                <img src="<?= $image_path ?>"
                                      alt="<?= htmlspecialchars($employee['employee_name']) ?>"
                                      loading="lazy"
                                      onerror="this.onerror=null; this.src='assets/images/default-avatar.jpg';">
@@ -101,7 +101,6 @@ function getImagePath($image_name) {
 </section>
 
 <style>
-    /* Our Expert Team Section */
     .our_expert_team {
         padding: 80px 0 100px;
         background: #0a0a0a;
@@ -109,7 +108,6 @@ function getImagePath($image_name) {
         overflow: hidden;
     }
 
-    /* Section Header */
     .section-header {
         position: relative;
     }
@@ -140,17 +138,7 @@ function getImagePath($image_name) {
         position: relative;
     }
 
-    .title-line::before {
-        content: '';
-        position: absolute;
-        width: 40px;
-        height: 4px;
-        background: #246bff;
-        border-radius: 4px;
-        left: -50px;
-        opacity: 0.5;
-    }
-
+    .title-line::before,
     .title-line::after {
         content: '';
         position: absolute;
@@ -158,11 +146,17 @@ function getImagePath($image_name) {
         height: 4px;
         background: #246bff;
         border-radius: 4px;
-        right: -50px;
         opacity: 0.5;
     }
 
-    /* Category Filters */
+    .title-line::before {
+        left: -50px;
+    }
+
+    .title-line::after {
+        right: -50px;
+    }
+
     .category-filters {
         display: flex;
         flex-wrap: wrap;
@@ -199,7 +193,6 @@ function getImagePath($image_name) {
         box-shadow: 0 5px 25px rgba(255, 215, 0, 0.3);
     }
 
-    /* Team Grid */
     .team-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -207,13 +200,13 @@ function getImagePath($image_name) {
         margin-top: 10px;
     }
 
-    /* Team Member Card */
     .team-member {
         transition: all 0.5s ease;
+        animation: fadeIn 0.5s ease forwards;
     }
 
     .team-member.hidden {
-        display: none;
+        display: none !important;
     }
 
     .member-card {
@@ -232,7 +225,6 @@ function getImagePath($image_name) {
         box-shadow: 0 15px 40px rgba(255, 215, 0, 0.08);
     }
 
-    /* Member Image */
     .member-image {
         position: relative;
         overflow: hidden;
@@ -254,60 +246,6 @@ function getImagePath($image_name) {
         transform: scale(1.08);
     }
 
-    /* Image Overlay */
-    .member-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.7);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        transition: all 0.4s ease;
-        backdrop-filter: blur(3px);
-    }
-
-    .member-card:hover .member-overlay {
-        opacity: 1;
-    }
-
-    /* Social Icons */
-    .social-icons {
-        display: flex;
-        gap: 15px;
-        transform: translateY(20px);
-        transition: all 0.4s ease;
-    }
-
-    .member-card:hover .social-icons {
-        transform: translateY(0);
-    }
-
-    .social-icons a {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        background: rgba(255, 215, 0, 0.15);
-        color: #246bff;
-        font-size: 1.1rem;
-        transition: all 0.3s ease;
-        text-decoration: none;
-    }
-
-    .social-icons a:hover {
-        background: #246bff;
-        color: #0a0a0a;
-        transform: translateY(-5px) rotate(360deg);
-        box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
-    }
-
-    /* Member Info */
     .member-info {
         padding: 22px 25px 25px;
         text-align: center;
@@ -345,7 +283,6 @@ function getImagePath($image_name) {
         margin-bottom: 0;
     }
 
-    /* Animation without shaking */
     @keyframes fadeIn {
         from {
             opacity: 0;
@@ -357,15 +294,6 @@ function getImagePath($image_name) {
         }
     }
 
-    .team-member {
-        animation: fadeIn 0.5s ease forwards;
-    }
-
-    .team-member.hidden {
-        display: none !important;
-    }
-
-    /* Responsive */
     @media (max-width: 991px) {
         .our_expert_team {
             padding: 60px 0 70px;
@@ -434,40 +362,28 @@ function getImagePath($image_name) {
         .member-image {
             height: 250px;
         }
-        .social-icons a {
-            width: 40px;
-            height: 40px;
-            font-size: 1rem;
-        }
     }
 </style>
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // Category Filter
         const filterButtons = document.querySelectorAll('.filter-btn');
         const teamMembers = document.querySelectorAll('.team-member');
 
         filterButtons.forEach(button => {
             button.addEventListener('click', function() {
-                // Remove active class from all buttons
                 filterButtons.forEach(btn => btn.classList.remove('active'));
-                // Add active class to clicked button
                 this.classList.add('active');
 
-                // ✅ Get exact category from button
                 const category = this.getAttribute('data-category');
 
                 teamMembers.forEach(member => {
-                    // ✅ Get exact category from member
                     const memberCategory = member.getAttribute('data-category');
-                    
-                    // ✅ Compare exactly
+
                     if (category === 'all' || memberCategory === category) {
                         member.classList.remove('hidden');
-                        // Reset animation to prevent shaking
                         member.style.animation = 'none';
-                        void member.offsetHeight; // Force reflow
+                        void member.offsetHeight;
                         member.style.animation = 'fadeIn 0.5s ease forwards';
                     } else {
                         member.classList.add('hidden');
@@ -476,7 +392,6 @@ function getImagePath($image_name) {
             });
         });
 
-        // Trigger All filter by default
         const allBtn = document.querySelector('.filter-btn[data-category="all"]');
         if (allBtn) {
             allBtn.click();
