@@ -15,26 +15,19 @@ if ($role_result && $role_result->num_rows > 0) {
     }
 }
 
-// ✅ FUNCTION TO GET CORRECT IMAGE PATH - UPDATED FOR admin/public/uploads/
+// ✅ FUNCTION TO GET CORRECT IMAGE PATH
 function getImagePath($image_name) {
-    // If no image name, return default
     if (empty($image_name)) {
         return 'assets/images/default-avatar.jpg';
     }
     
-    // 🔥 MAIN FIX: Check image in admin/public/uploads/ folder
     $paths_to_check = [
-        // If frontend is in root folder
         'admin/public/uploads/' . $image_name,
-        // If frontend is inside a subfolder
         '../admin/public/uploads/' . $image_name,
-        // If frontend is deeper
         '../../admin/public/uploads/' . $image_name,
-        // Alternative paths
         'public/uploads/' . $image_name,
         '../public/uploads/' . $image_name,
         './admin/public/uploads/' . $image_name,
-        // Direct absolute path
         $_SERVER['DOCUMENT_ROOT'] . '/admin/public/uploads/' . $image_name,
         $_SERVER['DOCUMENT_ROOT'] . '/public/uploads/' . $image_name
     ];
@@ -46,11 +39,9 @@ function getImagePath($image_name) {
         }
     }
     
-    // If no image found, return default
     return 'assets/images/default-avatar.jpg';
 }
 ?>
-
 
 
 <!-- ============================================ -->
@@ -69,7 +60,8 @@ function getImagePath($image_name) {
         <div class="category-filters text-center mb-4">
             <button class="filter-btn active" data-category="all">All</button>
             <?php foreach ($roles as $role): ?>
-                <button class="filter-btn" data-category="<?= strtolower(str_replace(' ', '_', $role)) ?>">
+                <!-- ✅ FIX: Use exact role name as data-category -->
+                <button class="filter-btn" data-category="<?= htmlspecialchars($role) ?>">
                     <?= htmlspecialchars($role) ?>
                 </button>
             <?php endforeach; ?>
@@ -79,23 +71,17 @@ function getImagePath($image_name) {
         <div class="team-grid">
             <?php if ($result && $result->num_rows > 0): ?>
                 <?php while($employee = $result->fetch_assoc()): 
-                    $category = strtolower(str_replace(' ', '_', $employee['role']));
+                    // ✅ FIX: Use exact role name as data-category
+                    $category = $employee['role'];
                     $image_path = getImagePath($employee['image']);
                 ?>
-                    <div class="team-member" data-category="<?= $category ?>">
+                    <div class="team-member" data-category="<?= htmlspecialchars($category) ?>">
                         <div class="member-card">
                             <div class="member-image">
                                 <img src="<?= $image_path ?>" 
                                      alt="<?= htmlspecialchars($employee['employee_name']) ?>"
-                                     loading="lazy">
-                                <!-- <div class="member-overlay">
-                                    <div class="social-icons">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div> -->
+                                     loading="lazy"
+                                     onerror="this.onerror=null; this.src='assets/images/default-avatar.jpg';">
                             </div>
                             <div class="member-info">
                                 <h4><?= htmlspecialchars($employee['employee_name']) ?></h4>
@@ -208,7 +194,7 @@ function getImagePath($image_name) {
 
     .filter-btn.active {
         background: linear-gradient(135deg, #246bff, rgb(73, 115, 204));
-        color: #0a0a0a;
+        color: #ffffff;
         border-color: #246bff;
         box-shadow: 0 5px 25px rgba(255, 215, 0, 0.3);
     }
@@ -469,10 +455,14 @@ function getImagePath($image_name) {
                 // Add active class to clicked button
                 this.classList.add('active');
 
+                // ✅ Get exact category from button
                 const category = this.getAttribute('data-category');
 
                 teamMembers.forEach(member => {
+                    // ✅ Get exact category from member
                     const memberCategory = member.getAttribute('data-category');
+                    
+                    // ✅ Compare exactly
                     if (category === 'all' || memberCategory === category) {
                         member.classList.remove('hidden');
                         // Reset animation to prevent shaking
@@ -493,4 +483,3 @@ function getImagePath($image_name) {
         }
     });
 </script>
-

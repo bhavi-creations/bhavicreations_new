@@ -110,15 +110,15 @@
             <h6 class="home_section_trusted_title text-center text-uppercase text-white fw-bold">Trusted by 250+ Businesses Worldwide</h6>
 
             <div class="home_section_logos_grid">
-                <span>Srinivasa dental</span>
-                <span>IVY dental</span>
-                <span>Krishna dental</span>
-                <span>Care n concern</span>
-                <span>Apple dental</span>
-                <span>Dr.Subhash</span>
-                <span>V&V Saloon</span>
-                <span>Vision dental</span>
-                <span>Ask oncology</span>
+                <a href="https://srinivasadentalkakinada.com/" target="_blank"> <span>Srinivasa dental</span></a>
+                <a href="https://www.ivydentalbangalore.com/" target="_blank"> <span>IVY dental</span></a>
+                <a href="https://krishnadentacureclinic.com/" target="_blank"> <span>Krishna dental</span></a>
+                <a href="https://carenconcern.com/" target="_blank"> <span>Care n concern</span></a>
+                <a href="https://appledentalspecialities.in/" target="_blank"> <span>Apple dental</span></a>
+                <a href="https://drsubhashplasticsurgeon.com/" target="_blank"> <span>Dr.Subhash</span></a>
+                <a href="https://vnvsalons.com/" target="_blank"> <span>V&V Saloon</span></a>
+                <a href="https://visiondentalguntur.com/" target="_blank"> <span>Vision dental</span></a>
+                <a href="https://askoncologist.com/" target="_blank"> <span>Ask oncology</span></a>
                 <!-- <span>Deloitte.</span> -->
             </div>
         </div>
@@ -136,15 +136,15 @@
                 <marquee behavior="" direction="">
 
                     <!-- <span>Google</span> &nbsp; &nbsp; / -->
-                    &nbsp; &nbsp; <span>Srinivasa dental</span>&nbsp; &nbsp; /
-                    &nbsp; &nbsp; <span>IVY dental</span>&nbsp; &nbsp; /
-                    &nbsp; &nbsp; <span>Krishna dental</span>&nbsp; &nbsp; /
-                    &nbsp; &nbsp; <span>Care n concern</span>&nbsp; &nbsp; /
-                    &nbsp; &nbsp; <span>Apple dental</span>&nbsp; &nbsp; /
-                    &nbsp; &nbsp; <span>Dr.Subhash</span>&nbsp; &nbsp; /
-                    &nbsp; &nbsp; <span>V&V Saloon</span>&nbsp; &nbsp; /
-                    &nbsp; &nbsp; <span>Vision dental</span>&nbsp; &nbsp; /
-                    &nbsp; &nbsp; <span>Ask oncology</span>&nbsp; &nbsp;
+                    &nbsp; &nbsp; <a href="https://srinivasadentalkakinada.com/" target="_blank"> <span>Srinivasa dental</span> </a> &nbsp; &nbsp; /
+                    &nbsp; &nbsp; <a href="https://www.ivydentalbangalore.com/" target="_blank"> <span>IVY dental</span> </a> &nbsp; &nbsp; /
+                    &nbsp; &nbsp; <a href="https://krishnadentacureclinic.com/" target="_blank"> <span>Krishna dental</span> </a> &nbsp; &nbsp; /
+                    &nbsp; &nbsp; <a href="https://carenconcern.com/" target="_blank"><span>Care n concern</span> </a> &nbsp; &nbsp; /
+                    &nbsp; &nbsp; <a href="https://appledentalspecialities.in/" target="_blank"><span>Apple dental</span> </a> &nbsp; &nbsp; /
+                    &nbsp; &nbsp; <a href="https://drsubhashplasticsurgeon.com/" target="_blank"> <span>Dr.Subhash</span> </a> &nbsp; &nbsp; /
+                    &nbsp; &nbsp; <a href="https://vnvsalons.com/" target="_blank"><span>V&V Saloon</span> </a> &nbsp; &nbsp; /
+                    &nbsp; &nbsp; <a href="https://visiondentalguntur.com/" target="_blank"><span>Vision dental</span> </a> &nbsp; &nbsp; /
+                    &nbsp; &nbsp; <a href="https://askoncologist.com/" target="_blank"><span>Ask oncology</span> </a> &nbsp; &nbsp;
 
 
 
@@ -931,18 +931,18 @@
                         <!-- Feature 2 -->
                         <div class="home_section_brand_cta_feat_item">
                             <a href="#" class="btn home_section_brand_cta_btn bg-transparent text-white">
-                                Tailored Strategy  <i class="bi bi-pie-chart"></i>
+                                Tailored Strategy <i class="bi bi-pie-chart"></i>
                             </a>
-                           
+
                             <!-- <span></span> -->
                         </div>
                         <!-- Feature 3 -->
                         <div class="home_section_brand_cta_feat_item">
-                            <a  class="btn home_section_brand_cta_btn bg-transparent text-white">
-                                On-Time Delivery  <i class="bi bi-clock-history"></i>
+                            <a class="btn home_section_brand_cta_btn bg-transparent text-white">
+                                On-Time Delivery <i class="bi bi-clock-history"></i>
                             </a>
-                           
-                         
+
+
                         </div>
                     </div>
                 </div>
