@@ -284,6 +284,8 @@
 
                     <li class="nav-item"><a class="nav-link <?php echo nav_active(['brands.php'], $currentPage); ?>" href="brands.php">Brand Stories</a></li>
 
+                    <li class="nav-item"><a class="nav-link <?php echo nav_active(['our_works.php'], $currentPage); ?>" href="our_works.php">portfolio</a></li>
+
                     <li class="nav-item"><a class="nav-link <?php echo nav_active(['package.php'], $currentPage); ?>" href="package.php">Packages</a></li>
 
                     <li class="nav-item"><a class="nav-link <?php echo nav_active(['achievement.php'], $currentPage); ?>" href="achievement.php">Achievements</a></li>
@@ -291,6 +293,7 @@
                     <!-- <li class="nav-item"><a class="nav-link" href="#">Brochure</a></li> -->
 
                     <li class="nav-item"><a class="nav-link <?php echo nav_active(['contact.php'], $currentPage); ?>" href="contact.php">Contact Us</a></li>
+
 
                 </ul>
 
@@ -320,8 +323,129 @@
 
 
         </div>
-
+     
 
 
 
     </nav>
+
+    <style>
+
+    
+.social-media{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 999;
+    background: #fff;
+    padding: 10px 8px;
+    border-radius: 14px 0 0 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.12);
+}
+
+.social-media a{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* Brochure Image */
+.social-media img{
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+/* WhatsApp */
+.whatsapp-icon{
+    width: 42px !important;
+    height: 42px !important;
+    background: #25D366;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.social-media img:hover,
+.whatsapp-icon:hover{
+    transform: scale(1.08);
+}
+
+
+.scrollBtn{
+    display:none;
+    position:fixed;
+    bottom:25px;
+    right:20px;
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:50%;
+    background:#01539D;
+    color:#fff;
+    cursor:pointer;
+    z-index:999;
+    font-size:22px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.scrollBtn:hover{
+    background:#246BFF;
+}
+</style>
+
+<div class="social-media">
+
+    <!-- Download Brochure -->
+    <a href="./assets/img/Bhavi Brochure.pdf"
+       download
+       title="Download Brochure">
+        <img src="./assets/img/download.png"
+             alt="Download Brochure"
+             style="width:50px;">
+    </a>
+
+    <!-- WhatsApp -->
+    <a href="https://api.whatsapp.com/send?phone=919642343434"
+       target="_blank"
+       title="Chat on WhatsApp"
+       class="whatsapp-icon">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</div>
+
+<button id="scrollBtn" class="scrollBtn" title="Back to Top">
+    <i class="bi bi-arrow-up"></i>
+</button>
+
+
+
+<script>
+const scrollBtn = document.getElementById("scrollBtn");
+
+window.onscroll = function () {
+    if (document.documentElement.scrollTop > 200) {
+        scrollBtn.style.display = "block";
+    } else {
+        scrollBtn.style.display = "none";
+    }
+};
+
+scrollBtn.onclick = function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+};
+</script>

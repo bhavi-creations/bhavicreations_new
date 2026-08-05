@@ -122,7 +122,7 @@
                 <div class="services-stat-item">
                     <div class="services-stat-icon"><img src=".\assets\img\happy-clients-01.png" style="width: 50px; height:50px;"></div>
                     <div>
-                        <h3 class="services-stat-number">100+</h3>
+                        <h3 class="services-stat-number">500+</h3>
                         <p class="services-stat-label">Happy Clients</p>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                 <div class="services-stat-item">
                     <div class="services-stat-icon"><img src=".\assets\img\years_of_experience.png" style="width: 50px; height:50px;"></div>
                     <div>
-                        <h3 class="services-stat-number">10+</h3>
+                        <h3 class="services-stat-number">11+</h3>
                         <p class="services-stat-label">Years of Experience</p>
                     </div>
                 </div>
@@ -138,7 +138,7 @@
                 <div class="services-stat-item">
                     <div class="services-stat-icon"><img src=".\assets\img\client_satisfaction.png" style="width: 50px; height:50px;"></div>
                     <div>
-                        <h3 class="services-stat-number">98%</h3>
+                        <h3 class="services-stat-number">90%</h3>
                         <p class="services-stat-label">Client Satisfaction</p>
                     </div>
                 </div>
@@ -204,74 +204,94 @@
 
     <!-- AWARDS -->
     <section class="achievement-awards-section">
-        <div class="container-fluid px-4 px-lg-5">
+        <div class="container px-4 px-lg-5">
             <div class="achievement-section-heading text-center">
                 <span>RECOGNITION &amp; AWARDS</span>
                 <h2>Honored For Our Work</h2>
             </div>
 
-            <div class="achievement-awards-grid">
-                <article class="achievement-award-card">
-                    <div class="">
+             <!-- Videos Row -->
+    <div class="row justify-content-center gx-4 gy-4">
 
-                    <img src="./assets/img/tba-2023.png" alt="2023" class="img-fluid mb-3">
-                        <!-- <i class="bi bi-award"></i> -->
-                        <strong>TOP BRANDING AGENCY</strong>
-                        <span>2023</span>
-                    </div>
-                    <!-- <p>Top Branding Agency 2023</p> -->
-                </article>
+        <!-- Video 1 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <video
+                class="journey_video"
+                autoplay
+                muted
+                loop
+                controls
+                playsinline>
+                <source src="./assets/img/bhavi-testimonial1.mp4" type="video/mp4">
+            </video>
+        </div>
 
-                <article class="achievement-award-card">
-                    <div class="">
-                        <!-- <i class="bi bi-award"></i> -->
-                          <img src="./assets/img/bdc-2022.png" alt="2022" class="img-fluid mb-3">
-                        <strong>BEST DIGITAL CAMPAIGN</strong>
-                        <span>2022</span>
-                    </div>
-                    <!-- <p>Best Digital Campaign 2022</p> -->
-                </article>
+        <!-- Video 2 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <video
+                class="journey_video"
+                autoplay
+                muted
+                loop
+                controls
+                playsinline>
+                <source src="./assets/img/bhavi-testimonial2.mp4" type="video/mp4">
+            </video>
+        </div>
 
-                <article class="achievement-award-card">
-                    <div class="">
-                        <!-- <i class="bi bi-award"></i> -->
-                          <img src="./assets/img/eicd-2021.png" alt="2021" class="img-fluid mb-3">
-                        <strong>EXCELLENCE IN CREATIVE DESIGN</strong>
-                        <span>2021</span>
-                    </div>
-                    <!-- <p>Excellence In Creative Design 2021</p> -->
-                </article>
+        <!-- Video 3 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <video
+                class="journey_video"
+                autoplay
+                muted
+                loop
+                controls
+                playsinline>
+                <source src="./assets/img/bhavi-testimonial3.mp4" type="video/mp4">
+            </video>
+        </div>
 
-                <article class="achievement-award-card">
-                    <div class="">
-                        <!-- <i class="bi bi-award"></i> -->
-                          <img src="./assets/img/mig-2021.png" alt="2021" class="img-fluid mb-3">
-                        <strong>MOST INNOVATIVE AGENCY</strong>
-                        <span>2021</span>
-                    </div>
-                    <!-- <p>Most Innovative Agency 2021</p> -->
-                </article>
+        <!-- Video 4 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <video
+                class="journey_video"
+                autoplay
+                muted
+                loop
+                controls
+                playsinline>
+                <source src="./assets/img/bhavi-testimonial4.mp4" type="video/mp4">
+            </video>
+        </div>
 
-                <article class="achievement-award-card">
-                    <div class="">
-                        <!-- <i class="bi bi-award"></i> -->
-                          <img src="./assets/img/cca-2020.png" alt="2020" class="img-fluid mb-3">
-                        <strong>CLIENT CHOICE AWARD</strong>
-                        <span>2020</span>
-                    </div>
-                    <!-- <p>Client Choice Award 2020</p> -->
-                </article>
+        <!-- Video 5 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <video
+                class="journey_video"
+                autoplay
+                muted
+                loop
+                controls
+                playsinline>
+                <source src="./assets/img/bhavi-testimonial5.mp4" type="video/mp4">
+            </video>
+        </div>
 
-                <article class="achievement-award-card">
-                    <div class="">
-                        <!-- <i class="bi bi-award"></i> -->
-                          <img src="./assets/img/eaoy-2019.png" alt="2019" class="img-fluid mb-3">
-                        <strong>EMERGING AGENCY OF THE YEAR</strong>
-                        <span>2019</span>
-                    </div>
-                    <!-- <p>Emerging Agency Of The Year 2019</p> -->
-                </article>
-            </div>
+        <!-- Video 6 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <video
+                class="journey_video"
+                autoplay
+                muted
+                loop
+                controls
+                playsinline>
+                <source src="./assets/img/bhavi-testimonial6.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
         </div>
     </section>
 
@@ -283,88 +303,94 @@
                 <h2>Recognition From Our <span>Valued Clients</span></h2>
             </div>
 
-            <div class="achievement-testimonials-grid">
-                <article class="achievement-testimonial-card">
-                    <i class="bi bi-quote achievement-quote-icon"></i>
-                    <div class="achievement-stars">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
+            <div class="row g-4">
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="https://carenconcern.com/" target="_blank">
+                <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+
+                    <!-- Stars -->
+                    <div class="home_section_review_stars text-warning mb-4" style="font-size: 1.1rem; letter-spacing: 2px;">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
+
+                    <!-- Quote Text -->
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
                         "I have tried quite a few marketing agencies in last 12 years. Bhavi Creations stands out in their commitment, they are open for suggestions and also give results. First time, I feel, I can trust them and in safe hands."
                     </p>
-                    <div class="achievement-client-row">
-                       <!-- User Info -->
+
+                    <!-- User Info -->
                     <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
                         <!-- <img src="https://ui-avatars.com/api/?name=Rohan+Mehta&background=random" alt="Rohan" class="rounded-circle border border-secondary" style="width: 45px; height: 45px; object-fit: cover;"> -->
-                        <h2 class="rounded-circle border border-secondary   p-2">SS </h2>
+                        <h2 class="rounded-circle border border-secondary text-white  p-2">SS </h2>
 
 
 
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">Dr Sunil Sathyanarayana</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist In Benguluru</span>
+                            <h6 class="home_section_review_name fw-bold mb-0 text-white">Dr Sunil Sathyanarayana</h6>
+                            <a href="https://carenconcern.com/" target="_blank" class="home_section_review_role text-secondary text-decoration-none" style="font-size: 16px;">Care 'n' Concern Family Dental Clinic Dentist In Bengaluru</a>
                         </div>
                     </div>
 
                     <!-- Big Quote Watermark -->
                     <i class="bi bi-quote position-absolute text-white" style="opacity: 0.03; font-size: 8rem; bottom: -20px; right: 10px; line-height: 1;"></i>
-                    </div>
-                </article>
+                </div>
+                </a>
+            </div>
 
-                <article class="achievement-testimonial-card">
-                    <i class="bi bi-quote achievement-quote-icon"></i>
-                    <div class="achievement-stars">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
+            <div class="col-12 col-md-6 col-lg-4">
+                <a href="https://srinivasadentalkakinada.com/" target="_blank">
+                <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+
+                    <div class="home_section_review_stars text-warning mb-4" style="font-size: 1.1rem; letter-spacing: 2px;">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
+
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
-                       "I am using their service for marketing from last 3 years and Iam very happy with their work and sincerity in delivering good results on time."
+                        "I am using their service for marketing from last 3 years and Iam very happy with their work and sincerity in delivering good results on time."
                     </p>
-                    <div class="achievement-client-row">
-                        <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
-                        <h2 class="rounded-circle border border-secondary   p-2">KR </h2>
+
+                    <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
+                        <h2 class="rounded-circle border border-secondary text-white  p-2">KR </h2>
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">kiran raju</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist in Kakinada</span>
+                            <h6 class="home_section_review_name fw-bold mb-0 text-white">kiran raju</h6>
+
+                            <a href="https://srinivasadentalkakinada.com/" target="_blank" class="home_section_review_link text-secondary text-decoration-none" style="font-size: 16px;"> Srinivasa Multispecialty Dental Hospital Dentist in Kakinada</a>
                         </div>
                     </div>
 
                     <i class="bi bi-quote position-absolute text-white" style="opacity: 0.03; font-size: 8rem; bottom: -20px; right: 10px; line-height: 1;"></i>
-                    </div>
-                </article>
+                </div>
 
-                <article class="achievement-testimonial-card">
-                    <i class="bi bi-quote achievement-quote-icon"></i>
-                    <div class="achievement-stars">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
+                </a>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+
+                    <div class="home_section_review_stars text-warning mb-4" style="font-size: 1.1rem; letter-spacing: 2px;">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                     </div>
+
                     <p class="home_section_review_text text-light flex-grow-1 mb-4" style="font-size: 1rem; line-height: 1.6; color: #e0e0e0 !important;">
                         "Designs are good and response is quick and overall Experience with them is 🙂"
                     </p>
-                    <div class="achievement-client-row">
-                        <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
-                        <h2 class="rounded-circle border border-secondary   p-2">SS </h2>
+
+                    <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
+                        <h2 class="rounded-circle border border-secondary   p-2">sk </h2>
                         <div>
                             <h6 class="home_section_review_name fw-bold mb-0">sowmya manasa</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dermatologist</span>
+                            <span class="home_section_review_role text-secondary" style="font-size: 16px;">Dermatologist in kakinada</span>
                         </div>
                     </div>
 
                     <i class="bi bi-quote position-absolute text-white" style="opacity: 0.03; font-size: 8rem; bottom: -20px; right: 10px; line-height: 1;"></i>
-                    </div>
-                </article>
+                </div>
             </div>
+
+        </div>
 
             <!-- <div class="achievement-testimonial-dots" aria-hidden="true">
                 <span class="is-active"></span>

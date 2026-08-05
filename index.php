@@ -70,7 +70,7 @@
                         <div class="home_section_stat_item">
                             <i class="bi bi-people home_section_stat_icon"></i>
                             <div class="home_section_stat_text">
-                                <span class="home_section_stat_num">100+</span>
+                                <span class="home_section_stat_num">500+</span>
                                 <span class="home_section_stat_label">Happy Clients</span>
                             </div>
                         </div>
@@ -81,7 +81,7 @@
                         <div class="home_section_stat_item">
                             <i class="bi bi-building home_section_stat_icon"></i>
                             <div class="home_section_stat_text">
-                                <span class="home_section_stat_num">500+</span>
+                                <span class="home_section_stat_num">1000+</span>
                                 <span class="home_section_stat_label">Visitors</span>
                             </div>
                         </div>
@@ -110,15 +110,15 @@
             <h6 class="home_section_trusted_title text-center text-uppercase text-white fw-bold">Trusted by 250+ Businesses Worldwide</h6>
 
             <div class="home_section_logos_grid">
-                <a href="https://srinivasadentalkakinada.com/" target="_blank"> <span>Srinivasa dental</span></a>
-                <a href="https://www.ivydentalbangalore.com/" target="_blank"> <span>IVY dental</span></a>
-                <a href="https://krishnadentacureclinic.com/" target="_blank"> <span>Krishna dental</span></a>
-                <a href="https://carenconcern.com/" target="_blank"> <span>Care n concern</span></a>
-                <a href="https://appledentalspecialities.in/" target="_blank"> <span>Apple dental</span></a>
-                <a href="https://drsubhashplasticsurgeon.com/" target="_blank"> <span>Dr.Subhash</span></a>
-                <a href="https://vnvsalons.com/" target="_blank"> <span>V&V Saloon</span></a>
-                <a href="https://visiondentalguntur.com/" target="_blank"> <span>Vision dental</span></a>
-                <a href="https://askoncologist.com/" target="_blank"> <span>Ask oncology</span></a>
+                <a href="https://srinivasadentalkakinada.com/" target="_blank"> <img src="assets/img/Srinivasa-bg.png" alt="Srinivasa Dental" style="width: 80px; height: auto;">
+                <a href="https://www.ivydentalbangalore.com/" target="_blank"> <img src="assets/img/Ivy-bg.png" alt="IVY Dental" style="width: 80px; height: auto;">
+                <a href="https://krishnadentacureclinic.com/" target="_blank"> <img src="assets/img/krishna-dental.png" alt="carenconcern" style="width: 80px; height: auto;">
+                <a href="https://carenconcern.com/" target="_blank"> <img src="assets/img/logo.jpg" alt="carenconcern" style="width: 80px; height: auto;">
+                <a href="https://appledentalspecialities.in/" target="_blank"> <img src="assets/img/apple-dental.png" alt="Ask Oncology" style="width: 80px; height: auto;">
+                <a href="https://drsubhashplasticsurgeon.com/" target="_blank"> <img src="assets/img/Subash logo white.png" alt="drSubhash" style="width: 130px; height: auto;">
+                <a href="https://vnvsalons.com/" target="_blank"> <img src="assets/img/V_AND_V_SALON_LOGO_NEW.png" alt="V&V Saloon" style="width: 80px; height: auto;">
+                <a href="https://visiondentalguntur.com/" target="_blank"> <img src="assets/img/vision-dental.png" alt="vision dental" style="width: 80px; height: auto;">
+                <a href="https://askoncologist.com/" target="_blank"> <img src="assets/img/Oncology_logo.png" alt="Ask Oncology" style="width: 90px; height: auto;">
                 <!-- <span>Deloitte.</span> -->
             </div>
         </div>
@@ -136,15 +136,16 @@
                 <marquee behavior="" direction="">
 
                     <!-- <span>Google</span> &nbsp; &nbsp; / -->
-                    &nbsp; &nbsp; <a href="https://srinivasadentalkakinada.com/" target="_blank"> <span>Srinivasa dental</span> </a> &nbsp; &nbsp; /
-                    &nbsp; &nbsp; <a href="https://www.ivydentalbangalore.com/" target="_blank"> <span>IVY dental</span> </a> &nbsp; &nbsp; /
-                    &nbsp; &nbsp; <a href="https://krishnadentacureclinic.com/" target="_blank"> <span>Krishna dental</span> </a> &nbsp; &nbsp; /
-                    &nbsp; &nbsp; <a href="https://carenconcern.com/" target="_blank"><span>Care n concern</span> </a> &nbsp; &nbsp; /
-                    &nbsp; &nbsp; <a href="https://appledentalspecialities.in/" target="_blank"><span>Apple dental</span> </a> &nbsp; &nbsp; /
-                    &nbsp; &nbsp; <a href="https://drsubhashplasticsurgeon.com/" target="_blank"> <span>Dr.Subhash</span> </a> &nbsp; &nbsp; /
-                    &nbsp; &nbsp; <a href="https://vnvsalons.com/" target="_blank"><span>V&V Saloon</span> </a> &nbsp; &nbsp; /
-                    &nbsp; &nbsp; <a href="https://visiondentalguntur.com/" target="_blank"><span>Vision dental</span> </a> &nbsp; &nbsp; /
-                    &nbsp; &nbsp; <a href="https://askoncologist.com/" target="_blank"><span>Ask oncology</span> </a> &nbsp; &nbsp;
+                    <a href="https://srinivasadentalkakinada.com/" target="_blank"> <img src="assets/img/Srinivasa-bg.png" alt="Srinivasa Dental" style="width: 80px; height: auto;">
+                <a href="https://www.ivydentalbangalore.com/" target="_blank"> <img src="assets/img/Ivy-bg.png" alt="IVY Dental" style="width: 80px; height: auto;">
+                <a href="https://krishnadentacureclinic.com/" target="_blank"> <img src="assets/img/krishna-dental.png" alt="carenconcern" style="width: 80px; height: auto;">
+                <a href="https://carenconcern.com/" target="_blank"> <img src="assets/img/logo.jpg" alt="carenconcern" style="width: 80px; height: auto;">
+                <a href="https://appledentalspecialities.in/" target="_blank"> <img src="assets/img/apple-dental.png" alt="Ask Oncology" style="width: 80px; height: auto;">
+                <a href="https://drsubhashplasticsurgeon.com/" target="_blank"> <img src="assets/img/Subash logo white.png" alt="drSubhash" style="width: 130px; height: auto;">
+                <a href="https://vnvsalons.com/" target="_blank"> <img src="assets/img/V_AND_V_SALON_LOGO_NEW.png" alt="V&V Saloon" style="width: 80px; height: auto;">
+                <a href="https://visiondentalguntur.com/" target="_blank"> <img src="assets/img/vision-dental.png" alt="vision dental" style="width: 80px; height: auto;">
+                <a href="https://askoncologist.com/" target="_blank"> <img src="assets/img/Oncology_logo.png" alt="Ask Oncology" style="width: 90px; height: auto;">
+                <!-- <span>Deloitte.</span> -->
 
 
 
@@ -721,14 +722,14 @@
 
                         <!-- Stat 1 -->
                         <div class="col home_section_industire_stat position-relative index_page_counting">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">500+</h2>
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">1000+</h2>
                             <p class="text-secondary small text-white m-0" style="font-size: 20px;">Visitors</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 2 -->
                         <div class="col home_section_industire_stat position-relative index_page_counting">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">100+</h2>
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">500+</h2>
                             <p class="text-secondary small text-white m-0" style="font-size: 20px;">Happy Clients</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
@@ -741,21 +742,21 @@
 
                         <!-- Stat 4 -->
                         <div class="col home_section_industire_stat position-relative mt-md-5    index_page_counting">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">10+</h2>
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">11+</h2>
                             <p class="text-secondary small text-white m-0" style="font-size: 20px;">Years of Experience</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 5 -->
                         <div class="col home_section_industire_stat position-relative mt-md-5     index_page_counting">
-                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">98%</h2>
+                            <h2 class="home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">90%</h2>
                             <p class="text-secondary small text-white m-0" style="font-size: 20px;">Client Satisfaction</p>
                             <div class="home_section_industire_divider d-none d-md-block position-absolute top-50 end-0 translate-middle-y" style="width: 1px; height: 60%; background: rgba(255,255,255,0.05);"></div>
                         </div>
 
                         <!-- Stat 6 -->
                         <div class="col home_section_industire_stat  position-relative mt-md-5   index_page_counting">
-                            <h2 class="  home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">15+</h2>
+                            <h2 class="  home_section_industire_num text-primary fw-bold mb-1" style="font-size: 30px; line-height: 1;">2+</h2>
                             <p class="text-secondary small text-white m-0" style="font-size: 20px;">Awards Won</p>
                         </div>
 
@@ -795,6 +796,7 @@
 
 
             <div class="col-12 col-md-6 col-lg-4">
+                <a href="https://carenconcern.com/" target="_blank">
                 <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
 
                     <!-- Stars -->
@@ -810,22 +812,26 @@
                     <!-- User Info -->
                     <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
                         <!-- <img src="https://ui-avatars.com/api/?name=Rohan+Mehta&background=random" alt="Rohan" class="rounded-circle border border-secondary" style="width: 45px; height: 45px; object-fit: cover;"> -->
-                        <h2 class="rounded-circle border border-secondary   p-2">SS </h2>
+                        <h2 class="rounded-circle border border-secondary text-white  p-2">SS </h2>
 
 
 
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">Dr Sunil Sathyanarayana</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist In Benguluru</span>
+                            <h6 class="home_section_review_name fw-bold mb-0 text-white">Dr Sunil Sathyanarayana</h6>
+                            
+                            <a href="https://carenconcern.com/" target="_blank" class="home_section_review_role text-secondary text-decoration-none d-block d-lg-none d-xl-block" style="font-size: 16px;">Care 'n' Concern Family Dental Clinic Dentist In Bengaluru</a>
+                            <a href="https://carenconcern.com/" target="_blank" class="home_section_review_role text-secondary text-decoration-none d-none d-lg-block d-xl-none" style="font-size: 16px;">Dentist In Bengaluru</a>
                         </div>
                     </div>
 
                     <!-- Big Quote Watermark -->
                     <i class="bi bi-quote position-absolute text-white" style="opacity: 0.03; font-size: 8rem; bottom: -20px; right: 10px; line-height: 1;"></i>
                 </div>
+                </a>
             </div>
 
             <div class="col-12 col-md-6 col-lg-4">
+                <a href="https://srinivasadentalkakinada.com/" target="_blank">
                 <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
 
                     <div class="home_section_review_stars text-warning mb-4" style="font-size: 1.1rem; letter-spacing: 2px;">
@@ -837,15 +843,19 @@
                     </p>
 
                     <div class="home_section_review_user d-flex align-items-center gap-3 mt-auto z-1">
-                        <h2 class="rounded-circle border border-secondary   p-2">KR </h2>
+                        <h2 class="rounded-circle border border-secondary text-white  p-2">KR </h2>
                         <div>
-                            <h6 class="home_section_review_name fw-bold mb-0">kiran raju</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dentist in Kakinada</span>
+                            <h6 class="home_section_review_name fw-bold mb-0 text-white">Dr kiran raju</h6>
+
+                            <a href="https://srinivasadentalkakinada.com/" target="_blank" class="home_section_review_role text-secondary text-decoration-none   d-block d-lg-none d-xl-block" style="font-size: 16px;"> Srinivasa Multispecialty Dental Hospital Dentist in Kakinada</a>
+                            <a href="https://srinivasadentalkakinada.com/" target="_blank" class="home_section_review_role text-secondary text-decoration-none   d-none d-lg-block d-xl-none" style="font-size: 16px;">  Dentist in Kakinada</a>
                         </div>
                     </div>
 
                     <i class="bi bi-quote position-absolute text-white" style="opacity: 0.03; font-size: 8rem; bottom: -20px; right: 10px; line-height: 1;"></i>
                 </div>
+
+                </a>
             </div>
 
 
@@ -864,7 +874,7 @@
                         <h2 class="rounded-circle border border-secondary   p-2">sk </h2>
                         <div>
                             <h6 class="home_section_review_name fw-bold mb-0">sowmya manasa</h6>
-                            <span class="home_section_review_role text-secondary" style="font-size: 0.75rem;">Dermatologist</span>
+                            <span class="home_section_review_role text-secondary" style="font-size: 16px;">Dermatologist in kakinada</span>
                         </div>
                     </div>
 
