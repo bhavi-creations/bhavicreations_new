@@ -213,6 +213,18 @@
 
         }
 
+
+        .talk_btn-section{
+ background: linear-gradient(135deg, #0d6efd 0%, #246BFF 100%);
+            padding: 12px 22px;
+            border-radius: 50%;
+            color: #fff;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
         .talk_btn:hover {
 
             color: #fff;
@@ -300,8 +312,13 @@
 
 
 
-                <a href="tel:+919642343434" class="talk_btn">
+                <a href="tel:+919642343434" class="talk_btn d-block d-lg-none d-xl-block">
                     <i class="bi bi-telephone-fill"></i> Let's Talk
+                </a>
+
+
+                <a href="tel:+919642343434" class="talk_btn-section d-none d-lg-block d-xl-none">
+                    <i class="bi bi-telephone-fill"></i> 
                 </a>
 
 
