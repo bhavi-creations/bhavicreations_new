@@ -794,10 +794,12 @@
         <!-- Testimonials Grid -->
         <div class="row g-4">
 
-
             <div class="col-12 col-md-6 col-lg-4">
                 <a href="https://carenconcern.com/" target="_blank">
-                <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                <div class="home_section_review_card home_section_review_card_with_media p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                    <div class="home_section_review_card_media" aria-hidden="true">
+                        <img src="assets/img/care-n-concern.png" alt="" loading="lazy" decoding="async">
+                    </div>
 
                     <!-- Stars -->
                     <div class="home_section_review_stars text-warning mb-4" style="font-size: 1.1rem; letter-spacing: 2px;">
@@ -832,7 +834,10 @@
 
             <div class="col-12 col-md-6 col-lg-4">
                 <a href="https://srinivasadentalkakinada.com/" target="_blank">
-                <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                <div class="home_section_review_card home_section_review_card_with_media p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                    <div class="home_section_review_card_media" aria-hidden="true">
+                        <img src="assets/img/Srinivasa-bg.png" alt="" loading="lazy" decoding="async">
+                    </div>
 
                     <div class="home_section_review_stars text-warning mb-4" style="font-size: 1.1rem; letter-spacing: 2px;">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -858,9 +863,11 @@
                 </a>
             </div>
 
-
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="home_section_review_card p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                <div class="home_section_review_card home_section_review_card_with_media p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
+                    <div class="home_section_review_card_media" aria-hidden="true">
+                        <img src="assets/img/happy-clients-01.png" alt="" loading="lazy" decoding="async">
+                    </div>
 
                     <div class="home_section_review_stars text-warning mb-4" style="font-size: 1.1rem; letter-spacing: 2px;">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -887,6 +894,46 @@
 
     <!-- Custom Styles for Hover Effects -->
     <style>
+        .home_section_review_card_with_media {
+            isolation: isolate;
+        }
+
+        @media (min-width: 992px) {
+            .home_section_review_card_with_media {
+                padding-right: clamp(8rem, 13vw, 14rem);
+            }
+        }
+
+        .home_section_review_card_with_media .home_section_review_card_media {
+            position: absolute;
+            top: 50%;
+            right: 1rem;
+            width: clamp(150px, 16vw, 230px);
+            height: clamp(150px, 16vw, 230px);
+            padding: 0.9rem;
+            border-radius: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(145deg, rgba(13, 110, 253, 0.12), rgba(255, 255, 255, 0.06));
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 18px 46px rgba(0, 0, 0, 0.28);
+            opacity: 0;
+            transform: translateY(-50%) scale(0.88);
+            transition: opacity 0.35s ease, transform 0.35s ease;
+            pointer-events: none;
+            z-index: 0;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        .home_section_review_card_with_media .home_section_review_card_media img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.32));
+        }
+
         @media (hover: hover) and (pointer: fine) {
             .home_section_review_link:hover {
                 color: #fff !important;
@@ -896,6 +943,11 @@
                 background: rgba(13, 110, 253, 0.03) !important;
                 border-color: rgba(13, 110, 253, 0.3) !important;
                 transform: translateY(-5px);
+            }
+
+            .home_section_review_card_with_media:hover .home_section_review_card_media {
+                opacity: 1;
+                transform: translateY(-50%) scale(1);
             }
 
             .home_section_industire_item {
