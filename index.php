@@ -798,7 +798,7 @@
                 <a href="https://carenconcern.com/" target="_blank">
                 <div class="home_section_review_card home_section_review_card_with_media p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_review_card_media" aria-hidden="true">
-                        <img src="assets/img/care-n-concern.png" alt="" loading="lazy" decoding="async">
+                        <img src="assets/img/care n  concern.png" alt="" loading="lazy" decoding="async">
                     </div>
 
                     <!-- Stars -->
@@ -836,7 +836,7 @@
                 <a href="https://srinivasadentalkakinada.com/" target="_blank">
                 <div class="home_section_review_card home_section_review_card_with_media p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_review_card_media" aria-hidden="true">
-                        <img src="assets/img/Srinivasa-bg.png" alt="" loading="lazy" decoding="async">
+                        <img src="assets/img/srinivasa.png" alt="" loading="lazy" decoding="async">
                     </div>
 
                     <div class="home_section_review_stars text-warning mb-4" style="font-size: 1.1rem; letter-spacing: 2px;">
@@ -866,7 +866,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="home_section_review_card home_section_review_card_with_media p-4 p-lg-5 h-100 position-relative overflow-hidden d-flex flex-column" style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.05); border-radius: 16px; transition: all 0.3s ease;">
                     <div class="home_section_review_card_media" aria-hidden="true">
-                        <img src="assets/img/happy-clients-01.png" alt="" loading="lazy" decoding="async">
+                        <img src="assets/img/sowmya.png" alt="" loading="lazy" decoding="async">
                     </div>
 
                     <div class="home_section_review_stars text-warning mb-4" style="font-size: 1.1rem; letter-spacing: 2px;">
